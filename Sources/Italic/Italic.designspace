@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="opsz" name="opsz" minimum="5" maximum="12" default="10"/>
+  </axes>
+  <sources>
+    <source filename="Italic_opsz5.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="5"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz6.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="6"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz7.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="7"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz10.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz12.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz9.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="9"/>
+      </location>
+    </source>
+    <source filename="Italic_opsz8.ufo" familyname="Computer Modern Italic">
+      <location>
+        <dimension name="opsz" xvalue="8"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

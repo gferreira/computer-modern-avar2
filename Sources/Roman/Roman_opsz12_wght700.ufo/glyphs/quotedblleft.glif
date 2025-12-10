@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quotedblleft" format="2">
+  <advance width="581"/>
+  <unicode hex="201C"/>
+  <outline>
+    <contour>
+      <point x="177" y="477" type="curve"/>
+      <point x="179" y="555"/>
+      <point x="212" y="617"/>
+      <point x="268" y="662" type="curve" smooth="yes"/>
+      <point x="277" y="670"/>
+      <point x="278" y="671"/>
+      <point x="278" y="675" type="curve" smooth="yes"/>
+      <point x="278" y="684"/>
+      <point x="266" y="694"/>
+      <point x="260" y="694" type="curve" smooth="yes"/>
+      <point x="246" y="694"/>
+      <point x="144" y="610"/>
+      <point x="144" y="477" type="curve" smooth="yes"/>
+      <point x="144" y="411"/>
+      <point x="177" y="356"/>
+      <point x="233" y="356" type="curve" smooth="yes"/>
+      <point x="277" y="356"/>
+      <point x="304" y="389"/>
+      <point x="304" y="428" type="curve" smooth="yes"/>
+      <point x="304" y="464"/>
+      <point x="279" y="500"/>
+      <point x="232" y="500" type="curve" smooth="yes"/>
+      <point x="203" y="500"/>
+      <point x="185" y="485"/>
+    </contour>
+    <contour>
+      <point x="415" y="477" type="curve"/>
+      <point x="417" y="555"/>
+      <point x="450" y="617"/>
+      <point x="506" y="662" type="curve" smooth="yes"/>
+      <point x="515" y="670"/>
+      <point x="516" y="671"/>
+      <point x="516" y="675" type="curve" smooth="yes"/>
+      <point x="516" y="684"/>
+      <point x="504" y="694"/>
+      <point x="498" y="694" type="curve" smooth="yes"/>
+      <point x="484" y="694"/>
+      <point x="382" y="610"/>
+      <point x="382" y="477" type="curve" smooth="yes"/>
+      <point x="382" y="411"/>
+      <point x="415" y="356"/>
+      <point x="471" y="356" type="curve" smooth="yes"/>
+      <point x="515" y="356"/>
+      <point x="542" y="389"/>
+      <point x="542" y="428" type="curve" smooth="yes"/>
+      <point x="542" y="464"/>
+      <point x="517" y="500"/>
+      <point x="470" y="500" type="curve" smooth="yes"/>
+      <point x="441" y="500"/>
+      <point x="423" y="485"/>
+    </contour>
+  </outline>
+</glyph>

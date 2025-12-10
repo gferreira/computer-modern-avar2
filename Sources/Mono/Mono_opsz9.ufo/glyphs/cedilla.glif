@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cedilla" format="2">
+  <advance width="525"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="258" y="-24" type="line" smooth="yes"/>
+      <point x="258" y="-42"/>
+      <point x="258" y="-64"/>
+      <point x="291" y="-66" type="curve" smooth="yes"/>
+      <point x="329" y="-68"/>
+      <point x="356" y="-82"/>
+      <point x="356" y="-104" type="curve" smooth="yes"/>
+      <point x="356" y="-142"/>
+      <point x="259" y="-142"/>
+      <point x="221" y="-142" type="curve" smooth="yes"/>
+      <point x="185" y="-142"/>
+      <point x="159" y="-142"/>
+      <point x="159" y="-175" type="curve" smooth="yes"/>
+      <point x="159" y="-196"/>
+      <point x="173" y="-208"/>
+      <point x="193" y="-208" type="curve" smooth="yes"/>
+      <point x="290" y="-208"/>
+      <point x="430" y="-208"/>
+      <point x="430" y="-104" type="curve" smooth="yes"/>
+      <point x="430" y="-66"/>
+      <point x="406" y="-21"/>
+      <point x="332" y="-6" type="curve"/>
+      <point x="332" y="29"/>
+      <point x="332" y="49"/>
+      <point x="295" y="49" type="curve" smooth="yes"/>
+      <point x="258" y="49"/>
+      <point x="258" y="26"/>
+      <point x="258" y="7" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

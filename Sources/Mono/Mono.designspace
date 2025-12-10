@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="opsz" name="opsz" minimum="8" maximum="12" default="10"/>
+  </axes>
+  <sources>
+    <source filename="Mono_opsz10.ufo" familyname="Computer Modern Mono">
+      <location>
+        <dimension name="opsz" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Mono_opsz12.ufo" familyname="Computer Modern Mono">
+      <location>
+        <dimension name="opsz" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Mono_opsz9.ufo" familyname="Computer Modern Mono">
+      <location>
+        <dimension name="opsz" xvalue="9"/>
+      </location>
+    </source>
+    <source filename="Mono_opsz8.ufo" familyname="Computer Modern Mono">
+      <location>
+        <dimension name="opsz" xvalue="8"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

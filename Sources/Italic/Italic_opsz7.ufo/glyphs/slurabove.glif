@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="slurabove" format="2">
+  <advance width="1138"/>
+  <outline>
+    <contour>
+      <point x="1061" y="142" type="curve" smooth="yes"/>
+      <point x="1061" y="155"/>
+      <point x="989" y="249"/>
+      <point x="872" y="311" type="curve" smooth="yes"/>
+      <point x="786" y="357"/>
+      <point x="682" y="385"/>
+      <point x="569" y="385" type="curve" smooth="yes"/>
+      <point x="421" y="385"/>
+      <point x="311" y="337"/>
+      <point x="257" y="307" type="curve" smooth="yes"/>
+      <point x="140" y="240"/>
+      <point x="77" y="155"/>
+      <point x="77" y="142" type="curve" smooth="yes"/>
+      <point x="77" y="132"/>
+      <point x="86" y="125"/>
+      <point x="94" y="125" type="curve" smooth="yes"/>
+      <point x="102" y="125"/>
+      <point x="106" y="129"/>
+      <point x="107" y="132" type="curve"/>
+      <point x="138" y="170"/>
+      <point x="191" y="237"/>
+      <point x="309" y="284" type="curve" smooth="yes"/>
+      <point x="416" y="328"/>
+      <point x="514" y="331"/>
+      <point x="569" y="331" type="curve" smooth="yes"/>
+      <point x="727" y="331"/>
+      <point x="906" y="288"/>
+      <point x="1021" y="144" type="curve" smooth="yes"/>
+      <point x="1032" y="131"/>
+      <point x="1033" y="130"/>
+      <point x="1036" y="128" type="curve"/>
+      <point x="1037" y="126"/>
+      <point x="1039" y="125"/>
+      <point x="1044" y="125" type="curve" smooth="yes"/>
+      <point x="1052" y="125"/>
+      <point x="1061" y="132"/>
+    </contour>
+  </outline>
+</glyph>

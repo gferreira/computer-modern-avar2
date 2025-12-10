@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlaut" format="2">
+  <advance width="612"/>
+  <unicode hex="02DD"/>
+  <outline>
+    <contour>
+      <point x="294" y="598" type="line" smooth="yes"/>
+      <point x="303" y="606"/>
+      <point x="320" y="620"/>
+      <point x="320" y="645" type="curve" smooth="yes"/>
+      <point x="320" y="681"/>
+      <point x="282" y="711"/>
+      <point x="250" y="711" type="curve" smooth="yes"/>
+      <point x="212" y="711"/>
+      <point x="198" y="676"/>
+      <point x="194" y="665" type="curve" smooth="yes"/>
+      <point x="147" y="544" type="line"/>
+      <point x="193" y="511" type="line"/>
+    </contour>
+    <contour>
+      <point x="351" y="544" type="line"/>
+      <point x="397" y="511" type="line"/>
+      <point x="498" y="598" type="line" smooth="yes"/>
+      <point x="507" y="606"/>
+      <point x="524" y="620"/>
+      <point x="524" y="645" type="curve" smooth="yes"/>
+      <point x="524" y="681"/>
+      <point x="486" y="711"/>
+      <point x="454" y="711" type="curve" smooth="yes"/>
+      <point x="416" y="711"/>
+      <point x="402" y="676"/>
+      <point x="398" y="665" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="opsz" name="opsz" minimum="5" maximum="17" default="10"/>
+  </axes>
+  <sources>
+    <source filename="Roman_opsz9.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="9"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz8.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="8"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz10.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="10"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz12.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="12"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz17.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="17"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz5.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="5"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz6.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="6"/>
+      </location>
+    </source>
+    <source filename="Roman_opsz7.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="7"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
