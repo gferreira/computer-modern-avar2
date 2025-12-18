@@ -53,14 +53,14 @@
       <point x="105" y="167"/>
       <point x="105" y="136"/>
       <point x="105" y="112" type="curve" smooth="yes"/>
-      <point x="105" y="90"/>
-      <point x="108" y="49"/>
-      <point x="139" y="21" type="curve" smooth="yes"/>
-      <point x="175" y="-10"/>
-      <point x="225" y="-10"/>
+      <point x="105" y="65"/>
+      <point x="124" y="-10"/>
       <point x="234" y="-10" type="curve" smooth="yes"/>
-      <point x="400" y="-10"/>
-      <point x="457" y="317"/>
+      <point x="295.03986" y="-10.0"/>
+      <point x="341.3417597931" y="34.213880620699996"/>
+      <point x="375.49105128828455" y="92.95981321471942" type="curve" smooth="yes"/>
+      <point x="434.2119332863" y="193.97546609299997"/>
+      <point x="457.0" y="337.95947"/>
     </contour>
   </outline>
 </glyph>
