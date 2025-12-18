@@ -29,7 +29,6 @@ a.maximum = max(opszValues)
 a.default = 10
 D.addAxis(a)
 
-
 for opszValue, ufoPath in opszSources.items():
     print(opszValue, ufoPath)
 
@@ -38,12 +37,6 @@ for opszValue, ufoPath in opszSources.items():
     src.familyName = familyName
     src.location   = { 'opsz' : int(opszValue) }
     D.addSource(src)
-
-    # f = OpenFont(pfbPath, showInterface=False)
-    # print(f)
-    # ufoPath = pfbPath.replace('.pfb', '.ufo')
-    # f.save(ufoPath)
-    # f.close()
 
 print(designspacePath)
 D.write(designspacePath)
