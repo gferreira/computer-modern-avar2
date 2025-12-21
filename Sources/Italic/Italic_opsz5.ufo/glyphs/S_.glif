@@ -4,21 +4,6 @@
   <unicode hex="0053"/>
   <outline>
     <contour>
-      <point x="818" y="691" type="line"/>
-      <point x="818" y="692"/>
-      <point x="818" y="705"/>
-      <point x="802" y="705" type="curve" smooth="yes"/>
-      <point x="794" y="705"/>
-      <point x="793" y="704"/>
-      <point x="781" y="691" type="curve" smooth="yes"/>
-      <point x="769" y="679"/>
-      <point x="740" y="646"/>
-      <point x="728" y="633" type="curve"/>
-      <point x="703" y="665"/>
-      <point x="648" y="705"/>
-      <point x="542" y="705" type="curve" smooth="yes"/>
-      <point x="385" y="705"/>
-      <point x="250" y="596"/>
       <point x="250" y="484" type="curve" smooth="yes"/>
       <point x="250" y="412"/>
       <point x="305" y="360"/>
@@ -38,24 +23,18 @@
       <point x="362" y="23"/>
       <point x="213" y="38"/>
       <point x="213" y="161" type="curve" smooth="yes"/>
-      <point x="213" y="175"/>
-      <point x="215" y="190"/>
-      <point x="218" y="204" type="curve" smooth="yes"/>
-      <point x="219" y="208"/>
-      <point x="220" y="209"/>
-      <point x="220" y="212" type="curve" smooth="yes"/>
-      <point x="220" y="227"/>
-      <point x="206" y="227"/>
+      <point x="213" y="188"/>
+      <point x="220" y="208"/>
+      <point x="220" y="213" type="curve" smooth="yes"/>
+      <point x="220" y="226"/>
+      <point x="207" y="227"/>
       <point x="199" y="227" type="curve" smooth="yes"/>
       <point x="186" y="227"/>
       <point x="181" y="226"/>
       <point x="176" y="207" type="curve" smooth="yes"/>
-      <point x="127" y="8" type="line"/>
-      <point x="127" y="6"/>
-      <point x="123" y="-7"/>
-      <point x="123" y="-8" type="curve" smooth="yes"/>
-      <point x="123" y="-10"/>
-      <point x="124" y="-22"/>
+      <point x="127" y="8" type="line" smooth="yes"/>
+      <point x="125" y="0"/>
+      <point x="116.0" y="-22.0"/>
       <point x="140" y="-22" type="curve" smooth="yes"/>
       <point x="146" y="-22"/>
       <point x="147" y="-21"/>
@@ -96,6 +75,21 @@
       <point x="760" y="456"/>
       <point x="760" y="458"/>
       <point x="765" y="477" type="curve" smooth="yes"/>
+      <point x="818" y="691" type="line"/>
+      <point x="818" y="692"/>
+      <point x="818" y="705"/>
+      <point x="802" y="705" type="curve" smooth="yes"/>
+      <point x="794" y="705"/>
+      <point x="793" y="704"/>
+      <point x="781" y="691" type="curve" smooth="yes"/>
+      <point x="769" y="679"/>
+      <point x="740" y="646"/>
+      <point x="728" y="633" type="curve"/>
+      <point x="703" y="665"/>
+      <point x="648" y="705"/>
+      <point x="542" y="705" type="curve" smooth="yes"/>
+      <point x="385" y="705"/>
+      <point x="250" y="596"/>
     </contour>
   </outline>
 </glyph>
