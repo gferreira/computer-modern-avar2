@@ -75,8 +75,11 @@
       <point x="164" y="48"/>
       <point x="131" y="110"/>
       <point x="131" y="156" type="curve" smooth="yes"/>
-      <point x="131" y="214"/>
-      <point x="161" y="236"/>
+      <point x="131.0" y="190.45548"/>
+      <point x="141.587218508" y="212.2062977904"/>
+      <point x="165.06778463384956" y="235.29887613119288" type="curve" smooth="yes"/>
+      <point x="181.1127986276" y="251.0787657916"/>
+      <point x="203.17826" y="267.48518"/>
     </contour>
   </outline>
 </glyph>
