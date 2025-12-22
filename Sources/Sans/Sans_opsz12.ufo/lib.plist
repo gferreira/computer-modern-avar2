@@ -2,58 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>com.defcon.sortDescriptor</key>
+    <array>
+      <dict>
+        <key>allowPseudoUnicode</key>
+        <integer>1</integer>
+        <key>ascending</key>
+        <string>ASCII</string>
+        <key>type</key>
+        <string>characterSet</string>
+      </dict>
+    </array>
     <key>com.typemytype.robofont.binarySource</key>
     <string>/Users/gferreira/hipertipo/fonts/fontbureau/computer-modern/UFOs/Sans_opsz12.pfb</string>
     <key>public.glyphOrder</key>
     <array>
-      <string>.notdef</string>
-      <string>Gamma</string>
-      <string>Delta</string>
-      <string>Theta</string>
-      <string>Lambda</string>
-      <string>Xi</string>
-      <string>Pi</string>
-      <string>Sigma</string>
-      <string>Upsilon</string>
-      <string>Phi</string>
-      <string>Psi</string>
-      <string>Omega</string>
-      <string>ff</string>
-      <string>fi</string>
-      <string>fl</string>
-      <string>ffi</string>
-      <string>ffl</string>
-      <string>dotlessi</string>
-      <string>dotlessj</string>
-      <string>grave</string>
-      <string>acute</string>
-      <string>caron</string>
-      <string>breve</string>
-      <string>macron</string>
-      <string>ring</string>
-      <string>cedilla</string>
-      <string>germandbls</string>
-      <string>ae</string>
-      <string>oe</string>
-      <string>oslash</string>
-      <string>AE</string>
-      <string>OE</string>
-      <string>Oslash</string>
-      <string>suppress</string>
+      <string>space</string>
       <string>exclam</string>
-      <string>quotedblright</string>
+      <string>quotedbl</string>
       <string>numbersign</string>
       <string>dollar</string>
       <string>percent</string>
       <string>ampersand</string>
-      <string>quoteright</string>
+      <string>quotesingle</string>
       <string>parenleft</string>
       <string>parenright</string>
       <string>asterisk</string>
       <string>plus</string>
       <string>comma</string>
       <string>hyphen</string>
-      <string>sfthyphen</string>
       <string>period</string>
       <string>slash</string>
       <string>zero</string>
@@ -68,9 +45,9 @@
       <string>nine</string>
       <string>colon</string>
       <string>semicolon</string>
-      <string>exclamdown</string>
+      <string>less</string>
       <string>equal</string>
-      <string>questiondown</string>
+      <string>greater</string>
       <string>question</string>
       <string>at</string>
       <string>A</string>
@@ -100,11 +77,11 @@
       <string>Y</string>
       <string>Z</string>
       <string>bracketleft</string>
-      <string>quotedblleft</string>
+      <string>backslash</string>
       <string>bracketright</string>
-      <string>circumflex</string>
-      <string>dotaccent</string>
-      <string>quoteleft</string>
+      <string>asciicircum</string>
+      <string>underscore</string>
+      <string>grave</string>
       <string>a</string>
       <string>b</string>
       <string>c</string>
@@ -131,12 +108,57 @@
       <string>x</string>
       <string>y</string>
       <string>z</string>
+      <string>braceleft</string>
+      <string>bar</string>
+      <string>braceright</string>
+      <string>asciitilde</string>
+      <string>.notdef</string>
+      <string>Gamma</string>
+      <string>Delta</string>
+      <string>Theta</string>
+      <string>Lambda</string>
+      <string>Xi</string>
+      <string>Pi</string>
+      <string>Sigma</string>
+      <string>Upsilon</string>
+      <string>Phi</string>
+      <string>Psi</string>
+      <string>Omega</string>
+      <string>ff</string>
+      <string>fi</string>
+      <string>fl</string>
+      <string>ffi</string>
+      <string>ffl</string>
+      <string>dotlessi</string>
+      <string>dotlessj</string>
+      <string>acute</string>
+      <string>caron</string>
+      <string>breve</string>
+      <string>macron</string>
+      <string>ring</string>
+      <string>cedilla</string>
+      <string>germandbls</string>
+      <string>ae</string>
+      <string>oe</string>
+      <string>oslash</string>
+      <string>AE</string>
+      <string>OE</string>
+      <string>Oslash</string>
+      <string>suppress</string>
+      <string>quotedblright</string>
+      <string>quoteright</string>
+      <string>sfthyphen</string>
+      <string>exclamdown</string>
+      <string>questiondown</string>
+      <string>quotedblleft</string>
+      <string>circumflex</string>
+      <string>dotaccent</string>
+      <string>quoteleft</string>
       <string>endash</string>
       <string>emdash</string>
       <string>hungarumlaut</string>
       <string>tilde</string>
       <string>dieresis</string>
-      <string>space</string>
       <string>nbspace</string>
     </array>
   </dict>

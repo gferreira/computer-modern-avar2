@@ -5,8 +5,12 @@
   <outline>
     <contour>
       <point x="600" y="228" type="line"/>
-      <point x="612" y="148" type="line"/>
-      <point x="624" y="62" type="line"/>
+      <point x="603.996" y="201.36"/>
+      <point x="607.992" y="174.72"/>
+      <point x="612" y="148" type="curve"/>
+      <point x="615.996" y="119.362"/>
+      <point x="619.992" y="90.72399999999999"/>
+      <point x="624" y="62" type="curve"/>
       <point x="620" y="52"/>
       <point x="614" y="36"/>
       <point x="555" y="36" type="curve" smooth="yes"/>
@@ -67,7 +71,9 @@
       <point x="229" y="95"/>
       <point x="234" y="104" type="curve"/>
       <point x="314" y="228" type="line"/>
-      <point x="314" y="228" type="line"/>
+      <point x="314.0" y="228.0"/>
+      <point x="314.0" y="228.0"/>
+      <point x="314" y="228" type="curve"/>
     </contour>
     <contour>
       <point x="338" y="264" type="line"/>

@@ -11,8 +11,12 @@
       <point x="157" y="0"/>
       <point x="172" y="5"/>
       <point x="182" y="16" type="curve"/>
-      <point x="182" y="16" type="line"/>
-      <point x="182" y="16" type="line"/>
+      <point x="182.0" y="16.0"/>
+      <point x="182.0" y="16.0"/>
+      <point x="182" y="16" type="curve"/>
+      <point x="182.0" y="16.0"/>
+      <point x="182.0" y="16.0"/>
+      <point x="182" y="16" type="curve"/>
       <point x="182" y="-17"/>
       <point x="182" y="-99"/>
       <point x="108" y="-170" type="curve" smooth="yes"/>
