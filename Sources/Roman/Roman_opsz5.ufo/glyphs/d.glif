@@ -41,9 +41,13 @@
       <point x="382" y="409"/>
       <point x="453" y="403"/>
       <point x="501" y="335" type="curve"/>
-      <point x="501" y="335" type="line"/>
+      <point x="501" y="335"/>
+      <point x="501" y="335"/>
+      <point x="501" y="335" type="curve"/>
       <point x="501" y="109" type="line"/>
-      <point x="501" y="109" type="line"/>
+      <point x="501" y="109"/>
+      <point x="501" y="109"/>
+      <point x="501" y="109" type="curve"/>
       <point x="453" y="35"/>
       <point x="379" y="22"/>
       <point x="340" y="22" type="curve" smooth="yes"/>
