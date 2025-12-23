@@ -21,3 +21,7 @@
 - Checking the design space file in Fontra is always helpful to spot which source is the problematic one. (Thanks to the bug icon)
 
 - Then I go to those incompatible sources and check the point indexes in RoboFont.
+
+### 23/12/2025 @ibo-o
+
+- This letters are now fully compatible: /dotlessi/grave/acute/cedilla/germandbls/ae/oe/oslash/AE/OE/Oslash/suppress/exclam/numbersign/dollar/percent/ampersand/parenleft/parenright/asterisk/plus/comma/hyphen/period/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon/exclamdown/equal/questiondown/question/at/M
