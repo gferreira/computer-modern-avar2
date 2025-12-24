@@ -25,3 +25,7 @@
 ### 23/12/2025 @ibo-o
 
 - This letters are now fully compatible: /dotlessi/grave/acute/cedilla/germandbls/ae/oe/oslash/AE/OE/Oslash/suppress/exclam/numbersign/dollar/percent/ampersand/parenleft/parenright/asterisk/plus/comma/hyphen/period/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon/exclamdown/equal/questiondown/question/at/M
+
+### 24/12/2025 @ibo-o
+
+- The sources are now compatible except these glyphs : /ff/fi/fl/ffi/ffl/arrowdown/arrowup/greater/less/quotesingle. As they are not present in some sources.
