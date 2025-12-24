@@ -2,8 +2,14 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>Lambda</key>
+    <string>L_ambda.glif</string>
+    <key>Psi</key>
+    <string>P_si.glif</string>
     <key>S</key>
     <string>S_.glif</string>
+    <key>Sigma</key>
+    <string>S_igma.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
     <key>ampersand</key>
@@ -44,6 +50,8 @@
     <string>seven.glif</string>
     <key>six</key>
     <string>six.glif</string>
+    <key>tilde</key>
+    <string>tilde.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>w</key>

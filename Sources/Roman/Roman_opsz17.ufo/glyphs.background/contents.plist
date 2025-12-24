@@ -10,8 +10,12 @@
     <string>S_.glif</string>
     <key>U</key>
     <string>U_.glif</string>
+    <key>Upsilon</key>
+    <string>U_psilon.glif</string>
     <key>W</key>
     <string>W_.glif</string>
+    <key>Xi</key>
+    <string>X_i.glif</string>
     <key>Z</key>
     <string>Z_.glif</string>
     <key>a</key>
@@ -32,6 +36,8 @@
     <string>five.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>hungarumlaut</key>
+    <string>hungarumlaut.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>nine</key>
@@ -44,6 +50,8 @@
     <string>question.glif</string>
     <key>questiondown</key>
     <string>questiondown.glif</string>
+    <key>quoteleft</key>
+    <string>quoteleft.glif</string>
     <key>r</key>
     <string>r.glif</string>
     <key>s</key>
