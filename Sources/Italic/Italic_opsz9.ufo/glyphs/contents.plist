@@ -114,8 +114,8 @@
     <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
-    <key>eightoldstyle</key>
-    <string>eightoldstyle.glif</string>
+    <key>eight</key>
+    <string>eight.glif</string>
     <key>epsilon</key>
     <string>epsilon.glif</string>
     <key>epsilon1</key>
@@ -124,12 +124,12 @@
     <string>eta.glif</string>
     <key>f</key>
     <string>f.glif</string>
-    <key>fiveoldstyle</key>
-    <string>fiveoldstyle.glif</string>
+    <key>five</key>
+    <string>five.glif</string>
     <key>flat</key>
     <string>flat.glif</string>
-    <key>fouroldstyle</key>
-    <string>fouroldstyle.glif</string>
+    <key>four</key>
+    <string>four.glif</string>
     <key>g</key>
     <string>g.glif</string>
     <key>gamma</key>
@@ -164,16 +164,16 @@
     <string>n.glif</string>
     <key>natural</key>
     <string>natural.glif</string>
-    <key>nineoldstyle</key>
-    <string>nineoldstyle.glif</string>
+    <key>nine</key>
+    <string>nine.glif</string>
     <key>nu</key>
     <string>nu.glif</string>
     <key>o</key>
     <string>o.glif</string>
     <key>omega</key>
     <string>omega.glif</string>
-    <key>oneoldstyle</key>
-    <string>oneoldstyle.glif</string>
+    <key>one</key>
+    <string>one.glif</string>
     <key>p</key>
     <string>p.glif</string>
     <key>partialdiff</key>
@@ -200,16 +200,16 @@
     <string>rho1.glif</string>
     <key>s</key>
     <string>s.glif</string>
-    <key>sevenoldstyle</key>
-    <string>sevenoldstyle.glif</string>
+    <key>seven</key>
+    <string>seven.glif</string>
     <key>sharp</key>
     <string>sharp.glif</string>
     <key>sigma</key>
     <string>sigma.glif</string>
     <key>sigma1</key>
     <string>sigma1.glif</string>
-    <key>sixoldstyle</key>
-    <string>sixoldstyle.glif</string>
+    <key>six</key>
+    <string>six.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
     <key>slurabove</key>
@@ -228,16 +228,16 @@
     <string>theta.glif</string>
     <key>theta1</key>
     <string>theta1.glif</string>
-    <key>threeoldstyle</key>
-    <string>threeoldstyle.glif</string>
+    <key>three</key>
+    <string>three.glif</string>
     <key>tie</key>
     <string>tie.glif</string>
     <key>triangleleft</key>
     <string>triangleleft.glif</string>
     <key>triangleright</key>
     <string>triangleright.glif</string>
-    <key>twooldstyle</key>
-    <string>twooldstyle.glif</string>
+    <key>two</key>
+    <string>two.glif</string>
     <key>u</key>
     <string>u.glif</string>
     <key>upsilon</key>
@@ -258,8 +258,8 @@
     <string>y.glif</string>
     <key>z</key>
     <string>z.glif</string>
-    <key>zerooldstyle</key>
-    <string>zerooldstyle.glif</string>
+    <key>zero</key>
+    <string>zero.glif</string>
     <key>zeta</key>
     <string>zeta.glif</string>
   </dict>
