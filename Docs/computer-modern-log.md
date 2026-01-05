@@ -29,3 +29,6 @@
 ### 24/12/2025 @ibo-o
 
 - The sources are now compatible except these glyphs : /ff/fi/fl/ffi/ffl/arrowdown/arrowup/greater/less/quotesingle. As they are not present in some sources.
+
+### 05/01/2026 @ibo-o
+- Sans and Italic sources are now compatible excluding Greek letters and some glyphs that are missing in some sources.
