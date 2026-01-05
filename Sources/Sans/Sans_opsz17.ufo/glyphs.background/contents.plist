@@ -2,15 +2,33 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>AE</key>
+    <string>A_E_.glif</string>
+    <key>M</key>
+    <string>M_.glif</string>
+    <key>N</key>
+    <string>N_.glif</string>
+    <key>Oslash</key>
+    <string>O_slash.glif</string>
     <key>R</key>
     <string>R_.glif</string>
     <key>T</key>
     <string>T_.glif</string>
+    <key>W</key>
+    <string>W_.glif</string>
+    <key>ae</key>
+    <string>ae.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>g</key>
     <string>g.glif</string>
+    <key>parenright</key>
+    <string>parenright.glif</string>
+    <key>v</key>
+    <string>v.glif</string>
+    <key>y</key>
+    <string>y.glif</string>
   </dict>
 </plist>
