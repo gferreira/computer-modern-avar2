@@ -11,89 +11,115 @@
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz5_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz5_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="5"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz6.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz6.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="6"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz6_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz6_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="6"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz7.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz7.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="7"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz7_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz7_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="7"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz8.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz8.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="8"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz8_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz8_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="8"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz9.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz9.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="9"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz9_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz9_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="9"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz10.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz10.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="10"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz10_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz10_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="10"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz12.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz12.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="12"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
-<!--     <source filename="Roman_opsz12_wght700.ufo" familyname="Computer Modern Roman Bold">
+    <!--
+    <source filename="Roman_opsz12_wght700.ufo" familyname="Computer Modern Roman Bold">
       <location>
         <dimension name="opsz" xvalue="12"/>
         <dimension name="wght" xvalue="700"/>
       </location>
     </source>
- -->    <source filename="Roman_opsz17.ufo" familyname="Computer Modern Roman">
+    -->
+    <source filename="Roman_opsz17.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="17"/>
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
   </sources>
+  <lib>
+    <dict>
+      <!--
+      <key>com.xTools4.xProject.glyphConstructionsPath</key>
+      <string>Roman.glyphConstruction</string>
+      -->
+      <key>com.xTools4.xProject.measurementsPath</key>
+      <string>measurements.json</string>
+      <key>com.xTools4.xProject.smartSetsPath</key>
+      <string>Roman.roboFontSets</string>
+    </dict>
+  </lib>
 </designspace>
