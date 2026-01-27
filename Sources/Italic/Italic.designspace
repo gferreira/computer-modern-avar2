@@ -40,4 +40,16 @@
       </location>
     </source>
   </sources>
+  <lib>
+    <dict>
+      <!--
+      <key>com.xTools4.xProject.glyphConstructionsPath</key>
+      <string>Roman.glyphConstruction</string>
+      -->
+      <key>com.xTools4.xProject.measurementsPath</key>
+      <string>measurements.json</string>
+      <key>com.xTools4.xProject.smartSetsPath</key>
+      <string>Italic.roboFontSets</string>
+    </dict>
+  </lib>
 </designspace>
