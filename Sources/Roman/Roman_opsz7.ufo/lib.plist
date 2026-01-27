@@ -6,18 +6,6 @@
     <string>/Users/gferreira/hipertipo/fonts/fontbureau/computer-modern/Roman/cmr7.pfb</string>
     <key>public.glyphOrder</key>
     <array>
-      <string>.notdef</string>
-      <string>Gamma</string>
-      <string>Delta</string>
-      <string>Theta</string>
-      <string>Lambda</string>
-      <string>Xi</string>
-      <string>Pi</string>
-      <string>Sigma</string>
-      <string>Upsilon</string>
-      <string>Phi</string>
-      <string>Psi</string>
-      <string>Omega</string>
       <string>ff</string>
       <string>fi</string>
       <string>fl</string>
@@ -39,7 +27,6 @@
       <string>AE</string>
       <string>OE</string>
       <string>Oslash</string>
-      <string>suppress</string>
       <string>exclam</string>
       <string>quotedblright</string>
       <string>numbersign</string>

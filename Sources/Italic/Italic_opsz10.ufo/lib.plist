@@ -2,72 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>com.defcon.sortDescriptor</key>
+    <array>
+      <dict>
+        <key>allowPseudoUnicode</key>
+        <integer>0</integer>
+        <key>ascending</key>
+        <string>ASCII</string>
+        <key>type</key>
+        <string>characterSet</string>
+      </dict>
+    </array>
     <key>com.typemytype.robofont.binarySource</key>
     <string>/Users/gferreira/hipertipo/fonts/fontbureau/computer-modern/UFOs/Italic_opsz10.pfb</string>
+    <key>com.typemytype.robofont.compileSettings.autohint</key>
+    <true/>
+    <key>com.typemytype.robofont.compileSettings.checkOutlines</key>
+    <false/>
+    <key>com.typemytype.robofont.compileSettings.createDummyDSIG</key>
+    <true/>
+    <key>com.typemytype.robofont.compileSettings.decompose</key>
+    <false/>
+    <key>com.typemytype.robofont.compileSettings.generateFormat</key>
+    <integer>0</integer>
+    <key>com.typemytype.robofont.compileSettings.releaseMode</key>
+    <false/>
+    <key>com.typemytype.robofont.italicSlantOffset</key>
+    <integer>-42</integer>
+    <key>com.typemytype.robofont.shouldAddPointsInSplineConversion</key>
+    <integer>1</integer>
     <key>public.glyphOrder</key>
     <array>
-      <string>.notdef</string>
-      <string>Gamma</string>
-      <string>Delta</string>
-      <string>Theta</string>
-      <string>Lambda</string>
-      <string>Xi</string>
-      <string>Pi</string>
-      <string>Sigma</string>
-      <string>Upsilon</string>
-      <string>Phi</string>
-      <string>Psi</string>
-      <string>Omega</string>
-      <string>alpha</string>
-      <string>beta</string>
-      <string>gamma</string>
-      <string>delta</string>
-      <string>epsilon1</string>
-      <string>zeta</string>
-      <string>eta</string>
-      <string>theta</string>
-      <string>iota</string>
-      <string>kappa</string>
-      <string>lambda</string>
-      <string>mu</string>
-      <string>nu</string>
-      <string>xi</string>
-      <string>pi</string>
-      <string>rho</string>
-      <string>sigma</string>
-      <string>tau</string>
-      <string>upsilon</string>
-      <string>phi</string>
-      <string>chi</string>
-      <string>psi</string>
-      <string>omega</string>
-      <string>epsilon</string>
-      <string>theta1</string>
-      <string>pi1</string>
-      <string>rho1</string>
-      <string>sigma1</string>
-      <string>phi1</string>
-      <string>arrowlefttophalf</string>
-      <string>arrowleftbothalf</string>
-      <string>arrowrighttophalf</string>
-      <string>arrowrightbothalf</string>
-      <string>arrowhookleft</string>
-      <string>arrowhookright</string>
-      <string>triangleright</string>
-      <string>triangleleft</string>
+      <string>space</string>
+      <string>comma</string>
+      <string>period</string>
+      <string>slash</string>
+      <string>zero</string>
       <string>one</string>
+      <string>two</string>
       <string>three</string>
       <string>four</string>
+      <string>five</string>
       <string>six</string>
+      <string>seven</string>
       <string>eight</string>
       <string>nine</string>
-      <string>period</string>
-      <string>comma</string>
       <string>less</string>
-      <string>slash</string>
       <string>greater</string>
-      <string>star</string>
-      <string>partialdiff</string>
       <string>A</string>
       <string>B</string>
       <string>C</string>
@@ -94,12 +75,6 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
-      <string>flat</string>
-      <string>natural</string>
-      <string>sharp</string>
-      <string>slurbelow</string>
-      <string>slurabove</string>
-      <string>lscript</string>
       <string>a</string>
       <string>b</string>
       <string>c</string>
@@ -126,16 +101,6 @@
       <string>x</string>
       <string>y</string>
       <string>z</string>
-      <string>dotlessi</string>
-      <string>dotlessj</string>
-      <string>weierstrass</string>
-      <string>vector</string>
-      <string>tie</string>
-      <string>space</string>
-      <string>zero</string>
-      <string>two</string>
-      <string>five</string>
-      <string>seven</string>
     </array>
   </dict>
 </plist>

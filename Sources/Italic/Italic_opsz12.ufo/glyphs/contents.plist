@@ -2,8 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>.notdef</key>
-    <string>_notdef.glif</string>
     <key>A</key>
     <string>A_.glif</string>
     <key>B</key>
@@ -12,16 +10,12 @@
     <string>C_.glif</string>
     <key>D</key>
     <string>D_.glif</string>
-    <key>Delta</key>
-    <string>D_elta.glif</string>
     <key>E</key>
     <string>E_.glif</string>
     <key>F</key>
     <string>F_.glif</string>
     <key>G</key>
     <string>G_.glif</string>
-    <key>Gamma</key>
-    <string>G_amma.glif</string>
     <key>H</key>
     <string>H_.glif</string>
     <key>I</key>
@@ -32,235 +26,117 @@
     <string>K_.glif</string>
     <key>L</key>
     <string>L_.glif</string>
-    <key>Lambda</key>
-    <string>L_ambda.glif</string>
     <key>M</key>
     <string>M_.glif</string>
     <key>N</key>
     <string>N_.glif</string>
     <key>O</key>
     <string>O_.glif</string>
-    <key>Omega</key>
-    <string>O_mega.glif</string>
     <key>P</key>
     <string>P_.glif</string>
-    <key>Phi</key>
-    <string>P_hi.glif</string>
-    <key>Pi</key>
-    <string>P_i.glif</string>
-    <key>Psi</key>
-    <string>P_si.glif</string>
     <key>Q</key>
     <string>Q_.glif</string>
     <key>R</key>
     <string>R_.glif</string>
     <key>S</key>
     <string>S_.glif</string>
-    <key>Sigma</key>
-    <string>S_igma.glif</string>
     <key>T</key>
     <string>T_.glif</string>
-    <key>Theta</key>
-    <string>T_heta.glif</string>
     <key>U</key>
     <string>U_.glif</string>
-    <key>Upsilon</key>
-    <string>U_psilon.glif</string>
     <key>V</key>
     <string>V_.glif</string>
     <key>W</key>
     <string>W_.glif</string>
     <key>X</key>
     <string>X_.glif</string>
-    <key>Xi</key>
-    <string>X_i.glif</string>
     <key>Y</key>
     <string>Y_.glif</string>
     <key>Z</key>
     <string>Z_.glif</string>
     <key>a</key>
     <string>a.glif</string>
-    <key>alpha</key>
-    <string>alpha.glif</string>
-    <key>arrowhookleft</key>
-    <string>arrowhookleft.glif</string>
-    <key>arrowhookright</key>
-    <string>arrowhookright.glif</string>
-    <key>arrowleftbothalf</key>
-    <string>arrowleftbothalf.glif</string>
-    <key>arrowlefttophalf</key>
-    <string>arrowlefttophalf.glif</string>
-    <key>arrowrightbothalf</key>
-    <string>arrowrightbothalf.glif</string>
-    <key>arrowrighttophalf</key>
-    <string>arrowrighttophalf.glif</string>
     <key>b</key>
     <string>b.glif</string>
-    <key>beta</key>
-    <string>beta.glif</string>
     <key>c</key>
     <string>c.glif</string>
-    <key>chi</key>
-    <string>chi.glif</string>
     <key>comma</key>
     <string>comma.glif</string>
     <key>d</key>
     <string>d.glif</string>
-    <key>delta</key>
-    <string>delta.glif</string>
-    <key>dotlessi</key>
-    <string>dotlessi.glif</string>
-    <key>dotlessj</key>
-    <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
-    <key>epsilon</key>
-    <string>epsilon.glif</string>
-    <key>epsilon1</key>
-    <string>epsilon1.glif</string>
-    <key>eta</key>
-    <string>eta.glif</string>
     <key>f</key>
     <string>f.glif</string>
     <key>five</key>
     <string>five.glif</string>
-    <key>flat</key>
-    <string>flat.glif</string>
     <key>four</key>
     <string>four.glif</string>
     <key>g</key>
     <string>g.glif</string>
-    <key>gamma</key>
-    <string>gamma.glif</string>
     <key>greater</key>
     <string>greater.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>i</key>
     <string>i.glif</string>
-    <key>iota</key>
-    <string>iota.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>k</key>
     <string>k.glif</string>
-    <key>kappa</key>
-    <string>kappa.glif</string>
     <key>l</key>
     <string>l.glif</string>
-    <key>lambda</key>
-    <string>lambda.glif</string>
     <key>less</key>
     <string>less.glif</string>
-    <key>lscript</key>
-    <string>lscript.glif</string>
     <key>m</key>
     <string>m.glif</string>
-    <key>mu</key>
-    <string>mu.glif</string>
     <key>n</key>
     <string>n.glif</string>
-    <key>natural</key>
-    <string>natural.glif</string>
     <key>nine</key>
     <string>nine.glif</string>
-    <key>nu</key>
-    <string>nu.glif</string>
     <key>o</key>
     <string>o.glif</string>
-    <key>omega</key>
-    <string>omega.glif</string>
     <key>one</key>
     <string>one.glif</string>
     <key>p</key>
     <string>p.glif</string>
-    <key>partialdiff</key>
-    <string>partialdiff.glif</string>
     <key>period</key>
     <string>period.glif</string>
-    <key>phi</key>
-    <string>phi.glif</string>
-    <key>phi1</key>
-    <string>phi1.glif</string>
-    <key>pi</key>
-    <string>pi.glif</string>
-    <key>pi1</key>
-    <string>pi1.glif</string>
-    <key>psi</key>
-    <string>psi.glif</string>
     <key>q</key>
     <string>q.glif</string>
     <key>r</key>
     <string>r.glif</string>
-    <key>rho</key>
-    <string>rho.glif</string>
-    <key>rho1</key>
-    <string>rho1.glif</string>
     <key>s</key>
     <string>s.glif</string>
     <key>seven</key>
     <string>seven.glif</string>
-    <key>sharp</key>
-    <string>sharp.glif</string>
-    <key>sigma</key>
-    <string>sigma.glif</string>
-    <key>sigma1</key>
-    <string>sigma1.glif</string>
     <key>six</key>
     <string>six.glif</string>
     <key>slash</key>
     <string>slash.glif</string>
-    <key>slurabove</key>
-    <string>slurabove.glif</string>
-    <key>slurbelow</key>
-    <string>slurbelow.glif</string>
     <key>space</key>
     <string>space.glif</string>
-    <key>star</key>
-    <string>star.glif</string>
     <key>t</key>
     <string>t.glif</string>
-    <key>tau</key>
-    <string>tau.glif</string>
-    <key>theta</key>
-    <string>theta.glif</string>
-    <key>theta1</key>
-    <string>theta1.glif</string>
     <key>three</key>
     <string>three.glif</string>
-    <key>tie</key>
-    <string>tie.glif</string>
-    <key>triangleleft</key>
-    <string>triangleleft.glif</string>
-    <key>triangleright</key>
-    <string>triangleright.glif</string>
     <key>two</key>
     <string>two.glif</string>
     <key>u</key>
     <string>u.glif</string>
-    <key>upsilon</key>
-    <string>upsilon.glif</string>
     <key>v</key>
     <string>v.glif</string>
-    <key>vector</key>
-    <string>vector.glif</string>
     <key>w</key>
     <string>w.glif</string>
-    <key>weierstrass</key>
-    <string>weierstrass.glif</string>
     <key>x</key>
     <string>x.glif</string>
-    <key>xi</key>
-    <string>xi.glif</string>
     <key>y</key>
     <string>y.glif</string>
     <key>z</key>
     <string>z.glif</string>
     <key>zero</key>
     <string>zero.glif</string>
-    <key>zeta</key>
-    <string>zeta.glif</string>
   </dict>
 </plist>

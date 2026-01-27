@@ -8,7 +8,7 @@
     <source filename="Roman_opsz5.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="5"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -22,7 +22,7 @@
     <source filename="Roman_opsz6.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="6"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -36,7 +36,7 @@
     <source filename="Roman_opsz7.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="7"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -50,7 +50,7 @@
     <source filename="Roman_opsz8.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="8"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -64,7 +64,7 @@
     <source filename="Roman_opsz9.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="9"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -78,7 +78,7 @@
     <source filename="Roman_opsz10.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="10"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -92,7 +92,7 @@
     <source filename="Roman_opsz12.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="12"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
     <!--
@@ -106,12 +106,21 @@
     <source filename="Roman_opsz17.ufo" familyname="Computer Modern Roman">
       <location>
         <dimension name="opsz" xvalue="17"/>
-        <dimension name="wght" xvalue="400"/>
+        <!-- <dimension name="wght" xvalue="400"/> -->
       </location>
     </source>
   </sources>
   <lib>
     <dict>
+      <key>public.skipExportGlyphs</key>
+      <array>
+        <string>ff</string>
+        <string>fi</string>
+        <string>fl</string>
+        <string>fl</string>
+        <string>ffi</string>
+        <string>ffl</string>
+      </array>
       <!--
       <key>com.xTools4.xProject.glyphConstructionsPath</key>
       <string>Roman.glyphConstruction</string>

@@ -1,3 +1,4 @@
+import os
 from fontTools.designspaceLib import DesignSpaceDocument
 
 # code copied from the Batch extension:
@@ -91,12 +92,17 @@ def makeGlyphOutlinesCompatible(glyphs):
 
 from string import ascii_lowercase, ascii_uppercase
 
-designspacePath = '/Users/gferreira/hipertipo/fonts/fontbureau/computer-modern/Sources/Italic/Italic.designspace'
+folder = os.path.dirname(os.getcwd())
+subFamilyName = ['Roman', 'Italic', 'Sans'][2]
+sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
+designspacePath = os.path.join(sourcesFolder, f'{subFamilyName}.designspace')
+
+glyphNames = list(ascii_uppercase + ascii_lowercase) # ['dotlessi']
+
+assert os.path.exists(designspacePath)
 
 D = DesignSpaceDocument()
 D.read(designspacePath)
-
-glyphNames = list(ascii_uppercase + ascii_lowercase)
 
 sources = [OpenFont(src.path, showInterface=False) for src in D.sources]
 

@@ -6,55 +6,6 @@
     <string>/Users/gferreira/hipertipo/fonts/fontbureau/computer-modern/UFOs/Italic_opsz9.pfb</string>
     <key>public.glyphOrder</key>
     <array>
-      <string>.notdef</string>
-      <string>Gamma</string>
-      <string>Delta</string>
-      <string>Theta</string>
-      <string>Lambda</string>
-      <string>Xi</string>
-      <string>Pi</string>
-      <string>Sigma</string>
-      <string>Upsilon</string>
-      <string>Phi</string>
-      <string>Psi</string>
-      <string>Omega</string>
-      <string>alpha</string>
-      <string>beta</string>
-      <string>gamma</string>
-      <string>delta</string>
-      <string>epsilon1</string>
-      <string>zeta</string>
-      <string>eta</string>
-      <string>theta</string>
-      <string>iota</string>
-      <string>kappa</string>
-      <string>lambda</string>
-      <string>mu</string>
-      <string>nu</string>
-      <string>xi</string>
-      <string>pi</string>
-      <string>rho</string>
-      <string>sigma</string>
-      <string>tau</string>
-      <string>upsilon</string>
-      <string>phi</string>
-      <string>chi</string>
-      <string>psi</string>
-      <string>omega</string>
-      <string>epsilon</string>
-      <string>theta1</string>
-      <string>pi1</string>
-      <string>rho1</string>
-      <string>sigma1</string>
-      <string>phi1</string>
-      <string>arrowlefttophalf</string>
-      <string>arrowleftbothalf</string>
-      <string>arrowrighttophalf</string>
-      <string>arrowrightbothalf</string>
-      <string>arrowhookleft</string>
-      <string>arrowhookright</string>
-      <string>triangleright</string>
-      <string>triangleleft</string>
       <string>zero</string>
       <string>two</string>
       <string>three</string>
@@ -67,8 +18,6 @@
       <string>less</string>
       <string>slash</string>
       <string>greater</string>
-      <string>star</string>
-      <string>partialdiff</string>
       <string>A</string>
       <string>B</string>
       <string>C</string>
@@ -95,12 +44,6 @@
       <string>X</string>
       <string>Y</string>
       <string>Z</string>
-      <string>flat</string>
-      <string>natural</string>
-      <string>sharp</string>
-      <string>slurbelow</string>
-      <string>slurabove</string>
-      <string>lscript</string>
       <string>a</string>
       <string>b</string>
       <string>c</string>
@@ -127,11 +70,6 @@
       <string>x</string>
       <string>y</string>
       <string>z</string>
-      <string>dotlessi</string>
-      <string>dotlessj</string>
-      <string>weierstrass</string>
-      <string>vector</string>
-      <string>tie</string>
       <string>space</string>
       <string>one</string>
       <string>five</string>
