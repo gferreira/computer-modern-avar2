@@ -1,0 +1,235 @@
+{
+  "font": {
+    "XOPQ": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 34,
+      "glyph 2": "H",
+      "point 2": 49,
+      "parent": null,
+      "description": null
+    },
+    "YOPQ": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 50,
+      "glyph 2": "H",
+      "point 2": 17,
+      "parent": null,
+      "description": null
+    },
+    "XTRA": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 49,
+      "glyph 2": "H",
+      "point 2": 52,
+      "parent": null,
+      "description": null
+    },
+    "XSHA": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 38,
+      "glyph 2": "H",
+      "point 2": 34,
+      "parent": null,
+      "description": null
+    },
+    "YSHA": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 41,
+      "glyph 2": "H",
+      "point 2": 35,
+      "parent": null,
+      "description": null
+    },
+    "YTLC": {
+      "direction": "y",
+      "glyph 1": "n",
+      "point 1": 10,
+      "glyph 2": "n",
+      "point 2": 25,
+      "parent": null,
+      "description": null
+    },
+    "YTUC": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 26,
+      "glyph 2": "H",
+      "point 2": 41,
+      "parent": null,
+      "description": null
+    }
+  },
+  "glyphs": {
+    "H": {
+      "34 49": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "50 17": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "49 52": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "38 34": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "49 45": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "56 52": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "67 63": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "29 33": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "18 22": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "11 15": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "0 4": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "41 35": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "42 48": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "59 53": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "60 66": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "32 26": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "19 25": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "14 8": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "1 7": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "41 26": {
+        "name": "YTUC",
+        "direction": "y"
+      }
+    },
+    "G": {},
+    "n": {
+      "18 33": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "41 56": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "37 3": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "13 17": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "22 18": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "33 29": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "45 41": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "56 52": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "25 19": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "26 32": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "48 42": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "49 55": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "16 10": {
+        "name": "YSHA",
+        "direction": "y"
+      }
+    },
+    "m": {},
+    "O": {
+      "24 3": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "9 12": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "6 18": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "30 0": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "18 30": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "9 3": {
+        "name": "YTUC",
+        "direction": "y"
+      }
+    },
+    "S": {},
+    "J": {}
+  }
+}
