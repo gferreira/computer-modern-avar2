@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <sources>
+    <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400"/>
+  </sources>
+  <lib>
+    <dict>
+      <key>com.xTools4.xProject.measurementsPath</key>
+      <string>measurements.json</string>
+      <key>com.xTools4.xProject.smartSetsPath</key>
+      <string>Roman.roboFontSets</string>
+    </dict>
+  </lib>
+</designspace>

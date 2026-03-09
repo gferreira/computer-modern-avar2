@@ -1,0 +1,102 @@
+{
+  "axes": {
+    "opsz": {
+      "name": "Optical size",
+      "default": 10,
+      "minimum": 5,
+      "maximum": 17
+    }
+  },
+  "sources": {
+    "opsz10": {
+      "XOUC": 89,
+      "XOLC": 78,
+      "XOFI": 79,
+      "YOUC": 61,
+      "YOLC": 61,
+      "YOFI": 61,
+      "XTUC": 341,
+      "XTLC": 198,
+      "XTFI": 259,
+      "XUCS": 94,
+      "XLCS": 81,
+      "XFIR": 42,
+      "YTUC": 694,
+      "YTLC": 450,
+      "YTAS": 694,
+      "YTFI": 678
+    },
+    "opsz12": {
+      "XOUC": 86,
+      "XOLC": 76,
+      "XOFI": 78,
+      "YOUC": 60,
+      "YOLC": 60,
+      "YOFI": 60,
+      "XTUC": 333,
+      "XTLC": 195,
+      "XTFI": 255,
+      "XUCS": 90,
+      "XLCS": 77,
+      "XFIR": 41,
+      "YTUC": 694,
+      "YTLC": 449,
+      "YTAS": 694,
+      "YTFI": 676
+    },
+    "opsz17": {
+      "XOUC": 84,
+      "XOLC": 76,
+      "XOFI": 77,
+      "YOUC": 61,
+      "YOLC": 61,
+      "YOFI": 61,
+      "XTUC": 318,
+      "XTLC": 183,
+      "XTFI": 241,
+      "XUCS": 88,
+      "XLCS": 74,
+      "XFIR": 38,
+      "YTUC": 694,
+      "YTLC": 433,
+      "YTAS": 694,
+      "YTFI": 672
+    },
+    "opsz8": {
+      "XOUC": 101,
+      "XOLC": 87,
+      "XOFI": 90,
+      "YOUC": 66,
+      "YOLC": 66,
+      "YOFI": 66,
+      "XTUC": 353,
+      "XTLC": 208,
+      "XTFI": 272,
+      "XUCS": 97,
+      "XLCS": 83,
+      "XFIR": 42,
+      "YTUC": 694,
+      "YTLC": 451,
+      "YTAS": 694,
+      "YTFI": 677
+    },
+    "opsz9": {
+      "XOUC": 96,
+      "XOLC": 83,
+      "XOFI": 85,
+      "YOUC": 65,
+      "YOLC": 65,
+      "YOFI": 65,
+      "XTUC": 344,
+      "XTLC": 202,
+      "XTFI": 265,
+      "XUCS": 95,
+      "XLCS": 81,
+      "XFIR": 41,
+      "YTUC": 694,
+      "YTLC": 450,
+      "YTAS": 694,
+      "YTFI": 676
+    }
+  }
+}

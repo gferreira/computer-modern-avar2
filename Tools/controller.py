@@ -51,7 +51,7 @@ if __name__ == '__main__':
 
     parametricAxes = [
         'XOPQ',
-        'XTRA',
+        # 'XTRA',
         # 'YOPQ',
         # etc.
     ]
