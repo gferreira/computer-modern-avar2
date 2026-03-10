@@ -58,5 +58,7 @@ if __name__ == '__main__':
     p.createParametricSources(parametricAxes)
 
     p.buildDesignspace()
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements()
