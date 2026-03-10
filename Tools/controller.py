@@ -3,7 +3,7 @@ import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
 
 import os
-from xTools4.modules.xproject import xProject, DesignSpaceDocument
+from xTools4.modules.xproject import *
 
 
 class ComputerModernController(xProject):
@@ -39,6 +39,15 @@ class ComputerModernController(xProject):
         self.addCustomKeysToLib()
         self.save()
 
+    def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght']):
+        setSourceNamesFromMeasurements(
+                self.sourcesFolder,
+                self.familyName,
+                self.measurementsPath,
+                preflight=preflight,
+                ignoreTags=ignoreTags,
+                infoFamilyName=self.familyName,
+        )
 
 if __name__ == '__main__':
 
@@ -55,10 +64,9 @@ if __name__ == '__main__':
         # 'YOPQ',
         # etc.
     ]
-    p.createParametricSources(parametricAxes)
+    # p.createParametricSources(parametricAxes)
+    # p.buildDesignspace()
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
-    p.buildDesignspace()
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
-
-    # p.setSourceNamesFromMeasurements()
+    p.setSourceNamesFromMeasurements(preflight=True)
