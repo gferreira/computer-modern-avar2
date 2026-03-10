@@ -1,7 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
+  <axes>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81" hidden="1"/>
+  </axes>
   <sources>
-    <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400"/>
+    <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+      </location>
+    </source>
+    <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
+      <location>
+        <dimension name="XOPQ" xvalue="305"/>
+      </location>
+    </source>
+    <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
+      <location>
+        <dimension name="XOPQ" xvalue="3"/>
+      </location>
+    </source>
   </sources>
   <lib>
     <dict>

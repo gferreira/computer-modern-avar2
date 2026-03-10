@@ -31,18 +31,19 @@ class ComputerModernController(xProject):
         return fileName.replace(' ', '')
 
     def buildDesignspace(self, tuning=False, instances=False):
-
+        if self.verbose:
+            print(f'building {os.path.split(self.designspacePath)[-1]}...')
         self.designspace = DesignSpaceDocument()
-        # self.addParametricAxes()
+        self.addParametricAxes()
         self.addDefaultSource()
-        # self.addParametricSources()
+        self.addParametricSources()
         self.addCustomKeysToLib()
         self.save()
 
     def setSourceNamesFromMeasurements(self, preflight=True, ignoreTags=['wght']):
         setSourceNamesFromMeasurements(
                 self.sourcesFolder,
-                self.familyName,
+                self.subFamily,
                 self.measurementsPath,
                 preflight=preflight,
                 ignoreTags=ignoreTags,
@@ -56,17 +57,13 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
-    # p.printSettings()
 
-    parametricAxes = [
-        'XOPQ',
-        # 'XTRA',
-        # 'YOPQ',
-        # etc.
-    ]
-    # p.createParametricSources(parametricAxes)
-    # p.buildDesignspace()
+    # p.printSettings()
+    # p.createParametricSources(['XTRA'])
     # p.cleanupSources(parametric=True, tuning=False)
     # p.normalizeSources(parametric=True, tuning=False)
 
-    p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
+    p.parametricAxes = ['XOPQ']
+    p.buildDesignspace()
+
