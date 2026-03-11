@@ -2,21 +2,37 @@
 <designspace format="5.0">
   <axes>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81" hidden="1"/>
+    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299" hidden="1"/>
   </axes>
   <sources>
     <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400">
       <location>
         <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
       <location>
         <dimension name="XOPQ" xvalue="305"/>
+        <dimension name="XTRA" xvalue="299"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
       <location>
         <dimension name="XOPQ" xvalue="3"/>
+        <dimension name="XTRA" xvalue="299"/>
+      </location>
+    </source>
+    <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="496"/>
+      </location>
+    </source>
+    <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="54"/>
       </location>
     </source>
   </sources>
