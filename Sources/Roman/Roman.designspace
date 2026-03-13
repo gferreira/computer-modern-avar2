@@ -5,6 +5,8 @@
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299" hidden="1"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29" hidden="1"/>
     <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41" hidden="1"/>
+    <axis tag="XSHA" name="XSHA" minimum="20" maximum="39" default="39" hidden="1"/>
+    <axis tag="YSHA" name="YSHA" minimum="554" maximum="682" default="654" hidden="1"/>
   </axes>
   <sources>
     <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400">
@@ -13,6 +15,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -21,6 +25,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -29,6 +35,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -37,6 +45,8 @@
         <dimension name="XTRA" xvalue="496"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -45,6 +55,8 @@
         <dimension name="XTRA" xvalue="54"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
@@ -53,6 +65,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="95"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -61,6 +75,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="2"/>
         <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XTSP84.ufo" familyname="Computer Modern" stylename="XTSP84">
@@ -69,6 +85,8 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="84"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
       </location>
     </source>
     <source filename="Roman_XTSP6.ufo" familyname="Computer Modern" stylename="XTSP6">
@@ -77,6 +95,48 @@
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="6"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
+      </location>
+    </source>
+    <source filename="Roman_XSHA39.ufo" familyname="Computer Modern" stylename="XSHA39">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="654"/>
+      </location>
+    </source>
+    <source filename="Roman_XSHA20.ufo" familyname="Computer Modern" stylename="XSHA20">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="20"/>
+        <dimension name="YSHA" xvalue="654"/>
+      </location>
+    </source>
+    <source filename="Roman_YSHA682.ufo" familyname="Computer Modern" stylename="YSHA682">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="682"/>
+      </location>
+    </source>
+    <source filename="Roman_YSHA554.ufo" familyname="Computer Modern" stylename="YSHA554">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="39"/>
+        <dimension name="YSHA" xvalue="554"/>
       </location>
     </source>
   </sources>
