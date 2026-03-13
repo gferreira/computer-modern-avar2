@@ -59,13 +59,13 @@ if __name__ == '__main__':
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
 
     # p.printSettings()
-    # p.createParametricSources(['XTSP'])
+    # p.createParametricSources(['XSHA', 'YSHA'])
 
     # p.cleanupSources(parametric=True, tuning=False)
     # p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=True)
     
-    # p.parametricAxes = ['XOPQ', 'XTRA', 'YOPQ', 'XTSP']
-    # p.buildDesignspace()
+    p.parametricAxes = ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA']
+    p.buildDesignspace()
 
