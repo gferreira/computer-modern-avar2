@@ -1,0 +1,166 @@
+{
+  "font": {
+    "XOPQ": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 106,
+      "glyph 2": "H",
+      "point 2": 136,
+      "parent": null,
+      "description": null
+    },
+    "XOUC": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 106,
+      "glyph 2": "H",
+      "point 2": 136,
+      "parent": "XOPQ",
+      "description": null
+    },
+    "YOPQ": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 0,
+      "glyph 2": "H",
+      "point 2": 71,
+      "parent": null,
+      "description": null
+    },
+    "YOUC": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 0,
+      "glyph 2": "H",
+      "point 2": 71,
+      "parent": "YOPQ",
+      "description": null
+    },
+    "XTRA": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 136,
+      "glyph 2": "H",
+      "point 2": 2,
+      "parent": null,
+      "description": null
+    },
+    "XTUC": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 136,
+      "glyph 2": "H",
+      "point 2": 2,
+      "parent": "XTRA",
+      "description": null
+    },
+    "XOLC": {
+      "direction": "x",
+      "glyph 1": "n",
+      "point 1": 77,
+      "glyph 2": "n",
+      "point 2": 3,
+      "parent": "XOPQ",
+      "description": null
+    },
+    "YOLC": {
+      "direction": "y",
+      "glyph 1": "o",
+      "point 1": 27,
+      "glyph 2": "o",
+      "point 2": 3,
+      "parent": "YOPQ",
+      "description": null
+    },
+    "XTLC": {
+      "direction": "x",
+      "glyph 1": "n",
+      "point 1": 4,
+      "glyph 2": "n",
+      "point 2": 13,
+      "parent": "XTRA",
+      "description": null
+    },
+    "YTUC": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 115,
+      "glyph 2": "H",
+      "point 2": 90,
+      "parent": "",
+      "description": null
+    },
+    "YTLC": {
+      "direction": "y",
+      "glyph 1": "n",
+      "point 1": 0,
+      "glyph 2": "n",
+      "point 2": 55,
+      "parent": null,
+      "description": null
+    },
+    "XTSP": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": "-1",
+      "glyph 2": "H",
+      "point 2": 106,
+      "parent": null,
+      "description": null
+    },
+    "XUCS": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": "-1",
+      "glyph 2": "H",
+      "point 2": "106",
+      "parent": "XTSP",
+      "description": null
+    },
+    "XLCS": {
+      "direction": "x",
+      "glyph 1": "n",
+      "point 1": "-1",
+      "glyph 2": "n",
+      "point 2": "77",
+      "parent": "XTSP",
+      "description": null
+    },
+    "YTOS": {
+      "direction": "y",
+      "glyph 1": "O",
+      "point 1": "12",
+      "glyph 2": "H",
+      "point 2": "115",
+      "parent": "",
+      "description": null
+    },
+    "XSHA": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 112,
+      "glyph 2": "H",
+      "point 2": 106,
+      "parent": null,
+      "description": null
+    },
+    "XSHU": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 112,
+      "glyph 2": "H",
+      "point 2": 106,
+      "parent": "XSHA",
+      "description": null
+    }
+  },
+  "glyphs": {
+    "n": {},
+    "H": {},
+    "o": {},
+    "v": {},
+    "D": {},
+    "O": {},
+    "T": {}
+  }
+}
