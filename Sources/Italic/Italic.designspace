@@ -1,7 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
+  <axes>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85" hidden="1"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31" hidden="1"/>
+  </axes>
   <sources>
-    <source filename="Italic_wght400.ufo" familyname="Computer Modern Italic" stylename="wght400"/>
+    <source filename="Italic_wght400.ufo" familyname="Computer Modern" stylename="wght400">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="YOPQ" xvalue="31"/>
+      </location>
+    </source>
+    <source filename="Italic_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
+      <location>
+        <dimension name="XOPQ" xvalue="305"/>
+        <dimension name="YOPQ" xvalue="31"/>
+      </location>
+    </source>
+    <source filename="Italic_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
+      <location>
+        <dimension name="XOPQ" xvalue="3"/>
+        <dimension name="YOPQ" xvalue="31"/>
+      </location>
+    </source>
+    <source filename="Italic_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="YOPQ" xvalue="2"/>
+      </location>
+    </source>
+    <source filename="Italic_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="YOPQ" xvalue="95"/>
+      </location>
+    </source>
   </sources>
   <lib>
     <dict>
