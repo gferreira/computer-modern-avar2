@@ -1,12 +1,119 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<designspace format="5.0">
+<designspace format="5.1">
   <axes>
-    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81"/>
-    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29"/>
-    <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41"/>
-    <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="95"/>
-    <axis tag="YSHA" name="YSHA" minimum="554" maximum="682" default="654"/>
+    <axis tag="opsz" name="Optical size" minimum="5" maximum="17" default="10"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81" hidden="1"/>
+    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299" hidden="1"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29" hidden="1"/>
+    <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41" hidden="1"/>
+    <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="95" hidden="1"/>
+    <axis tag="YSHA" name="YSHA" minimum="2" maximum="129" default="29" hidden="1"/>
+    <mappings>
+      <mapping description="opsz10">
+        <input>
+          <dimension name="Optical size" xvalue="10"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="89"/>
+          <dimension name="YOPQ" xvalue="31"/>
+          <dimension name="XTRA" xvalue="299"/>
+          <dimension name="XTSP" xvalue="136"/>
+          <dimension name="XSHA" xvalue="103"/>
+          <dimension name="YSHA" xvalue="31"/>
+        </output>
+      </mapping>
+      <mapping description="opsz12">
+        <input>
+          <dimension name="Optical size" xvalue="12"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="81"/>
+          <dimension name="YOPQ" xvalue="29"/>
+          <dimension name="XTRA" xvalue="299"/>
+          <dimension name="XTSP" xvalue="136"/>
+          <dimension name="XSHA" xvalue="95"/>
+          <dimension name="YSHA" xvalue="29"/>
+        </output>
+      </mapping>
+      <mapping description="opsz17">
+        <input>
+          <dimension name="Optical size" xvalue="17"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="66"/>
+          <dimension name="YOPQ" xvalue="26"/>
+          <dimension name="XTRA" xvalue="298"/>
+          <dimension name="XTSP" xvalue="131"/>
+          <dimension name="XSHA" xvalue="80"/>
+          <dimension name="YSHA" xvalue="26"/>
+        </output>
+      </mapping>
+      <mapping description="opsz5">
+        <input>
+          <dimension name="Optical size" xvalue="5"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="106"/>
+          <dimension name="YOPQ" xvalue="44"/>
+          <dimension name="XTRA" xvalue="380"/>
+          <dimension name="XTSP" xvalue="194"/>
+          <dimension name="XSHA" xvalue="111"/>
+          <dimension name="YSHA" xvalue="44"/>
+        </output>
+      </mapping>
+      <mapping description="opsz6">
+        <input>
+          <dimension name="Optical size" xvalue="6"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="100"/>
+          <dimension name="YOPQ" xvalue="39"/>
+          <dimension name="XTRA" xvalue="353"/>
+          <dimension name="XTSP" xvalue="171"/>
+          <dimension name="XSHA" xvalue="106"/>
+          <dimension name="YSHA" xvalue="39"/>
+        </output>
+      </mapping>
+      <mapping description="opsz7">
+        <input>
+          <dimension name="Optical size" xvalue="7"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="95"/>
+          <dimension name="YOPQ" xvalue="36"/>
+          <dimension name="XTRA" xvalue="334"/>
+          <dimension name="XTSP" xvalue="159"/>
+          <dimension name="XSHA" xvalue="103"/>
+          <dimension name="YSHA" xvalue="36"/>
+        </output>
+      </mapping>
+      <mapping description="opsz8">
+        <input>
+          <dimension name="Optical size" xvalue="8"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="92"/>
+          <dimension name="YOPQ" xvalue="33"/>
+          <dimension name="XTRA" xvalue="321"/>
+          <dimension name="XTSP" xvalue="145"/>
+          <dimension name="XSHA" xvalue="101"/>
+          <dimension name="YSHA" xvalue="33"/>
+        </output>
+      </mapping>
+      <mapping description="opsz9">
+        <input>
+          <dimension name="Optical size" xvalue="9"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="90"/>
+          <dimension name="YOPQ" xvalue="31"/>
+          <dimension name="XTRA" xvalue="310"/>
+          <dimension name="XTSP" xvalue="140"/>
+          <dimension name="XSHA" xvalue="102"/>
+          <dimension name="YSHA" xvalue="31"/>
+        </output>
+      </mapping>
+    </mappings>
   </axes>
   <sources>
     <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400">
@@ -16,7 +123,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -26,7 +133,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -36,7 +143,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -46,7 +153,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -56,7 +163,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
@@ -66,7 +173,7 @@
         <dimension name="YOPQ" xvalue="95"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -76,7 +183,7 @@
         <dimension name="YOPQ" xvalue="2"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XTSP84.ufo" familyname="Computer Modern" stylename="XTSP84">
@@ -86,7 +193,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="84"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XTSP6.ufo" familyname="Computer Modern" stylename="XTSP6">
@@ -96,7 +203,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="6"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XSHA145.ufo" familyname="Computer Modern" stylename="XSHA145">
@@ -106,7 +213,7 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="145"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
     <source filename="Roman_XSHA0.ufo" familyname="Computer Modern" stylename="XSHA0">
@@ -116,27 +223,27 @@
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="0"/>
-        <dimension name="YSHA" xvalue="654"/>
+        <dimension name="YSHA" xvalue="29"/>
       </location>
     </source>
-    <source filename="Roman_YSHA682.ufo" familyname="Computer Modern" stylename="YSHA682">
+    <source filename="Roman_YSHA129.ufo" familyname="Computer Modern" stylename="YSHA129">
       <location>
         <dimension name="XOPQ" xvalue="81"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="682"/>
+        <dimension name="YSHA" xvalue="129"/>
       </location>
     </source>
-    <source filename="Roman_YSHA554.ufo" familyname="Computer Modern" stylename="YSHA554">
+    <source filename="Roman_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
       <location>
         <dimension name="XOPQ" xvalue="81"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="29"/>
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
-        <dimension name="YSHA" xvalue="554"/>
+        <dimension name="YSHA" xvalue="2"/>
       </location>
     </source>
   </sources>

@@ -221,7 +221,7 @@
       "glyph 1": "H",
       "point 1": 0,
       "glyph 2": "H",
-      "point 2": "63",
+      "point 2": "71",
       "parent": "",
       "description": ""
     },
@@ -230,7 +230,7 @@
       "glyph 1": "H",
       "point 1": 0,
       "glyph 2": "H",
-      "point 2": "63",
+      "point 2": "71",
       "parent": "YSHA",
       "description": ""
     },
@@ -306,6 +306,10 @@
       "11 14": {
         "name": "XTUC",
         "direction": "x"
+      },
+      "0 71": {
+        "name": "YSHU",
+        "direction": "y"
       }
     },
     "D": {
@@ -405,6 +409,7 @@
         "name": "YTOS",
         "direction": "y"
       }
-    }
+    },
+    "T": {}
   }
 }

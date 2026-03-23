@@ -7,12 +7,12 @@ reload(xTools4.modules.measurements)
 import os, glob, json
 from xTools4.modules.measurements import extractMeasurements
 
-subFamilyName    = ['Roman', 'Italic', 'Sans'][2]
+subFamilyName    = ['Roman', 'Italic', 'Sans'][0]
 baseFolder       = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder    = os.path.join(baseFolder, 'Sources', subFamilyName, 'reference')
 measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
 blendsPath       = os.path.join(sourcesFolder, 'blends.json')
-parametricAxes   = 'XOUC XOLC XOFI YOUC YOLC YOFI XTUC XTLC XTFI YTUC YTLC YTAS YTDE YTFI XUCS XLCS XFIR XSHU YSHU XSHL YSHL XSVU YSVU'.split()
+parametricAxes   = ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA'] # XOUC XOLC XOFI YOUC YOLC YOFI XTUC XTLC XTFI YTUC YTLC YTAS YTDE YTFI XUCS XLCS XFIR XSHU YSHU XSHL YSHL XSVU YSVU'.split()
 
 assert os.path.exists(sourcesFolder)
 assert os.path.exists(measurementsPath)
