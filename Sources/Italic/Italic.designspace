@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85" hidden="1"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31" hidden="1"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31"/>
   </axes>
   <sources>
     <source filename="Italic_wght400.ufo" familyname="Computer Modern" stylename="wght400">

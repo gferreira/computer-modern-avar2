@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81" hidden="1"/>
-    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299" hidden="1"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29" hidden="1"/>
-    <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41" hidden="1"/>
-    <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="95" hidden="1"/>
-    <axis tag="YSHA" name="YSHA" minimum="554" maximum="682" default="654" hidden="1"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81"/>
+    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29"/>
+    <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41"/>
+    <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="95"/>
+    <axis tag="YSHA" name="YSHA" minimum="554" maximum="682" default="654"/>
   </axes>
   <sources>
     <source filename="Roman_wght400.ufo" familyname="Computer Modern" stylename="wght400">

@@ -62,10 +62,12 @@ if __name__ == '__main__':
     # p.createParametricSources(['XSHA', 'YSHA'])
 
     # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=True)
     
-    p.parametricAxes = ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA']
-    p.buildDesignspace()
+    # p.parametricAxes = ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA'] # Roman
+    # p.parametricAxes = ['XOPQ', 'YOPQ'] # Italic
+    # p.parametricAxesHidden = False
+    # p.buildDesignspace()
 
