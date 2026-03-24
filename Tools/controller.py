@@ -72,7 +72,7 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA'],
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA'],
         'Italic' : ['XOPQ', 'YOPQ'],
     }
 
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     p.cleanupSources(parametric=True, tuning=False)
     p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     
     # p.parametricAxes = parametricAxes[subFamily]
     # p.parametricAxesHidden = False

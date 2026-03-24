@@ -8,6 +8,8 @@
     <axis tag="XTSP" name="XTSP" minimum="6" maximum="84" default="41"/>
     <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="95"/>
     <axis tag="YSHA" name="YSHA" minimum="2" maximum="129" default="29"/>
+    <axis tag="XSVA" name="XSVA" minimum="1" maximum="97" default="22"/>
+    <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -20,6 +22,8 @@
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="31"/>
+          <dimension name="XSVA" xvalue="25"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz12">
@@ -33,6 +37,8 @@
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="95"/>
           <dimension name="YSHA" xvalue="29"/>
+          <dimension name="XSVA" xvalue="22"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz17">
@@ -46,6 +52,8 @@
           <dimension name="XTSP" xvalue="131"/>
           <dimension name="XSHA" xvalue="80"/>
           <dimension name="YSHA" xvalue="26"/>
+          <dimension name="XSVA" xvalue="18"/>
+          <dimension name="YSVA" xvalue="195"/>
         </output>
       </mapping>
       <mapping description="opsz5">
@@ -59,6 +67,8 @@
           <dimension name="XTSP" xvalue="194"/>
           <dimension name="XSHA" xvalue="111"/>
           <dimension name="YSHA" xvalue="44"/>
+          <dimension name="XSVA" xvalue="42"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz6">
@@ -72,6 +82,8 @@
           <dimension name="XTSP" xvalue="171"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="39"/>
+          <dimension name="XSVA" xvalue="37"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -85,6 +97,8 @@
           <dimension name="XTSP" xvalue="159"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="36"/>
+          <dimension name="XSVA" xvalue="34"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -98,6 +112,8 @@
           <dimension name="XTSP" xvalue="145"/>
           <dimension name="XSHA" xvalue="101"/>
           <dimension name="YSHA" xvalue="33"/>
+          <dimension name="XSVA" xvalue="31"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
       <mapping description="opsz9">
@@ -111,6 +127,8 @@
           <dimension name="XTSP" xvalue="140"/>
           <dimension name="XSHA" xvalue="102"/>
           <dimension name="YSHA" xvalue="31"/>
+          <dimension name="XSVA" xvalue="28"/>
+          <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
     </mappings>
@@ -124,6 +142,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -134,6 +154,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -144,6 +166,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -154,6 +178,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -164,6 +190,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
@@ -174,6 +202,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -184,6 +214,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XTSP84.ufo" familyname="Computer Modern" stylename="XTSP84">
@@ -194,6 +226,8 @@
         <dimension name="XTSP" xvalue="84"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XTSP6.ufo" familyname="Computer Modern" stylename="XTSP6">
@@ -204,6 +238,8 @@
         <dimension name="XTSP" xvalue="6"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XSHA145.ufo" familyname="Computer Modern" stylename="XSHA145">
@@ -214,6 +250,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="145"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_XSHA0.ufo" familyname="Computer Modern" stylename="XSHA0">
@@ -224,6 +262,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="0"/>
         <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_YSHA129.ufo" familyname="Computer Modern" stylename="YSHA129">
@@ -234,6 +274,8 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="129"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
       </location>
     </source>
     <source filename="Roman_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
@@ -244,6 +286,56 @@
         <dimension name="XTSP" xvalue="41"/>
         <dimension name="XSHA" xvalue="95"/>
         <dimension name="YSHA" xvalue="2"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Roman_XSVA1.ufo" familyname="Computer Modern" stylename="XSVA1">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="1"/>
+        <dimension name="YSVA" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Roman_XSVA97.ufo" familyname="Computer Modern" stylename="XSVA97">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="97"/>
+        <dimension name="YSVA" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Roman_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Roman_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="254"/>
       </location>
     </source>
   </sources>
