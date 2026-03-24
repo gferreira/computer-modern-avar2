@@ -69,10 +69,10 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA'],
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVU', 'YSVU'],
         'Italic' : ['XOPQ', 'YOPQ'],
     }
 
