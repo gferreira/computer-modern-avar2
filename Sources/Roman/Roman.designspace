@@ -10,6 +10,8 @@
     <axis tag="YSHA" name="YSHA" minimum="2" maximum="129" default="29"/>
     <axis tag="XSVA" name="XSVA" minimum="1" maximum="97" default="22"/>
     <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
+    <axis tag="YTUC" name="YTUC" minimum="473" maximum="808" default="683"/>
+    <axis tag="YTLC" name="YTLC" minimum="366" maximum="525" default="441"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -19,6 +21,8 @@
           <dimension name="XOPQ" xvalue="89"/>
           <dimension name="YOPQ" xvalue="31"/>
           <dimension name="XTRA" xvalue="299"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="442"/>
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="31"/>
@@ -34,6 +38,8 @@
           <dimension name="XOPQ" xvalue="81"/>
           <dimension name="YOPQ" xvalue="29"/>
           <dimension name="XTRA" xvalue="299"/>
+          <dimension name="YTUC" xvalue="681"/>
+          <dimension name="YTLC" xvalue="441"/>
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="95"/>
           <dimension name="YSHA" xvalue="29"/>
@@ -49,6 +55,8 @@
           <dimension name="XOPQ" xvalue="66"/>
           <dimension name="YOPQ" xvalue="26"/>
           <dimension name="XTRA" xvalue="298"/>
+          <dimension name="YTUC" xvalue="681"/>
+          <dimension name="YTLC" xvalue="438"/>
           <dimension name="XTSP" xvalue="131"/>
           <dimension name="XSHA" xvalue="80"/>
           <dimension name="YSHA" xvalue="26"/>
@@ -64,6 +72,8 @@
           <dimension name="XOPQ" xvalue="106"/>
           <dimension name="YOPQ" xvalue="44"/>
           <dimension name="XTRA" xvalue="380"/>
+          <dimension name="YTUC" xvalue="679"/>
+          <dimension name="YTLC" xvalue="442"/>
           <dimension name="XTSP" xvalue="194"/>
           <dimension name="XSHA" xvalue="111"/>
           <dimension name="YSHA" xvalue="44"/>
@@ -79,6 +89,8 @@
           <dimension name="XOPQ" xvalue="100"/>
           <dimension name="YOPQ" xvalue="39"/>
           <dimension name="XTRA" xvalue="353"/>
+          <dimension name="YTUC" xvalue="679"/>
+          <dimension name="YTLC" xvalue="441"/>
           <dimension name="XTSP" xvalue="171"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="39"/>
@@ -94,6 +106,8 @@
           <dimension name="XOPQ" xvalue="95"/>
           <dimension name="YOPQ" xvalue="36"/>
           <dimension name="XTRA" xvalue="334"/>
+          <dimension name="YTUC" xvalue="679"/>
+          <dimension name="YTLC" xvalue="441"/>
           <dimension name="XTSP" xvalue="159"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="36"/>
@@ -109,6 +123,8 @@
           <dimension name="XOPQ" xvalue="92"/>
           <dimension name="YOPQ" xvalue="33"/>
           <dimension name="XTRA" xvalue="321"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="441"/>
           <dimension name="XTSP" xvalue="145"/>
           <dimension name="XSHA" xvalue="101"/>
           <dimension name="YSHA" xvalue="33"/>
@@ -124,6 +140,8 @@
           <dimension name="XOPQ" xvalue="90"/>
           <dimension name="YOPQ" xvalue="31"/>
           <dimension name="XTRA" xvalue="310"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="442"/>
           <dimension name="XTSP" xvalue="140"/>
           <dimension name="XSHA" xvalue="102"/>
           <dimension name="YSHA" xvalue="31"/>
@@ -144,6 +162,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -156,6 +176,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -168,6 +190,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -180,6 +204,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -192,6 +218,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
@@ -204,6 +232,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -216,6 +246,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XTSP84.ufo" familyname="Computer Modern" stylename="XTSP84">
@@ -228,6 +260,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XTSP6.ufo" familyname="Computer Modern" stylename="XTSP6">
@@ -240,6 +274,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XSHA145.ufo" familyname="Computer Modern" stylename="XSHA145">
@@ -252,6 +288,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XSHA0.ufo" familyname="Computer Modern" stylename="XSHA0">
@@ -264,6 +302,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YSHA129.ufo" familyname="Computer Modern" stylename="YSHA129">
@@ -276,6 +316,8 @@
         <dimension name="YSHA" xvalue="129"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
@@ -288,6 +330,8 @@
         <dimension name="YSHA" xvalue="2"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XSVA1.ufo" familyname="Computer Modern" stylename="XSVA1">
@@ -300,6 +344,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="1"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_XSVA97.ufo" familyname="Computer Modern" stylename="XSVA97">
@@ -312,6 +358,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="97"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
@@ -324,6 +372,8 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="0"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
       </location>
     </source>
     <source filename="Roman_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
@@ -336,6 +386,64 @@
         <dimension name="YSHA" xvalue="29"/>
         <dimension name="XSVA" xvalue="22"/>
         <dimension name="YSVA" xvalue="254"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="441"/>
+      </location>
+    </source>
+    <source filename="Roman_YTUC473.ufo" familyname="Computer Modern" stylename="YTUC473">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="473"/>
+        <dimension name="YTLC" xvalue="441"/>
+      </location>
+    </source>
+    <source filename="Roman_YTUC808.ufo" familyname="Computer Modern" stylename="YTUC808">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="808"/>
+        <dimension name="YTLC" xvalue="441"/>
+      </location>
+    </source>
+    <source filename="Roman_YTLC525.ufo" familyname="Computer Modern" stylename="YTLC525">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="525"/>
+      </location>
+    </source>
+    <source filename="Roman_YTLC366.ufo" familyname="Computer Modern" stylename="YTLC366">
+      <location>
+        <dimension name="XOPQ" xvalue="81"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="29"/>
+        <dimension name="XTSP" xvalue="41"/>
+        <dimension name="XSHA" xvalue="95"/>
+        <dimension name="YSHA" xvalue="29"/>
+        <dimension name="XSVA" xvalue="22"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="366"/>
       </location>
     </source>
   </sources>
