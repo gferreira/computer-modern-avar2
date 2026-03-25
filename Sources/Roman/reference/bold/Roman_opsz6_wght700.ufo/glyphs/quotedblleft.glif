@@ -4,6 +4,15 @@
   <unicode hex="201C"/>
   <outline>
     <contour>
+      <point x="292" y="333" type="curve" smooth="yes"/>
+      <point x="342" y="333"/>
+      <point x="375" y="371"/>
+      <point x="375" y="416" type="curve" smooth="yes"/>
+      <point x="375" y="462"/>
+      <point x="342" y="500"/>
+      <point x="291" y="500" type="curve" smooth="yes"/>
+      <point x="273" y="500"/>
+      <point x="255" y="496"/>
       <point x="241" y="485" type="curve"/>
       <point x="243" y="502"/>
       <point x="252" y="586"/>
@@ -19,17 +28,17 @@
       <point x="189" y="465" type="curve" smooth="yes"/>
       <point x="189" y="388"/>
       <point x="233" y="333"/>
-      <point x="292" y="333" type="curve" smooth="yes"/>
-      <point x="342" y="333"/>
-      <point x="375" y="371"/>
-      <point x="375" y="416" type="curve" smooth="yes"/>
-      <point x="375" y="462"/>
-      <point x="342" y="500"/>
-      <point x="291" y="500" type="curve" smooth="yes"/>
-      <point x="273" y="500"/>
-      <point x="255" y="496"/>
     </contour>
     <contour>
+      <point x="571" y="333" type="curve" smooth="yes"/>
+      <point x="621" y="333"/>
+      <point x="654" y="371"/>
+      <point x="654" y="416" type="curve" smooth="yes"/>
+      <point x="654" y="462"/>
+      <point x="621" y="500"/>
+      <point x="570" y="500" type="curve" smooth="yes"/>
+      <point x="552" y="500"/>
+      <point x="534" y="496"/>
       <point x="520" y="485" type="curve"/>
       <point x="522" y="502"/>
       <point x="531" y="586"/>
@@ -45,15 +54,6 @@
       <point x="468" y="465" type="curve" smooth="yes"/>
       <point x="468" y="388"/>
       <point x="512" y="333"/>
-      <point x="571" y="333" type="curve" smooth="yes"/>
-      <point x="621" y="333"/>
-      <point x="654" y="371"/>
-      <point x="654" y="416" type="curve" smooth="yes"/>
-      <point x="654" y="462"/>
-      <point x="621" y="500"/>
-      <point x="570" y="500" type="curve" smooth="yes"/>
-      <point x="552" y="500"/>
-      <point x="534" y="496"/>
     </contour>
   </outline>
 </glyph>
