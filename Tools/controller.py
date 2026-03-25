@@ -72,7 +72,7 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA'],
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC'],
         'Italic' : ['XOPQ', 'YOPQ'],
     }
 
