@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="V" format="2">
 	<unicode hex="0056"/>
-	<advance width="1166"/>
+	<advance width="1134"/>
 	<outline>
 		<contour>
-			<point x="470" y="-44" type="qcurve" smooth="yes"/>
-			<point x="480" y="-44"/>
-			<point x="492" y="-27"/>
+			<point x="460" y="-43" type="qcurve" smooth="yes"/>
+			<point x="471" y="-45"/>
+			<point x="487" y="-35"/>
 			<point x="504" y="-8" type="qcurve" smooth="yes"/>
 			<point x="1224" y="1138" type="line" smooth="yes"/>
 			<point x="1279" y="1225"/>
@@ -19,9 +19,9 @@
 			<point x="1492" y="1366"/>
 			<point x="1480" y="1366" type="qcurve" smooth="yes"/>
 			<point x="1452" y="1366"/>
-			<point x="1390" y="1360"/>
-			<point x="1342" y="1360" type="qcurve" smooth="yes"/>
-			<point x="1276" y="1360"/>
+			<point x="1396" y="1360"/>
+			<point x="1348" y="1360" type="qcurve" smooth="yes"/>
+			<point x="1282" y="1360"/>
 			<point x="1225" y="1366"/>
 			<point x="1177" y="1366" type="qcurve" smooth="yes"/>
 			<point x="1159" y="1366"/>
@@ -60,8 +60,8 @@
 			<point x="276" y="1283"/>
 			<point x="280" y="1253" type="qcurve" smooth="yes"/>
 			<point x="440" y="2" type="line" smooth="yes"/>
-			<point x="444" y="-28"/>
-			<point x="460" y="-44"/>
+			<point x="443" y="-22"/>
+			<point x="453" y="-42"/>
 		</contour>
 	</outline>
 </glyph>

@@ -10,26 +10,11 @@
           <dimension name="Optical size" xvalue="10"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="85"/>
-          <dimension name="XOLC" xvalue="68"/>
-          <dimension name="XOFI" xvalue="71"/>
-          <dimension name="YOUC" xvalue="31"/>
-          <dimension name="YOLC" xvalue="22"/>
-          <dimension name="YOFI" xvalue="22"/>
-          <dimension name="XTUC" xvalue="305"/>
-          <dimension name="XTLC" xvalue="197"/>
-          <dimension name="XTFI" xvalue="257"/>
+          <dimension name="XOPQ" xvalue="85"/>
+          <dimension name="YOPQ" xvalue="31"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="694"/>
-          <dimension name="YTDE" xvalue="-225"/>
-          <dimension name="YTFI" xvalue="453"/>
-          <dimension name="XUCS" xvalue="179"/>
-          <dimension name="XLCS" xvalue="115"/>
-          <dimension name="XSHU" xvalue="101"/>
-          <dimension name="YSHU" xvalue="31"/>
-          <dimension name="XSVU" xvalue="23"/>
-          <dimension name="YSVU" xvalue="225"/>
+          <dimension name="XTSP" xvalue="179"/>
         </output>
       </mapping>
       <mapping description="opsz12">
@@ -37,26 +22,11 @@
           <dimension name="Optical size" xvalue="12"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="78"/>
-          <dimension name="XOLC" xvalue="64"/>
-          <dimension name="XOFI" xvalue="67"/>
-          <dimension name="YOUC" xvalue="29"/>
-          <dimension name="YOLC" xvalue="20"/>
-          <dimension name="YOFI" xvalue="20"/>
-          <dimension name="XTUC" xvalue="303"/>
-          <dimension name="XTLC" xvalue="197"/>
-          <dimension name="XTFI" xvalue="257"/>
+          <dimension name="XOPQ" xvalue="78"/>
+          <dimension name="YOPQ" xvalue="29"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="694"/>
-          <dimension name="YTDE" xvalue="-223"/>
-          <dimension name="YTFI" xvalue="452"/>
-          <dimension name="XUCS" xvalue="137"/>
-          <dimension name="XLCS" xvalue="70"/>
-          <dimension name="XSHU" xvalue="94"/>
-          <dimension name="YSHU" xvalue="29"/>
-          <dimension name="XSVU" xvalue="21"/>
-          <dimension name="YSVU" xvalue="223"/>
+          <dimension name="XTSP" xvalue="137"/>
         </output>
       </mapping>
       <mapping description="opsz5">
@@ -64,26 +34,11 @@
           <dimension name="Optical size" xvalue="5"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="105"/>
-          <dimension name="XOLC" xvalue="86"/>
-          <dimension name="XOFI" xvalue="89"/>
-          <dimension name="YOUC" xvalue="45"/>
-          <dimension name="YOLC" xvalue="34"/>
-          <dimension name="YOFI" xvalue="34"/>
-          <dimension name="XTUC" xvalue="380"/>
-          <dimension name="XTLC" xvalue="243"/>
-          <dimension name="XTFI" xvalue="326"/>
+          <dimension name="XOPQ" xvalue="105"/>
+          <dimension name="YOPQ" xvalue="45"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="693"/>
-          <dimension name="YTDE" xvalue="-239"/>
-          <dimension name="YTFI" xvalue="453"/>
-          <dimension name="XUCS" xvalue="223"/>
-          <dimension name="XLCS" xvalue="170"/>
-          <dimension name="XSHU" xvalue="110"/>
-          <dimension name="YSHU" xvalue="45"/>
-          <dimension name="XSVU" xvalue="41"/>
-          <dimension name="YSVU" xvalue="239"/>
+          <dimension name="XTSP" xvalue="223"/>
         </output>
       </mapping>
       <mapping description="opsz6">
@@ -91,26 +46,11 @@
           <dimension name="Optical size" xvalue="6"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="99"/>
-          <dimension name="XOLC" xvalue="82"/>
-          <dimension name="XOFI" xvalue="83"/>
-          <dimension name="YOUC" xvalue="40"/>
-          <dimension name="YOLC" xvalue="33"/>
-          <dimension name="YOFI" xvalue="33"/>
-          <dimension name="XTUC" xvalue="354"/>
-          <dimension name="XTLC" xvalue="228"/>
-          <dimension name="XTFI" xvalue="302"/>
+          <dimension name="XOPQ" xvalue="99"/>
+          <dimension name="YOPQ" xvalue="40"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="693"/>
-          <dimension name="YTDE" xvalue="-234"/>
-          <dimension name="YTFI" xvalue="452"/>
-          <dimension name="XUCS" xvalue="186"/>
-          <dimension name="XLCS" xvalue="127"/>
-          <dimension name="XSHU" xvalue="106"/>
-          <dimension name="YSHU" xvalue="40"/>
-          <dimension name="XSVU" xvalue="36"/>
-          <dimension name="YSVU" xvalue="234"/>
+          <dimension name="XTSP" xvalue="186"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -118,26 +58,11 @@
           <dimension name="Optical size" xvalue="7"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="94"/>
-          <dimension name="XOLC" xvalue="78"/>
-          <dimension name="XOFI" xvalue="80"/>
-          <dimension name="YOUC" xvalue="36"/>
-          <dimension name="YOLC" xvalue="28"/>
-          <dimension name="YOFI" xvalue="28"/>
-          <dimension name="XTUC" xvalue="335"/>
-          <dimension name="XTLC" xvalue="217"/>
-          <dimension name="XTFI" xvalue="286"/>
+          <dimension name="XOPQ" xvalue="94"/>
+          <dimension name="YOPQ" xvalue="36"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="694"/>
-          <dimension name="YTDE" xvalue="-230"/>
-          <dimension name="YTFI" xvalue="451"/>
-          <dimension name="XUCS" xvalue="167"/>
-          <dimension name="XLCS" xvalue="106"/>
-          <dimension name="XSHU" xvalue="102"/>
-          <dimension name="YSHU" xvalue="36"/>
-          <dimension name="XSVU" xvalue="33"/>
-          <dimension name="YSVU" xvalue="230"/>
+          <dimension name="XTSP" xvalue="167"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -145,26 +70,11 @@
           <dimension name="Optical size" xvalue="8"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="91"/>
-          <dimension name="XOLC" xvalue="75"/>
-          <dimension name="XOFI" xvalue="78"/>
-          <dimension name="YOUC" xvalue="33"/>
-          <dimension name="YOLC" xvalue="28"/>
-          <dimension name="YOFI" xvalue="28"/>
-          <dimension name="XTUC" xvalue="321"/>
-          <dimension name="XTLC" xvalue="206"/>
-          <dimension name="XTFI" xvalue="272"/>
+          <dimension name="XOPQ" xvalue="91"/>
+          <dimension name="YOPQ" xvalue="33"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="694"/>
-          <dimension name="YTDE" xvalue="-227"/>
-          <dimension name="YTFI" xvalue="452"/>
-          <dimension name="XUCS" xvalue="146"/>
-          <dimension name="XLCS" xvalue="83"/>
-          <dimension name="XSHU" xvalue="100"/>
-          <dimension name="YSHU" xvalue="33"/>
-          <dimension name="XSVU" xvalue="30"/>
-          <dimension name="YSVU" xvalue="227"/>
+          <dimension name="XTSP" xvalue="146"/>
         </output>
       </mapping>
       <mapping description="opsz9">
@@ -172,26 +82,11 @@
           <dimension name="Optical size" xvalue="9"/>
         </input>
         <output>
-          <dimension name="XOUC" xvalue="89"/>
-          <dimension name="XOLC" xvalue="71"/>
-          <dimension name="XOFI" xvalue="74"/>
-          <dimension name="YOUC" xvalue="31"/>
-          <dimension name="YOLC" xvalue="25"/>
-          <dimension name="YOFI" xvalue="25"/>
-          <dimension name="XTUC" xvalue="309"/>
-          <dimension name="XTLC" xvalue="203"/>
-          <dimension name="XTFI" xvalue="263"/>
+          <dimension name="XOPQ" xvalue="89"/>
+          <dimension name="YOPQ" xvalue="31"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="YTAS" xvalue="694"/>
-          <dimension name="YTDE" xvalue="-225"/>
-          <dimension name="YTFI" xvalue="453"/>
-          <dimension name="XUCS" xvalue="141"/>
-          <dimension name="XLCS" xvalue="78"/>
-          <dimension name="XSHU" xvalue="100"/>
-          <dimension name="YSHU" xvalue="31"/>
-          <dimension name="XSVU" xvalue="26"/>
-          <dimension name="YSVU" xvalue="225"/>
+          <dimension name="XTSP" xvalue="141"/>
         </output>
       </mapping>
     </mappings>
