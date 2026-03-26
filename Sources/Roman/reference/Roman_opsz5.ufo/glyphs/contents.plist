@@ -62,6 +62,8 @@
     <string>Z_.glif</string>
     <key>a</key>
     <string>a.glif</string>
+    <key>a.alt</key>
+    <string>a.alt.glif</string>
     <key>acute</key>
     <string>acute.glif</string>
     <key>ae</key>
@@ -132,8 +134,6 @@
     <string>germandbls.glif</string>
     <key>grave</key>
     <string>grave.glif</string>
-    <key>greater</key>
-    <string>greater.glif</string>
     <key>h</key>
     <string>h.glif</string>
     <key>hungarumlaut</key>
@@ -148,8 +148,6 @@
     <string>k.glif</string>
     <key>l</key>
     <string>l.glif</string>
-    <key>less</key>
-    <string>less.glif</string>
     <key>m</key>
     <string>m.glif</string>
     <key>macron</key>
@@ -196,8 +194,6 @@
     <string>quoteleft.glif</string>
     <key>quoteright</key>
     <string>quoteright.glif</string>
-    <key>quotesingle</key>
-    <string>quotesingle.glif</string>
     <key>r</key>
     <string>r.glif</string>
     <key>ring</key>
