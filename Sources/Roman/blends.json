@@ -5,6 +5,12 @@
       "default": 10,
       "minimum": 5,
       "maximum": 17
+    },
+    "wght": {
+      "name": "Weight",
+      "default": 400,
+      "minimum": 400,
+      "maximum": 700
     }
   },
   "sources": {
@@ -20,6 +26,18 @@
       "XSVA": 25,
       "YSVA": 194
     },
+    "opsz10_wght700": {
+      "XOPQ": 142,
+      "YOPQ": 47,
+      "XTRA": 321,
+      "YTUC": 680,
+      "YTLC": 450,
+      "XTSP": 147,
+      "XSHA": 108,
+      "YSHA": 47,
+      "XSVA": 47,
+      "YSVA": 194
+    },
     "opsz12": {
       "XOPQ": 81,
       "YOPQ": 29,
@@ -30,6 +48,18 @@
       "XSHA": 95,
       "YSHA": 29,
       "XSVA": 22,
+      "YSVA": 194
+    },
+    "opsz12_wght700": {
+      "XOPQ": 132,
+      "YOPQ": 43,
+      "XTRA": 327,
+      "YTUC": 681,
+      "YTLC": 450,
+      "XTSP": 144,
+      "XSHA": 106,
+      "YSHA": 43,
+      "XSVA": 42,
       "YSVA": 194
     },
     "opsz17": {
@@ -56,6 +86,18 @@
       "XSVA": 42,
       "YSVA": 194
     },
+    "opsz5_wght700": {
+      "XOPQ": 156,
+      "YOPQ": 67,
+      "XTRA": 445,
+      "YTUC": 678,
+      "YTLC": 452,
+      "XTSP": 198,
+      "XSHA": 106,
+      "YSHA": 67,
+      "XSVA": 83,
+      "YSVA": 139
+    },
     "opsz6": {
       "XOPQ": 100,
       "YOPQ": 39,
@@ -67,6 +109,18 @@
       "YSHA": 39,
       "XSVA": 37,
       "YSVA": 194
+    },
+    "opsz6_wght700": {
+      "XOPQ": 153,
+      "YOPQ": 60,
+      "XTRA": 403,
+      "YTUC": 679,
+      "YTLC": 451,
+      "XTSP": 177,
+      "XSHA": 106,
+      "YSHA": 60,
+      "XSVA": 71,
+      "YSVA": 167
     },
     "opsz7": {
       "XOPQ": 95,
@@ -80,6 +134,18 @@
       "XSVA": 34,
       "YSVA": 194
     },
+    "opsz7_wght700": {
+      "XOPQ": 151,
+      "YOPQ": 56,
+      "XTRA": 371,
+      "YTUC": 679,
+      "YTLC": 450,
+      "XTSP": 164,
+      "XSHA": 107,
+      "YSHA": 56,
+      "XSVA": 63,
+      "YSVA": 183
+    },
     "opsz8": {
       "XOPQ": 92,
       "YOPQ": 33,
@@ -92,6 +158,18 @@
       "XSVA": 31,
       "YSVA": 194
     },
+    "opsz8_wght700": {
+      "XOPQ": 149,
+      "YOPQ": 52,
+      "XTRA": 346,
+      "YTUC": 680,
+      "YTLC": 451,
+      "XTSP": 155,
+      "XSHA": 108,
+      "YSHA": 52,
+      "XSVA": 56,
+      "YSVA": 191
+    },
     "opsz9": {
       "XOPQ": 90,
       "YOPQ": 31,
@@ -102,6 +180,18 @@
       "XSHA": 102,
       "YSHA": 31,
       "XSVA": 28,
+      "YSVA": 194
+    },
+    "opsz9_wght700": {
+      "XOPQ": 145,
+      "YOPQ": 49,
+      "XTRA": 333,
+      "YTUC": 680,
+      "YTLC": 450,
+      "XTSP": 150,
+      "XSHA": 108,
+      "YSHA": 49,
+      "XSVA": 51,
       "YSVA": 194
     }
   }

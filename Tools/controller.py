@@ -81,8 +81,8 @@ if __name__ == '__main__':
     # p.printSettings()
     # p.createParametricSources(['YTLC'])
 
-    p.cleanupSources(parametric=True, tuning=False, reference=True)
-    p.normalizeSources(parametric=True, tuning=False, reference=True)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=False)
     

@@ -26,6 +26,13 @@ axes = {
       "minimum" : 5,
       "maximum" : 17,
     },
+    "wght" : {
+      "name"    : "Weight",
+      "default" : 400,
+      "minimum" : 400,
+      "maximum" : 700,
+    },
+
 }
 
 # extract measurements from ComputerModernPS instances

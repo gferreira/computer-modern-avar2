@@ -2,6 +2,7 @@
 <designspace format="5.1">
   <axes>
     <axis tag="opsz" name="Optical size" minimum="5" maximum="17" default="10"/>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="81"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="29"/>
@@ -30,6 +31,24 @@
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
+      <mapping description="opsz10_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="10"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="142"/>
+          <dimension name="YOPQ" xvalue="47"/>
+          <dimension name="XTRA" xvalue="321"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="450"/>
+          <dimension name="XTSP" xvalue="147"/>
+          <dimension name="XSHA" xvalue="108"/>
+          <dimension name="YSHA" xvalue="47"/>
+          <dimension name="XSVA" xvalue="47"/>
+          <dimension name="YSVA" xvalue="194"/>
+        </output>
+      </mapping>
       <mapping description="opsz12">
         <input>
           <dimension name="Optical size" xvalue="12"/>
@@ -44,6 +63,24 @@
           <dimension name="XSHA" xvalue="95"/>
           <dimension name="YSHA" xvalue="29"/>
           <dimension name="XSVA" xvalue="22"/>
+          <dimension name="YSVA" xvalue="194"/>
+        </output>
+      </mapping>
+      <mapping description="opsz12_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="12"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="132"/>
+          <dimension name="YOPQ" xvalue="43"/>
+          <dimension name="XTRA" xvalue="327"/>
+          <dimension name="YTUC" xvalue="681"/>
+          <dimension name="YTLC" xvalue="450"/>
+          <dimension name="XTSP" xvalue="144"/>
+          <dimension name="XSHA" xvalue="106"/>
+          <dimension name="YSHA" xvalue="43"/>
+          <dimension name="XSVA" xvalue="42"/>
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
@@ -81,6 +118,24 @@
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
+      <mapping description="opsz5_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="5"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="156"/>
+          <dimension name="YOPQ" xvalue="67"/>
+          <dimension name="XTRA" xvalue="445"/>
+          <dimension name="YTUC" xvalue="678"/>
+          <dimension name="YTLC" xvalue="452"/>
+          <dimension name="XTSP" xvalue="198"/>
+          <dimension name="XSHA" xvalue="106"/>
+          <dimension name="YSHA" xvalue="67"/>
+          <dimension name="XSVA" xvalue="83"/>
+          <dimension name="YSVA" xvalue="139"/>
+        </output>
+      </mapping>
       <mapping description="opsz6">
         <input>
           <dimension name="Optical size" xvalue="6"/>
@@ -96,6 +151,24 @@
           <dimension name="YSHA" xvalue="39"/>
           <dimension name="XSVA" xvalue="37"/>
           <dimension name="YSVA" xvalue="194"/>
+        </output>
+      </mapping>
+      <mapping description="opsz6_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="6"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="153"/>
+          <dimension name="YOPQ" xvalue="60"/>
+          <dimension name="XTRA" xvalue="403"/>
+          <dimension name="YTUC" xvalue="679"/>
+          <dimension name="YTLC" xvalue="451"/>
+          <dimension name="XTSP" xvalue="177"/>
+          <dimension name="XSHA" xvalue="106"/>
+          <dimension name="YSHA" xvalue="60"/>
+          <dimension name="XSVA" xvalue="71"/>
+          <dimension name="YSVA" xvalue="167"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -115,6 +188,24 @@
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
+      <mapping description="opsz7_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="7"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="151"/>
+          <dimension name="YOPQ" xvalue="56"/>
+          <dimension name="XTRA" xvalue="371"/>
+          <dimension name="YTUC" xvalue="679"/>
+          <dimension name="YTLC" xvalue="450"/>
+          <dimension name="XTSP" xvalue="164"/>
+          <dimension name="XSHA" xvalue="107"/>
+          <dimension name="YSHA" xvalue="56"/>
+          <dimension name="XSVA" xvalue="63"/>
+          <dimension name="YSVA" xvalue="183"/>
+        </output>
+      </mapping>
       <mapping description="opsz8">
         <input>
           <dimension name="Optical size" xvalue="8"/>
@@ -132,6 +223,24 @@
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>
+      <mapping description="opsz8_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="8"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="149"/>
+          <dimension name="YOPQ" xvalue="52"/>
+          <dimension name="XTRA" xvalue="346"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="451"/>
+          <dimension name="XTSP" xvalue="155"/>
+          <dimension name="XSHA" xvalue="108"/>
+          <dimension name="YSHA" xvalue="52"/>
+          <dimension name="XSVA" xvalue="56"/>
+          <dimension name="YSVA" xvalue="191"/>
+        </output>
+      </mapping>
       <mapping description="opsz9">
         <input>
           <dimension name="Optical size" xvalue="9"/>
@@ -146,6 +255,24 @@
           <dimension name="XSHA" xvalue="102"/>
           <dimension name="YSHA" xvalue="31"/>
           <dimension name="XSVA" xvalue="28"/>
+          <dimension name="YSVA" xvalue="194"/>
+        </output>
+      </mapping>
+      <mapping description="opsz9_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="9"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="145"/>
+          <dimension name="YOPQ" xvalue="49"/>
+          <dimension name="XTRA" xvalue="333"/>
+          <dimension name="YTUC" xvalue="680"/>
+          <dimension name="YTLC" xvalue="450"/>
+          <dimension name="XTSP" xvalue="150"/>
+          <dimension name="XSHA" xvalue="108"/>
+          <dimension name="YSHA" xvalue="49"/>
+          <dimension name="XSVA" xvalue="51"/>
           <dimension name="YSVA" xvalue="194"/>
         </output>
       </mapping>

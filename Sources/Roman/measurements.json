@@ -292,37 +292,37 @@
   "glyphs": {
     "H": {
       "67 11": {
-        "name": "XOUC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "14 30": {
-        "name": "XOUC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "12 49": {
-        "name": "YOUC",
+        "name": "YOPQ",
         "direction": "y"
       },
       "11 14": {
-        "name": "XTUC",
+        "name": "XTRA",
         "direction": "x"
       },
       "0 71": {
-        "name": "YSHU",
+        "name": "YSHA",
         "direction": "y"
       }
     },
     "D": {
       "0 22": {
-        "name": "XOUC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "30 9": {
-        "name": "XOUC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "22 30": {
-        "name": "XTUC",
+        "name": "XTRA",
         "direction": "x"
       },
       "5 13": {
@@ -330,34 +330,34 @@
         "direction": "y"
       },
       "-1 0": {
-        "name": "XUCS",
+        "name": "XTSP",
         "direction": "x"
       },
       "9 99": {
-        "name": "XUCS",
+        "name": "XTSP",
         "direction": "x"
       },
       "27 12": {
-        "name": "YOUC",
+        "name": "YOPQ",
         "direction": "y"
       },
       "6 33": {
-        "name": "YOUC",
+        "name": "YOPQ",
         "direction": "y"
       }
     },
     "O": {},
     "n": {
       "0 16": {
-        "name": "XOLC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "24 40": {
-        "name": "XOLC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "16 24": {
-        "name": "XTLC",
+        "name": "XTRA",
         "direction": "x"
       },
       "5 47": {
@@ -365,11 +365,11 @@
         "direction": "y"
       },
       "-1 0": {
-        "name": "XLCS",
+        "name": "XTSP",
         "direction": "x"
       },
       "40 99": {
-        "name": "XLCS",
+        "name": "XTSP",
         "direction": "x"
       }
     },
@@ -378,27 +378,27 @@
     "space": {},
     "o": {
       "18 3": {
-        "name": "YOLC",
+        "name": "YOPQ",
         "direction": "y"
       },
       "9 12": {
-        "name": "YOLC",
+        "name": "YOPQ",
         "direction": "y"
       },
       "6 15": {
-        "name": "XOLC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "21 0": {
-        "name": "XOLC",
+        "name": "XOPQ",
         "direction": "x"
       },
       "-1 6": {
-        "name": "XLCS",
+        "name": "XTSP",
         "direction": "x"
       },
       "0 99": {
-        "name": "XLCS",
+        "name": "XTSP",
         "direction": "x"
       },
       "X 3": {
