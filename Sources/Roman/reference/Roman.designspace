@@ -100,6 +100,7 @@
     <dict>
       <key>public.skipExportGlyphs</key>
       <array>
+        <string>at</string>
         <string>ff</string>
         <string>fi</string>
         <string>fl</string>
@@ -107,10 +108,6 @@
         <string>ffi</string>
         <string>ffl</string>
       </array>
-      <!--
-      <key>com.xTools4.xProject.glyphConstructionsPath</key>
-      <string>Roman.glyphConstruction</string>
-      -->
       <key>com.xTools4.xProject.measurementsPath</key>
       <string>measurements.json</string>
       <key>com.xTools4.xProject.smartSetsPath</key>

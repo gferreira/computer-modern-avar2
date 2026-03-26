@@ -8,9 +8,13 @@
       <point x="280" y="-174"/>
       <point x="212" y="-178"/>
       <point x="151" y="-178" type="curve" smooth="yes"/>
-      <point x="124" y="-178" type="line"/>
+      <point x="142.00900000000001" y="-178.0"/>
+      <point x="133.018" y="-178.0"/>
+      <point x="124" y="-178" type="curve"/>
       <point x="124" y="-194" type="line"/>
-      <point x="162" y="-194" type="line" smooth="yes"/>
+      <point x="136.654" y="-194.0"/>
+      <point x="149.308" y="-194.0"/>
+      <point x="162" y="-194" type="curve" smooth="yes"/>
       <point x="165" y="-194"/>
       <point x="230" y="-194"/>
       <point x="271" y="-183" type="curve" smooth="yes"/>

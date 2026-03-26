@@ -97,7 +97,7 @@ subFamilyName = ['Roman', 'Italic', 'Sans'][0]
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, 'reference', f'{subFamilyName}.designspace')
 
-glyphNames = ['a', 'a.alt'] # list(ascii_uppercase + ) # ['dotlessi']
+glyphNames = ['at'] # 'fi ffi ff fl ffl'.split() # list(ascii_uppercase + ) # ['dotlessi']
 
 assert os.path.exists(designspacePath)
 
@@ -107,7 +107,7 @@ D.read(designspacePath)
 sources = [OpenFont(src.path, showInterface=False) for src in D.sources]
 
 for glyphName in glyphNames:
-    glyphs = [src[glyphName].naked() for src in sources]
+    glyphs = [src[glyphName].naked() for src in sources if glyphName in src]
     makeGlyphOutlinesCompatible(glyphs)
 
 for src in sources:

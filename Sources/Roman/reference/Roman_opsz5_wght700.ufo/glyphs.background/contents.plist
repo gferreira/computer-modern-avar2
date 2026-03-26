@@ -22,16 +22,30 @@
     <string>a.glif</string>
     <key>ae</key>
     <string>ae.glif</string>
+    <key>at</key>
+    <string>at.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
+    <key>exclamdown</key>
+    <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>ff</key>
+    <string>ff.glif</string>
+    <key>ffi</key>
+    <string>ffi.glif</string>
+    <key>ffl</key>
+    <string>ffl.glif</string>
+    <key>fi</key>
+    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>four</key>
     <string>four.glif</string>
     <key>g</key>
@@ -48,6 +62,10 @@
     <string>parenleft.glif</string>
     <key>parenright</key>
     <string>parenright.glif</string>
+    <key>question</key>
+    <string>question.glif</string>
+    <key>questiondown</key>
+    <string>questiondown.glif</string>
     <key>s</key>
     <string>s.glif</string>
     <key>seven</key>

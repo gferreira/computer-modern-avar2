@@ -32,6 +32,10 @@
     <string>ae.glif</string>
     <key>ampersand</key>
     <string>ampersand.glif</string>
+    <key>asterisk</key>
+    <string>asterisk.glif</string>
+    <key>at</key>
+    <string>at.glif</string>
     <key>c</key>
     <string>c.glif</string>
     <key>cedilla</key>
@@ -42,8 +46,12 @@
     <string>e.glif</string>
     <key>exclam</key>
     <string>exclam.glif</string>
+    <key>ffl</key>
+    <string>ffl.glif</string>
     <key>five</key>
     <string>five.glif</string>
+    <key>fl</key>
+    <string>fl.glif</string>
     <key>j</key>
     <string>j.glif</string>
     <key>k</key>
