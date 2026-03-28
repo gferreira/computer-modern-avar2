@@ -73,13 +73,13 @@ if __name__ == '__main__':
 
     parametricAxes = {
         'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC'],
-        'Italic' : ['XOPQ', 'YOPQ'],
+        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC'],
     }
 
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
 
     # p.printSettings()
-    # p.createParametricSources(['YTLC'])
+    # p.createParametricSources(['YTUC', 'YTLC'])
 
     p.cleanupSources(parametric=True, tuning=False)
     p.normalizeSources(parametric=True, tuning=False)

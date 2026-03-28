@@ -5,12 +5,19 @@
       "default": 10,
       "minimum": 5,
       "maximum": 17
+    },
+    "wght": {
+      "name": "Weight",
+      "default": 400,
+      "minimum": 400,
+      "maximum": 700
     }
   },
   "sources": {
     "opsz10": {
       "XOPQ": 85,
       "YOPQ": 31,
+      "XTRA": 305,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 179
@@ -18,6 +25,7 @@
     "opsz12": {
       "XOPQ": 78,
       "YOPQ": 29,
+      "XTRA": 303,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 137
@@ -25,6 +33,7 @@
     "opsz5": {
       "XOPQ": 105,
       "YOPQ": 45,
+      "XTRA": 380,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 223
@@ -32,6 +41,7 @@
     "opsz6": {
       "XOPQ": 99,
       "YOPQ": 40,
+      "XTRA": 354,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 186
@@ -39,6 +49,7 @@
     "opsz7": {
       "XOPQ": 94,
       "YOPQ": 36,
+      "XTRA": 335,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 167
@@ -46,6 +57,7 @@
     "opsz8": {
       "XOPQ": 91,
       "YOPQ": 33,
+      "XTRA": 321,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 146
@@ -53,6 +65,7 @@
     "opsz9": {
       "XOPQ": 89,
       "YOPQ": 31,
+      "XTRA": 309,
       "YTUC": 683,
       "YTLC": 422,
       "XTSP": 141

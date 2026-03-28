@@ -7,7 +7,7 @@ reload(xTools4.modules.measurements)
 import os, glob, json
 from xTools4.modules.measurements import extractMeasurements
 
-subFamilyName    = ['Roman', 'Italic', 'Sans'][0]
+subFamilyName    = ['Roman', 'Italic', 'Sans'][1]
 baseFolder       = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder    = os.path.join(baseFolder, 'Sources', subFamilyName, 'reference')
 measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
