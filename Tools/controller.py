@@ -39,11 +39,41 @@ class ComputerModernController(xProject):
             os.remove(self.blendsPath)
         shutil.copy(self.referenceBlendsPath, self.blendsPath)
 
-    def buildDesignspace(self, tuning=False, instances=False):
+    def patchBlendsFile(self):
+
+        # import blends data
+        with open(self.blendsPath, 'r', encoding='utf-8') as f:
+            blendsDict = json.load(f)
+
+        # import & apply patch data
+        patchPath = self.blendsPath.replace('.json', '_patch.json')
+        if not os.path.exists(patchPath):
+            return
+
+        with open(patchPath, 'r', encoding='utf-8') as f:
+            patchDict = json.load(f)
+
+        for key1, value1 in patchDict.items():
+            if key1 not in blendsDict:
+                print(f'{key1} not in blends dict')
+                continue
+            for key2, value2 in value1.items():
+                if key2 not in blendsDict[key1]:
+                    blendsDict[key1][key2] = {}
+                for k, v in value2.items():
+                    blendsDict[key1][key2][k] = v
+
+        # save patched blends data
+        with open(self.blendsPath, 'w', encoding='utf-8') as f:
+            json.dump(blendsDict, f, indent=2)
+
+    def buildDesignspace(self, patchBlends=True, tuning=False, instances=False):
         if self.verbose:
             print(f'building {os.path.split(self.designspacePath)[-1]}...')
 
         self.buildBlendsFile()
+        if patchBlends:
+            self.patchBlendsFile()
 
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
@@ -69,7 +99,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
 
     parametricAxes = {
         'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC'],
@@ -88,4 +118,4 @@ if __name__ == '__main__':
     
     # p.parametricAxes = parametricAxes[subFamily]
     # p.parametricAxesHidden = False
-    # p.buildDesignspace()
+    # p.buildDesignspace(patchBlends=False)

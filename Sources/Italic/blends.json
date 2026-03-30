@@ -4,13 +4,7 @@
       "name": "Optical size",
       "default": 10,
       "minimum": 5,
-      "maximum": 17
-    },
-    "wght": {
-      "name": "Weight",
-      "default": 400,
-      "minimum": 400,
-      "maximum": 700
+      "maximum": 12
     }
   },
   "sources": {
@@ -20,7 +14,7 @@
       "XTRA": 305,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 179
+      "XTSP": 178
     },
     "opsz12": {
       "XOPQ": 78,
@@ -28,7 +22,7 @@
       "XTRA": 303,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 137
+      "XTSP": 177
     },
     "opsz5": {
       "XOPQ": 105,
@@ -36,7 +30,7 @@
       "XTRA": 380,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 223
+      "XTSP": 260
     },
     "opsz6": {
       "XOPQ": 99,
@@ -44,7 +38,7 @@
       "XTRA": 354,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 186
+      "XTSP": 224
     },
     "opsz7": {
       "XOPQ": 94,
@@ -52,7 +46,7 @@
       "XTRA": 335,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 167
+      "XTSP": 206
     },
     "opsz8": {
       "XOPQ": 91,
@@ -60,7 +54,7 @@
       "XTRA": 321,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 146
+      "XTSP": 185
     },
     "opsz9": {
       "XOPQ": 89,
@@ -68,7 +62,7 @@
       "XTRA": 309,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 141
+      "XTSP": 181
     }
   }
 }

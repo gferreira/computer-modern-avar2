@@ -24,15 +24,14 @@ axes = {
       "name"    : "Optical size",
       "default" : 10,
       "minimum" : 5,
-      "maximum" : 17,
+      "maximum" : 17 if subFamilyName == 'Roman' else 12,
     },
-    "wght" : {
-      "name"    : "Weight",
-      "default" : 400,
-      "minimum" : 400,
-      "maximum" : 700,
-    },
-
+    # "wght" : {
+    #   "name"    : "Weight",
+    #   "default" : 400,
+    #   "minimum" : 400,
+    #   "maximum" : 700,
+    # },
 }
 
 # extract measurements from ComputerModernPS instances
