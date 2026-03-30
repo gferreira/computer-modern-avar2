@@ -24,7 +24,8 @@
       "XSHA": 103,
       "YSHA": 31,
       "XSVA": 25,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 79
     },
     "opsz10_wght700": {
       "XOPQ": 142,
@@ -36,7 +37,8 @@
       "XSHA": 108,
       "YSHA": 47,
       "XSVA": 47,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 0
     },
     "opsz12": {
       "XOPQ": 81,
@@ -48,7 +50,8 @@
       "XSHA": 95,
       "YSHA": 29,
       "XSVA": 22,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 75
     },
     "opsz12_wght700": {
       "XOPQ": 132,
@@ -60,7 +63,8 @@
       "XSHA": 106,
       "YSHA": 43,
       "XSVA": 42,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 0
     },
     "opsz17": {
       "XOPQ": 66,
@@ -72,7 +76,8 @@
       "XSHA": 80,
       "YSHA": 26,
       "XSVA": 18,
-      "YSVA": 195
+      "YSVA": 195,
+      "BRKT": 80
     },
     "opsz5": {
       "XOPQ": 106,
@@ -84,7 +89,8 @@
       "XSHA": 111,
       "YSHA": 44,
       "XSVA": 42,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 81
     },
     "opsz5_wght700": {
       "XOPQ": 156,
@@ -96,7 +102,8 @@
       "XSHA": 106,
       "YSHA": 67,
       "XSVA": 83,
-      "YSVA": 139
+      "YSVA": 139,
+      "BRKT": 0
     },
     "opsz6": {
       "XOPQ": 100,
@@ -108,7 +115,8 @@
       "XSHA": 106,
       "YSHA": 39,
       "XSVA": 37,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 80
     },
     "opsz6_wght700": {
       "XOPQ": 153,
@@ -120,7 +128,8 @@
       "XSHA": 106,
       "YSHA": 60,
       "XSVA": 71,
-      "YSVA": 167
+      "YSVA": 167,
+      "BRKT": 0
     },
     "opsz7": {
       "XOPQ": 95,
@@ -132,7 +141,8 @@
       "XSHA": 103,
       "YSHA": 36,
       "XSVA": 34,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 79
     },
     "opsz7_wght700": {
       "XOPQ": 151,
@@ -144,7 +154,8 @@
       "XSHA": 107,
       "YSHA": 56,
       "XSVA": 63,
-      "YSVA": 183
+      "YSVA": 183,
+      "BRKT": 0
     },
     "opsz8": {
       "XOPQ": 92,
@@ -156,7 +167,8 @@
       "XSHA": 101,
       "YSHA": 33,
       "XSVA": 31,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 79
     },
     "opsz8_wght700": {
       "XOPQ": 149,
@@ -168,7 +180,8 @@
       "XSHA": 108,
       "YSHA": 52,
       "XSVA": 56,
-      "YSVA": 191
+      "YSVA": 191,
+      "BRKT": 0
     },
     "opsz9": {
       "XOPQ": 90,
@@ -180,7 +193,8 @@
       "XSHA": 102,
       "YSHA": 31,
       "XSVA": 28,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 79
     },
     "opsz9_wght700": {
       "XOPQ": 145,
@@ -192,7 +206,8 @@
       "XSHA": 108,
       "YSHA": 49,
       "XSVA": 51,
-      "YSVA": 194
+      "YSVA": 194,
+      "BRKT": 0
     }
   }
 }

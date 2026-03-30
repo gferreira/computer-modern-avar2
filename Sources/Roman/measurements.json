@@ -287,6 +287,15 @@
       "point 2": 18,
       "parent": "XTSP",
       "description": ""
+    },
+    "BRKT": {
+      "direction": "x",
+      "glyph 1": "H",
+      "point 1": 70,
+      "glyph 2": "H",
+      "point 2": 67,
+      "parent": null,
+      "description": null
     }
   },
   "glyphs": {
@@ -321,6 +330,14 @@
         "name": "XOPQ",
         "direction": "x"
       },
+      "27 12": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "6 33": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
       "22 30": {
         "name": "XTRA",
         "direction": "x"
@@ -336,14 +353,6 @@
       "9 99": {
         "name": "XTSP",
         "direction": "x"
-      },
-      "27 12": {
-        "name": "YOPQ",
-        "direction": "y"
-      },
-      "6 33": {
-        "name": "YOPQ",
-        "direction": "y"
       }
     },
     "O": {},
