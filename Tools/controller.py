@@ -111,11 +111,11 @@ if __name__ == '__main__':
     # p.printSettings()
     # p.createParametricSources(['YTUC', 'YTLC'])
 
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     
-    # p.parametricAxes = parametricAxes[subFamily]
-    # p.parametricAxesHidden = False
-    # p.buildDesignspace(patchBlends=False)
+    p.parametricAxes = parametricAxes[subFamily]
+    p.parametricAxesHidden = False
+    p.buildDesignspace(patchBlends=False)

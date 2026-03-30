@@ -84,6 +84,18 @@
             </div>
           </div>
 
+          <div class="row">
+            <div class="col-4">
+              <label for="fontstyle" class="form-label"><small>font style</small></label>
+            </div>
+            <div class="col-8">
+              <select id="fontstyle" class="form-select-sm w-100" aria-label="select style">
+                <option value="roman" selected>Roman</option>
+                <option value="italic">Italic</option>
+              </select>
+            </div>
+          </div>
+
           <hr/>
 
           <!-- text properties -->
@@ -185,10 +197,11 @@
         lineheight_slider   = document.getElementById("lineheight");
         columns_slider      = document.getElementById("columns");
         colormode_selector  = document.getElementById("colormode");
+        fontstyle_selector  = document.getElementById("fontstyle");
         font_samples        = document.querySelectorAll(".sample");
         axis_sliders        = document.querySelectorAll('.axis')
-        sample_1       = document.getElementById('sample_1')
-        sample_2        = document.getElementById('sample_2')
+        sample_1            = document.getElementById('sample_1')
+        sample_2            = document.getElementById('sample_2')
 
         // define UI behavior
 
@@ -225,6 +238,17 @@
           }
         }
 
+        function fontstyle_changed() {
+          var fontstyle = fontstyle_selector.value;
+          if (fontstyle == 'italic') {
+            $('.sample').removeClass('_roman');
+            $('.sample').addClass('_italic');
+          } else {
+            $('.sample').removeClass('_italic');
+            $('.sample').addClass('_roman');
+          }
+        }
+
         function colormode_changed() {
           var colormode = colormode_selector.value;
           if (colormode == 'dark') {
@@ -240,6 +264,7 @@
         lineheight_slider.addEventListener('input', lineheight_slider_changed)
         columns_slider.addEventListener('input', columns_slider_changed)
         colormode_selector.addEventListener('input', colormode_changed)
+        fontstyle_selector.addEventListener('input', fontstyle_changed)
 
         axis_sliders.forEach(function(slider) {
           slider.addEventListener('input', axis_sliders_changed)
