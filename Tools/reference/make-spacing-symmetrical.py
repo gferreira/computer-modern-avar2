@@ -7,14 +7,19 @@ sourcesFolder = os.path.join(baseFolder, 'Sources', 'Italic', 'reference')
 
 assert os.path.exists(sourcesFolder)
 
+angled = False
+
 ufoPaths = glob.glob(f'{sourcesFolder}/*.ufo')
 
 for ufoPath in ufoPaths:
     f = OpenFont(ufoPath, showInterface=False)
     glyph = f['H']
-    bothMargins = glyph.angledLeftMargin + glyph.angledRightMargin
-    newMargin = bothMargins / 2
-    shiftX = newMargin - glyph.angledLeftMargin
+    if angled:
+        bothMargins = glyph.angledLeftMargin + glyph.angledRightMargin
+        shiftX = bothMargins / 2 - glyph.angledLeftMargin
+    else:
+        bothMargins = glyph.leftMargin + glyph.rightMargin
+        shiftX = bothMargins / 2 - glyph.leftMargin
 
     print(f'shifting all glyphs in {os.path.splitext(os.path.split(ufoPath)[-1])[0]} by {shiftX}...')
 
