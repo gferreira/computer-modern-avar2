@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.1">
   <axes>
-    <axis tag="opsz" name="Optical size" minimum="5" maximum="12" default="10"/>
+    <axis tag="opsz" name="Optical size" minimum="5" maximum="12" default="12"/>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="304"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31"/>

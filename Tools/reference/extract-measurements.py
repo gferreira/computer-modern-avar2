@@ -7,7 +7,7 @@ reload(xTools4.modules.measurements)
 import os, glob, json
 from xTools4.modules.measurements import extractMeasurements
 
-subFamilyName    = ['Roman', 'Italic', 'Sans'][0]
+subFamilyName    = ['Roman', 'Italic', 'Sans'][1]
 baseFolder       = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder    = os.path.join(baseFolder, 'Sources', subFamilyName, 'reference')
 measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
@@ -26,7 +26,7 @@ parametricAxes = {
 axes = {
     "opsz" : {
       "name"    : "Optical size",
-      "default" : 10,
+      "default" : 12,
       "minimum" : 5,
       "maximum" : 17 if subFamilyName == 'Roman' else 12,
     },
