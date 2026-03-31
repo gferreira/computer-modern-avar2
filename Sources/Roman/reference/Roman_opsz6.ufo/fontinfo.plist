@@ -3,13 +3,13 @@
 <plist version="1.0">
 	<dict>
 		<key>ascender</key>
-		<integer>750</integer>
+		<integer>1500</integer>
 		<key>capHeight</key>
-		<integer>750</integer>
+		<integer>1366</integer>
 		<key>copyright</key>
 		<string>Copyright \050c\051 1997, 2009 American Mathematical Society \050&lt;http://www.ams.org&gt;\051, with Reserved Font Name CMR6.</string>
 		<key>descender</key>
-		<integer>-250</integer>
+		<integer>-500</integer>
 		<key>familyName</key>
 		<string>Computer Modern</string>
 		<key>guidelines</key>
@@ -21,14 +21,14 @@
 		<real>0.04379</real>
 		<key>postscriptBlueValues</key>
 		<array>
-			<integer>-21</integer>
+			<integer>-42</integer>
 			<integer>0</integer>
-			<integer>431</integer>
-			<integer>446</integer>
-			<integer>665</integer>
-			<integer>675</integer>
-			<integer>683</integer>
-			<integer>704</integer>
+			<integer>862</integer>
+			<integer>892</integer>
+			<integer>1330</integer>
+			<integer>1350</integer>
+			<integer>1366</integer>
+			<integer>1408</integer>
 		</array>
 		<key>postscriptFamilyBlues</key>
 		<array>
@@ -44,32 +44,32 @@
 		<string>CMR6</string>
 		<key>postscriptOtherBlues</key>
 		<array>
-			<integer>-205</integer>
-			<integer>-194</integer>
+			<integer>-410</integer>
+			<integer>-388</integer>
 		</array>
 		<key>postscriptStemSnapH</key>
 		<array>
-			<integer>32</integer>
-			<integer>39</integer>
+			<integer>64</integer>
+			<integer>78</integer>
 		</array>
 		<key>postscriptStemSnapV</key>
 		<array>
-			<integer>83</integer>
-			<integer>100</integer>
+			<integer>166</integer>
+			<integer>200</integer>
 		</array>
 		<key>postscriptUnderlinePosition</key>
-		<integer>-100</integer>
+		<integer>-200</integer>
 		<key>postscriptUnderlineThickness</key>
-		<integer>50</integer>
+		<integer>100</integer>
 		<key>postscriptWeightName</key>
 		<string>Medium</string>
 		<key>unitsPerEm</key>
-		<integer>1000</integer>
+		<integer>2000</integer>
 		<key>versionMajor</key>
 		<integer>3</integer>
 		<key>versionMinor</key>
 		<integer>2</integer>
 		<key>xHeight</key>
-		<integer>500</integer>
+		<integer>862</integer>
 	</dict>
 </plist>

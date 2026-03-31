@@ -20,10 +20,14 @@
         <output>
           <dimension name="XOPQ" xvalue="85"/>
           <dimension name="YOPQ" xvalue="31"/>
-          <dimension name="XTRA" xvalue="305"/>
+          <dimension name="XTRA" xvalue="304"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="135"/>
+          <dimension name="XTSP" xvalue="147"/>
+          <dimension name="XSHA" xvalue="101"/>
+          <dimension name="YSHA" xvalue="31"/>
+          <dimension name="XSVA" xvalue="22"/>
+          <dimension name="YSVA" xvalue="225"/>
         </output>
       </mapping>
       <mapping description="opsz12">
@@ -36,7 +40,11 @@
           <dimension name="XTRA" xvalue="303"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="91"/>
+          <dimension name="XTSP" xvalue="145"/>
+          <dimension name="XSHA" xvalue="94"/>
+          <dimension name="YSHA" xvalue="29"/>
+          <dimension name="XSVA" xvalue="21"/>
+          <dimension name="YSVA" xvalue="223"/>
         </output>
       </mapping>
       <mapping description="opsz5">
@@ -49,7 +57,11 @@
           <dimension name="XTRA" xvalue="380"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="175"/>
+          <dimension name="XTSP" xvalue="229"/>
+          <dimension name="XSHA" xvalue="110"/>
+          <dimension name="YSHA" xvalue="45"/>
+          <dimension name="XSVA" xvalue="40"/>
+          <dimension name="YSVA" xvalue="239"/>
         </output>
       </mapping>
       <mapping description="opsz6">
@@ -57,12 +69,16 @@
           <dimension name="Optical size" xvalue="6"/>
         </input>
         <output>
-          <dimension name="XOPQ" xvalue="99"/>
+          <dimension name="XOPQ" xvalue="98"/>
           <dimension name="YOPQ" xvalue="40"/>
           <dimension name="XTRA" xvalue="354"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="139"/>
+          <dimension name="XTSP" xvalue="192"/>
+          <dimension name="XSHA" xvalue="106"/>
+          <dimension name="YSHA" xvalue="40"/>
+          <dimension name="XSVA" xvalue="36"/>
+          <dimension name="YSVA" xvalue="234"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -75,7 +91,11 @@
           <dimension name="XTRA" xvalue="335"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="120"/>
+          <dimension name="XTSP" xvalue="174"/>
+          <dimension name="XSHA" xvalue="102"/>
+          <dimension name="YSHA" xvalue="36"/>
+          <dimension name="XSVA" xvalue="32"/>
+          <dimension name="YSVA" xvalue="230"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -83,12 +103,16 @@
           <dimension name="Optical size" xvalue="8"/>
         </input>
         <output>
-          <dimension name="XOPQ" xvalue="91"/>
+          <dimension name="XOPQ" xvalue="90"/>
           <dimension name="YOPQ" xvalue="33"/>
           <dimension name="XTRA" xvalue="321"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="99"/>
+          <dimension name="XTSP" xvalue="153"/>
+          <dimension name="XSHA" xvalue="100"/>
+          <dimension name="YSHA" xvalue="33"/>
+          <dimension name="XSVA" xvalue="30"/>
+          <dimension name="YSVA" xvalue="227"/>
         </output>
       </mapping>
       <mapping description="opsz9">
@@ -101,7 +125,11 @@
           <dimension name="XTRA" xvalue="309"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="422"/>
-          <dimension name="XTSP" xvalue="95"/>
+          <dimension name="XTSP" xvalue="150"/>
+          <dimension name="XSHA" xvalue="100"/>
+          <dimension name="YSHA" xvalue="31"/>
+          <dimension name="XSVA" xvalue="26"/>
+          <dimension name="YSVA" xvalue="225"/>
         </output>
       </mapping>
     </mappings>

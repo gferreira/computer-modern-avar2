@@ -11,10 +11,14 @@
     "opsz10": {
       "XOPQ": 85,
       "YOPQ": 31,
-      "XTRA": 305,
+      "XTRA": 304,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 135
+      "XTSP": 147,
+      "XSHA": 101,
+      "YSHA": 31,
+      "XSVA": 22,
+      "YSVA": 225
     },
     "opsz12": {
       "XOPQ": 78,
@@ -22,7 +26,11 @@
       "XTRA": 303,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 91
+      "XTSP": 145,
+      "XSHA": 94,
+      "YSHA": 29,
+      "XSVA": 21,
+      "YSVA": 223
     },
     "opsz5": {
       "XOPQ": 105,
@@ -30,15 +38,23 @@
       "XTRA": 380,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 175
+      "XTSP": 229,
+      "XSHA": 110,
+      "YSHA": 45,
+      "XSVA": 40,
+      "YSVA": 239
     },
     "opsz6": {
-      "XOPQ": 99,
+      "XOPQ": 98,
       "YOPQ": 40,
       "XTRA": 354,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 139
+      "XTSP": 192,
+      "XSHA": 106,
+      "YSHA": 40,
+      "XSVA": 36,
+      "YSVA": 234
     },
     "opsz7": {
       "XOPQ": 94,
@@ -46,15 +62,23 @@
       "XTRA": 335,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 120
+      "XTSP": 174,
+      "XSHA": 102,
+      "YSHA": 36,
+      "XSVA": 32,
+      "YSVA": 230
     },
     "opsz8": {
-      "XOPQ": 91,
+      "XOPQ": 90,
       "YOPQ": 33,
       "XTRA": 321,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 99
+      "XTSP": 153,
+      "XSHA": 100,
+      "YSHA": 33,
+      "XSVA": 30,
+      "YSVA": 227
     },
     "opsz9": {
       "XOPQ": 89,
@@ -62,7 +86,11 @@
       "XTRA": 309,
       "YTUC": 683,
       "YTLC": 422,
-      "XTSP": 95
+      "XTSP": 150,
+      "XSHA": 100,
+      "YSHA": 31,
+      "XSVA": 26,
+      "YSVA": 225
     }
   }
 }

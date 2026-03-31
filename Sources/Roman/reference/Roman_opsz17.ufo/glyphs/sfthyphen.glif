@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sfthyphen" format="2">
-	<advance width="150"/>
+	<advance width="300"/>
 	<outline>
 		<contour>
-			<point x="255" y="193" type="line"/>
-			<point x="255" y="237" type="line"/>
-			<point x="4" y="237" type="line"/>
-			<point x="4" y="193" type="line"/>
+			<point x="510" y="386" type="line"/>
+			<point x="510" y="474" type="line"/>
+			<point x="8" y="474" type="line"/>
+			<point x="8" y="386" type="line"/>
 		</contour>
 	</outline>
 </glyph>

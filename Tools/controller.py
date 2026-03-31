@@ -35,6 +35,8 @@ class ComputerModernController(xProject):
         return os.path.join(self.sourcesFolder, 'reference', self.blendsFile)
 
     def buildBlendsFile(self):
+        if self.verbose:
+            print('\tbuilding blends file...')
         if os.path.exists(self.blendsPath):
             os.remove(self.blendsPath)
         shutil.copy(self.referenceBlendsPath, self.blendsPath)
@@ -111,11 +113,11 @@ if __name__ == '__main__':
     # p.printSettings()
     # p.createParametricSources(['BRKT'], minSource=True, maxSource=False)
 
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     
-    # p.parametricAxes = parametricAxes[subFamily]
-    # p.parametricAxesHidden = False
-    # p.buildDesignspace(patchBlends=False)
+    p.parametricAxes = parametricAxes[subFamily]
+    p.parametricAxesHidden = False
+    p.buildDesignspace(patchBlends=False)

@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="oslash" format="2">
 	<unicode hex="00F8"/>
-	<advance width="612"/>
+	<advance width="1224"/>
 	<outline>
 		<contour>
-			<point x="112" y="-109" type="line"/>
-			<point x="190" y="10" type="line"/>
-			<point x="227" y="-2"/>
-			<point x="266" y="-7"/>
-			<point x="306" y="-7" type="curve" smooth="yes"/>
-			<point x="492" y="-7"/>
-			<point x="578" y="100"/>
-			<point x="578" y="218" type="curve" smooth="yes"/>
-			<point x="578" y="291"/>
-			<point x="546" y="374"/>
-			<point x="462" y="419" type="curve"/>
-			<point x="534" y="530" type="line"/>
-			<point x="500" y="554" type="line"/>
-			<point x="423" y="437" type="line"/>
-			<point x="369" y="455"/>
-			<point x="319" y="455"/>
-			<point x="306" y="455" type="curve" smooth="yes"/>
-			<point x="122" y="455"/>
-			<point x="34" y="343"/>
-			<point x="34" y="218" type="curve" smooth="yes"/>
-			<point x="34" y="150"/>
-			<point x="64" y="71"/>
-			<point x="151" y="26" type="curve"/>
-			<point x="78" y="-85" type="line"/>
+			<point x="224" y="-218" type="line"/>
+			<point x="380" y="20" type="line"/>
+			<point x="454" y="-4"/>
+			<point x="532" y="-14"/>
+			<point x="612" y="-14" type="curve" smooth="yes"/>
+			<point x="984" y="-14"/>
+			<point x="1156" y="200"/>
+			<point x="1156" y="436" type="curve" smooth="yes"/>
+			<point x="1156" y="582"/>
+			<point x="1092" y="748"/>
+			<point x="924" y="838" type="curve"/>
+			<point x="1068" y="1060" type="line"/>
+			<point x="1000" y="1108" type="line"/>
+			<point x="846" y="874" type="line"/>
+			<point x="738" y="910"/>
+			<point x="638" y="910"/>
+			<point x="612" y="910" type="curve" smooth="yes"/>
+			<point x="244" y="910"/>
+			<point x="68" y="686"/>
+			<point x="68" y="436" type="curve" smooth="yes"/>
+			<point x="68" y="300"/>
+			<point x="128" y="142"/>
+			<point x="302" y="52" type="curve"/>
+			<point x="156" y="-170" type="line"/>
 		</contour>
 		<contour>
-			<point x="306" y="35" type="curve" smooth="yes"/>
-			<point x="295" y="35"/>
-			<point x="253" y="35"/>
-			<point x="220" y="54" type="curve"/>
-			<point x="425" y="364" type="line"/>
-			<point x="455" y="327"/>
-			<point x="456" y="277"/>
-			<point x="456" y="219" type="curve" smooth="yes"/>
-			<point x="456" y="170.86692"/>
-			<point x="456" y="109.8984195552"/>
-			<point x="417.8950461079" y="71.6591222982" type="curve" smooth="yes"/>
-			<point x="395.833966665" y="49.5202640012"/>
-			<point x="361.0005" y="35"/>
+			<point x="612" y="70" type="curve" smooth="yes"/>
+			<point x="590" y="70"/>
+			<point x="506" y="70"/>
+			<point x="440" y="108" type="curve"/>
+			<point x="850" y="728" type="line"/>
+			<point x="910" y="654"/>
+			<point x="912" y="554"/>
+			<point x="912" y="438" type="curve" smooth="yes"/>
+			<point x="912" y="342"/>
+			<point x="912" y="220"/>
+			<point x="836" y="143" type="curve" smooth="yes"/>
+			<point x="792" y="99"/>
+			<point x="722" y="70"/>
 		</contour>
 		<contour>
-			<point x="186" y="80" type="line"/>
-			<point x="156" y="117"/>
-			<point x="156" y="171"/>
-			<point x="156" y="219" type="curve" smooth="yes"/>
-			<point x="156" y="268.14692"/>
-			<point x="156" y="334.8574877338"/>
-			<point x="196.5638717143" y="375.8635733728" type="curve" smooth="yes"/>
-			<point x="218.727313335" y="398.2686335098"/>
-			<point x="253.0005" y="413"/>
-			<point x="306" y="413" type="curve" smooth="yes"/>
-			<point x="357" y="413"/>
-			<point x="390" y="395"/>
-			<point x="393" y="393" type="curve"/>
+			<point x="372" y="160" type="line"/>
+			<point x="312" y="234"/>
+			<point x="312" y="342"/>
+			<point x="312" y="438" type="curve" smooth="yes"/>
+			<point x="312" y="536"/>
+			<point x="312" y="670"/>
+			<point x="393" y="752" type="curve" smooth="yes"/>
+			<point x="437" y="797"/>
+			<point x="506" y="826"/>
+			<point x="612" y="826" type="curve" smooth="yes"/>
+			<point x="714" y="826"/>
+			<point x="780" y="790"/>
+			<point x="786" y="786" type="curve"/>
 		</contour>
 	</outline>
 </glyph>
