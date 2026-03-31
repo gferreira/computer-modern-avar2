@@ -26,7 +26,7 @@ parametricAxes = {
 axes = {
     "opsz" : {
       "name"    : "Optical size",
-      "default" : 12,
+      "default" : 10,
       "minimum" : 5,
       "maximum" : 17 if subFamilyName == 'Roman' else 12,
     },

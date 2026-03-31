@@ -113,11 +113,11 @@ if __name__ == '__main__':
     # p.printSettings()
     # p.createParametricSources(['BRKT'], minSource=True, maxSource=False)
 
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=False)
     
-    p.parametricAxes = parametricAxes[subFamily]
-    p.parametricAxesHidden = False
-    p.buildDesignspace(patchBlends=False)
+    # p.parametricAxes = parametricAxes[subFamily]
+    # p.parametricAxesHidden = False
+    # p.buildDesignspace(patchBlends=False)
