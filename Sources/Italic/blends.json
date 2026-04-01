@@ -2,7 +2,7 @@
   "axes": {
     "opsz": {
       "name": "Optical size",
-      "default": 12,
+      "default": 10,
       "minimum": 5,
       "maximum": 12
     }
@@ -12,85 +12,71 @@
       "XOPQ": 85,
       "YOPQ": 31,
       "XTRA": 304,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 147,
+      "XTSP": 178,
       "XSHA": 101,
       "YSHA": 31,
-      "XSVA": 22,
-      "YSVA": 225
+      "XSVA": 25,
+      "YSVA": 194
     },
     "opsz12": {
       "XOPQ": 78,
       "YOPQ": 29,
       "XTRA": 303,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 145,
+      "XTSP": 176,
       "XSHA": 94,
       "YSHA": 29,
-      "XSVA": 21,
-      "YSVA": 223
+      "XSVA": 22,
+      "YSVA": 194
     },
     "opsz5": {
       "XOPQ": 105,
       "YOPQ": 45,
       "XTRA": 380,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 229,
+      "XTSP": 260,
       "XSHA": 110,
       "YSHA": 45,
-      "XSVA": 40,
-      "YSVA": 239
+      "XSVA": 43,
+      "YSVA": 194
     },
     "opsz6": {
       "XOPQ": 98,
       "YOPQ": 40,
       "XTRA": 354,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 192,
+      "XTSP": 224,
       "XSHA": 106,
       "YSHA": 40,
-      "XSVA": 36,
-      "YSVA": 234
+      "XSVA": 38,
+      "YSVA": 194
     },
     "opsz7": {
       "XOPQ": 94,
       "YOPQ": 36,
       "XTRA": 335,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 174,
+      "XTSP": 206,
       "XSHA": 102,
       "YSHA": 36,
-      "XSVA": 32,
-      "YSVA": 230
+      "XSVA": 35,
+      "YSVA": 194
     },
     "opsz8": {
       "XOPQ": 90,
       "YOPQ": 33,
       "XTRA": 321,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 153,
+      "XTSP": 184,
       "XSHA": 100,
       "YSHA": 33,
-      "XSVA": 30,
-      "YSVA": 227
+      "XSVA": 32,
+      "YSVA": 194
     },
     "opsz9": {
       "XOPQ": 89,
       "YOPQ": 31,
       "XTRA": 309,
-      "YTUC": 683,
-      "YTLC": 422,
-      "XTSP": 150,
+      "XTSP": 181,
       "XSHA": 100,
       "YSHA": 31,
-      "XSVA": 26,
-      "YSVA": 225
+      "XSVA": 30,
+      "YSVA": 194
     }
   }
 }

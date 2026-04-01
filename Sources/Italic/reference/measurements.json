@@ -209,19 +209,19 @@
     },
     "XSVA": {
       "direction": "x",
-      "glyph 1": "E",
-      "point 1": 68,
-      "glyph 2": "E",
-      "point 2": 74,
+      "glyph 1": "T",
+      "point 1": "61",
+      "glyph 2": "T",
+      "point 2": "70",
       "parent": "",
       "description": ""
     },
     "YSVA": {
       "direction": "y",
-      "glyph 1": "E",
-      "point 1": "71",
-      "glyph 2": "E",
-      "point 2": "80",
+      "glyph 1": "T",
+      "point 1": "67",
+      "glyph 2": "T",
+      "point 2": "73",
       "parent": "",
       "description": ""
     }
@@ -551,54 +551,6 @@
       "17 99": {
         "name": "XUCS",
         "direction": "x"
-      },
-      "6 0": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "84 93": {
-        "name": "XSHU",
-        "direction": "x"
-      },
-      "87 81": {
-        "name": "YSHU",
-        "direction": "y"
-      },
-      "9 3": {
-        "name": "YSHU",
-        "direction": "y"
-      },
-      "68 74": {
-        "name": "XSVU",
-        "direction": "x"
-      },
-      "23 14": {
-        "name": "XSVU",
-        "direction": "x"
-      },
-      "51 45": {
-        "name": "XSVU",
-        "direction": "x"
-      },
-      "38 44": {
-        "name": "XSVU",
-        "direction": "x"
-      },
-      "71 80": {
-        "name": "YSVU",
-        "direction": "y"
-      },
-      "10 20": {
-        "name": "YSVU",
-        "direction": "y"
-      },
-      "41 32": {
-        "name": "YSVU",
-        "direction": "y"
-      },
-      "54 48": {
-        "name": "YSVU",
-        "direction": "y"
       }
     },
     "D": {},
@@ -747,6 +699,7 @@
     "arrowrightbothalf": {},
     "seven": {},
     "A": {},
-    "F": {}
+    "F": {},
+    "S": {}
   }
 }

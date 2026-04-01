@@ -17,8 +17,8 @@ assert os.path.exists(sourcesFolder)
 assert os.path.exists(measurementsPath)
 
 parametricAxes = {
-    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'BRKT'],
-    'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC'],
+    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT'], # 'YTUC', 'YTLC'
+    'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', ], # 'YTUC', 'YTLC'
 }
 
 # define blended axes
