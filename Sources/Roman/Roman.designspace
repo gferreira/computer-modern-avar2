@@ -5,13 +5,14 @@
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="89"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="96" default="31"/>
     <axis tag="XTSP" name="XTSP" minimum="109" maximum="186" default="136"/>
     <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="103"/>
     <axis tag="YSHA" name="YSHA" minimum="2" maximum="131" default="31"/>
     <axis tag="XSVA" name="XSVA" minimum="0" maximum="95" default="25"/>
     <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
     <axis tag="BRKT" name="BRKT" minimum="0" maximum="79" default="79"/>
+    <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -27,6 +28,7 @@
           <dimension name="XSVA" xvalue="25"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
       <mapping description="opsz10_wght700">
@@ -44,6 +46,7 @@
           <dimension name="XSVA" xvalue="47"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
       <mapping description="opsz12">
@@ -60,6 +63,7 @@
           <dimension name="XSVA" xvalue="22"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="75"/>
+          <dimension name="CUPS" xvalue="2"/>
         </output>
       </mapping>
       <mapping description="opsz12_wght700">
@@ -77,6 +81,7 @@
           <dimension name="XSVA" xvalue="42"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="2"/>
         </output>
       </mapping>
       <mapping description="opsz17">
@@ -93,6 +98,7 @@
           <dimension name="XSVA" xvalue="18"/>
           <dimension name="YSVA" xvalue="195"/>
           <dimension name="BRKT" xvalue="80"/>
+          <dimension name="CUPS" xvalue="2"/>
         </output>
       </mapping>
       <mapping description="opsz5">
@@ -109,6 +115,7 @@
           <dimension name="XSVA" xvalue="42"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="81"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz5_wght700">
@@ -126,6 +133,7 @@
           <dimension name="XSVA" xvalue="83"/>
           <dimension name="YSVA" xvalue="139"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz6">
@@ -142,6 +150,7 @@
           <dimension name="XSVA" xvalue="37"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="80"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz6_wght700">
@@ -159,6 +168,7 @@
           <dimension name="XSVA" xvalue="71"/>
           <dimension name="YSVA" xvalue="167"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -175,6 +185,7 @@
           <dimension name="XSVA" xvalue="34"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz7_wght700">
@@ -192,6 +203,7 @@
           <dimension name="XSVA" xvalue="63"/>
           <dimension name="YSVA" xvalue="183"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="4"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -208,6 +220,7 @@
           <dimension name="XSVA" xvalue="31"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght700">
@@ -225,6 +238,7 @@
           <dimension name="XSVA" xvalue="56"/>
           <dimension name="YSVA" xvalue="191"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
       <mapping description="opsz9">
@@ -241,6 +255,7 @@
           <dimension name="XSVA" xvalue="28"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
       <mapping description="opsz9_wght700">
@@ -258,6 +273,7 @@
           <dimension name="XSVA" xvalue="51"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
+          <dimension name="CUPS" xvalue="3"/>
         </output>
       </mapping>
     </mappings>
@@ -274,6 +290,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -287,6 +304,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -300,6 +318,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -313,6 +332,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -326,19 +346,21 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
-    <source filename="Roman_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
+    <source filename="Roman_YOPQ96.ufo" familyname="Computer Modern" stylename="YOPQ96">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
-        <dimension name="YOPQ" xvalue="95"/>
+        <dimension name="YOPQ" xvalue="96"/>
         <dimension name="XTSP" xvalue="136"/>
         <dimension name="XSHA" xvalue="103"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -352,6 +374,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XTSP186.ufo" familyname="Computer Modern" stylename="XTSP186">
@@ -365,6 +388,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XTSP109.ufo" familyname="Computer Modern" stylename="XTSP109">
@@ -378,6 +402,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XSHA145.ufo" familyname="Computer Modern" stylename="XSHA145">
@@ -391,6 +416,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XSHA0.ufo" familyname="Computer Modern" stylename="XSHA0">
@@ -404,6 +430,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_YSHA131.ufo" familyname="Computer Modern" stylename="YSHA131">
@@ -417,6 +444,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
@@ -430,6 +458,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XSVA0.ufo" familyname="Computer Modern" stylename="XSVA0">
@@ -443,6 +472,7 @@
         <dimension name="XSVA" xvalue="0"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_XSVA95.ufo" familyname="Computer Modern" stylename="XSVA95">
@@ -456,6 +486,7 @@
         <dimension name="XSVA" xvalue="95"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
@@ -469,6 +500,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="0"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
@@ -482,6 +514,7 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="254"/>
         <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
       </location>
     </source>
     <source filename="Roman_BRKT0.ufo" familyname="Computer Modern" stylename="BRKT0">
@@ -495,6 +528,35 @@
         <dimension name="XSVA" xvalue="25"/>
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="BRKT" xvalue="0"/>
+        <dimension name="CUPS" xvalue="3"/>
+      </location>
+    </source>
+    <source filename="Roman_CUPS0.ufo" familyname="Computer Modern" stylename="CUPS0">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="Roman_CUPS8.ufo" familyname="Computer Modern" stylename="CUPS8">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="8"/>
       </location>
     </source>
   </sources>

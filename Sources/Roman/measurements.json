@@ -296,6 +296,15 @@
       "point 2": 67,
       "parent": null,
       "description": null
+    },
+    "CUPS": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 0,
+      "glyph 2": "H",
+      "point 2": 3,
+      "parent": null,
+      "description": null
     }
   },
   "glyphs": {
@@ -423,6 +432,22 @@
       "30 27": {
         "name": "BRKT",
         "direction": "x"
+      },
+      "0 3": {
+        "name": "CUPS",
+        "direction": "y"
+      },
+      "19 22": {
+        "name": "CUPS",
+        "direction": "y"
+      },
+      "58 61": {
+        "name": "CUPS",
+        "direction": "y"
+      },
+      "39 42": {
+        "name": "CUPS",
+        "direction": "y"
       }
     },
     "D": {
@@ -690,6 +715,14 @@
         "name": "XSHA",
         "direction": "x"
       },
+      "37 41": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "25 29": {
+        "name": "XSHA",
+        "direction": "x"
+      },
       "29 30": {
         "name": "YSHA",
         "direction": "y"
@@ -705,14 +738,6 @@
       "37 36": {
         "name": "YSHA",
         "direction": "y"
-      },
-      "37 41": {
-        "name": "XSHA",
-        "direction": "x"
-      },
-      "25 29": {
-        "name": "XSHA",
-        "direction": "x"
       },
       "14 17": {
         "name": "BRKT",
@@ -787,15 +812,23 @@
         "name": "XTRA",
         "direction": "x"
       },
-      "12 16": {
+      "-1 1": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "39 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "16 12": {
         "name": "XSHA",
         "direction": "x"
       },
-      "24 28": {
+      "28 24": {
         "name": "XSHA",
         "direction": "x"
       },
-      "16 17": {
+      "17 16": {
         "name": "YSHA",
         "direction": "y"
       },
@@ -815,15 +848,15 @@
         "name": "YSVA",
         "direction": "y"
       },
-      "35 38": {
+      "38 35": {
         "name": "YSVA",
         "direction": "y"
       },
-      "12 15": {
+      "15 12": {
         "name": "BRKT",
         "direction": "x"
       },
-      "25 28": {
+      "28 25": {
         "name": "BRKT",
         "direction": "x"
       }
@@ -842,6 +875,153 @@
         "name": "XTSP",
         "direction": "x"
       }
-    }
+    },
+    "T.YSVA0": {
+      "12 28": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "5 0": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "35 40": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "2 11": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "29 38": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "-1 1": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "39 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "16 12": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "28 24": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "17 16": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "23 24": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSVA",
+        "direction": "x"
+      },
+      "38 39": {
+        "name": "XSVA",
+        "direction": "x"
+      },
+      "2 5": {
+        "name": "YSVA",
+        "direction": "y"
+      },
+      "38 35": {
+        "name": "YSVA",
+        "direction": "y"
+      },
+      "15 12": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "28 25": {
+        "name": "BRKT",
+        "direction": "x"
+      }
+    },
+    "Psi": {},
+    "ffl": {},
+    "ae": {},
+    "T.XSVA0": {
+      "12 28": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "5 0": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "35 40": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "2 11": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "29 38": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "-1 1": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "39 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "16 12": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "28 24": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "17 16": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "23 24": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "1 2": {
+        "name": "XSVA",
+        "direction": "x"
+      },
+      "38 39": {
+        "name": "XSVA",
+        "direction": "x"
+      },
+      "2 5": {
+        "name": "YSVA",
+        "direction": "y"
+      },
+      "38 35": {
+        "name": "YSVA",
+        "direction": "y"
+      },
+      "15 12": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "28 25": {
+        "name": "BRKT",
+        "direction": "x"
+      }
+    },
+    "oe": {},
+    "R": {},
+    "z": {},
+    "A": {}
   }
 }

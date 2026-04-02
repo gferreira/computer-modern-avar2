@@ -101,23 +101,23 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT'], # 'YTUC', 'YTLC'
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT', 'CUPS'], # 'YTUC', 'YTLC'
         'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA'], # 'YTUC', 'YTLC'
     }
 
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
 
     # p.printSettings()
-    # p.createParametricSources(['BRKT'], minSource=True, maxSource=False)
+    # p.createParametricSources(['CUPS'], minSource=True, maxSource=True)
 
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     
-    p.parametricAxes = parametricAxes[subFamily]
-    p.parametricAxesHidden = False
-    p.buildDesignspace(patchBlends=False)
+    # p.parametricAxes = parametricAxes[subFamily]
+    # p.parametricAxesHidden = False
+    # p.buildDesignspace(patchBlends=False)

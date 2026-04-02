@@ -7,7 +7,7 @@ reload(xTools4.modules.measurements)
 import os, glob, json
 from xTools4.modules.measurements import extractMeasurements
 
-subFamilyName    = ['Roman', 'Italic', 'Sans'][1]
+subFamilyName    = ['Roman', 'Italic', 'Sans'][0]
 baseFolder       = os.path.dirname(os.path.dirname(os.getcwd()))
 sourcesFolder    = os.path.join(baseFolder, 'Sources', subFamilyName, 'reference')
 measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
@@ -17,7 +17,7 @@ assert os.path.exists(sourcesFolder)
 assert os.path.exists(measurementsPath)
 
 parametricAxes = {
-    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT'], # 'YTUC', 'YTLC'
+    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT', 'CUPS'], # 'YTUC', 'YTLC'
     'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', ], # 'YTUC', 'YTLC'
 }
 
