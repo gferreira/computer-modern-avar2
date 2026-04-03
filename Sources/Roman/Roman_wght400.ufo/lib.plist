@@ -16,6 +16,17 @@
 			<string>n</string>
 			<string>o</string>
 			<string>v</string>
+			<string>d</string>
+			<string>p</string>
+			<string>zero</string>
+			<string>one</string>
+		</array>
+		<key>public.skipExportGlyphs</key>
+		<array>
+			<string>d</string>
+			<string>p</string>
+			<string>zero</string>
+			<string>one</string>
 		</array>
 	</dict>
 </plist>

@@ -104,7 +104,7 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'BRKT', 'CUPS'], # 'YTUC', 'YTLC'
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'BRKT', 'CUPS'], # 'YTLC'
         'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA'], # 'YTUC', 'YTLC'
     }
 
@@ -113,11 +113,11 @@ if __name__ == '__main__':
     # p.printSettings()
     # p.createParametricSources(['CUPS'], minSource=True, maxSource=True)
 
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=False)
+    # p.setSourceNamesFromMeasurements(preflight=True)
     
-    # p.parametricAxes = parametricAxes[subFamily]
-    # p.parametricAxesHidden = False
-    # p.buildDesignspace(patchBlends=False)
+    p.parametricAxes = parametricAxes[subFamily]
+    p.parametricAxesHidden = False
+    p.buildDesignspace(patchBlends=False)
