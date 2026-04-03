@@ -13,6 +13,8 @@
     <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
     <axis tag="YTUC" name="YTUC" minimum="473" maximum="808" default="683"/>
     <axis tag="YTLC" name="YTLC" minimum="356" maximum="514" default="431"/>
+    <axis tag="YTAS" name="YTAS" minimum="583" maximum="783" default="683"/>
+    <axis tag="YTDE" name="YTDE" minimum="-294" maximum="-94" default="-194"/>
     <axis tag="BRKT" name="BRKT" minimum="0" maximum="79" default="79"/>
     <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
     <mappings>
@@ -26,6 +28,8 @@
           <dimension name="XTRA" xvalue="299"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="431"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="31"/>
@@ -46,6 +50,8 @@
           <dimension name="XTRA" xvalue="321"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="442"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="147"/>
           <dimension name="XSHA" xvalue="108"/>
           <dimension name="YSHA" xvalue="47"/>
@@ -65,6 +71,8 @@
           <dimension name="XTRA" xvalue="299"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="430"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="136"/>
           <dimension name="XSHA" xvalue="95"/>
           <dimension name="YSHA" xvalue="29"/>
@@ -85,6 +93,8 @@
           <dimension name="XTRA" xvalue="327"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="442"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="144"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="43"/>
@@ -104,6 +114,8 @@
           <dimension name="XTRA" xvalue="298"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="427"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-195"/>
           <dimension name="XTSP" xvalue="131"/>
           <dimension name="XSHA" xvalue="80"/>
           <dimension name="YSHA" xvalue="26"/>
@@ -123,6 +135,8 @@
           <dimension name="XTRA" xvalue="380"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="431"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="194"/>
           <dimension name="XSHA" xvalue="111"/>
           <dimension name="YSHA" xvalue="44"/>
@@ -143,6 +157,8 @@
           <dimension name="XTRA" xvalue="445"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="444"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="198"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="67"/>
@@ -162,6 +178,8 @@
           <dimension name="XTRA" xvalue="353"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="430"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="171"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="39"/>
@@ -182,6 +200,8 @@
           <dimension name="XTRA" xvalue="403"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="443"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="177"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="60"/>
@@ -201,6 +221,8 @@
           <dimension name="XTRA" xvalue="334"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="430"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="159"/>
           <dimension name="XSHA" xvalue="103"/>
           <dimension name="YSHA" xvalue="36"/>
@@ -221,6 +243,8 @@
           <dimension name="XTRA" xvalue="371"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="442"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="164"/>
           <dimension name="XSHA" xvalue="107"/>
           <dimension name="YSHA" xvalue="56"/>
@@ -240,6 +264,8 @@
           <dimension name="XTRA" xvalue="321"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="430"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="145"/>
           <dimension name="XSHA" xvalue="101"/>
           <dimension name="YSHA" xvalue="33"/>
@@ -260,6 +286,8 @@
           <dimension name="XTRA" xvalue="346"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="443"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="155"/>
           <dimension name="XSHA" xvalue="108"/>
           <dimension name="YSHA" xvalue="52"/>
@@ -279,6 +307,8 @@
           <dimension name="XTRA" xvalue="310"/>
           <dimension name="YTUC" xvalue="683"/>
           <dimension name="YTLC" xvalue="431"/>
+          <dimension name="YTAS" xvalue="683"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="140"/>
           <dimension name="XSHA" xvalue="102"/>
           <dimension name="YSHA" xvalue="31"/>
@@ -299,6 +329,8 @@
           <dimension name="XTRA" xvalue="333"/>
           <dimension name="YTUC" xvalue="686"/>
           <dimension name="YTLC" xvalue="442"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-194"/>
           <dimension name="XTSP" xvalue="150"/>
           <dimension name="XSHA" xvalue="108"/>
           <dimension name="YSHA" xvalue="49"/>
@@ -323,6 +355,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -339,6 +373,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -355,6 +391,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -371,6 +409,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -387,6 +427,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -403,6 +445,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -419,6 +463,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -435,6 +481,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -451,6 +499,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -467,6 +517,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -483,6 +535,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -499,6 +553,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -515,6 +571,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -531,6 +589,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -547,6 +607,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -563,6 +625,8 @@
         <dimension name="YSVA" xvalue="0"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -579,6 +643,8 @@
         <dimension name="YSVA" xvalue="254"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -595,6 +661,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="473"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -611,6 +679,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="808"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -627,6 +697,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="356"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -643,6 +715,80 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="514"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
+      </location>
+    </source>
+    <source filename="Roman_YTAS783.ufo" familyname="Computer Modern" stylename="YTAS783">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="783"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
+      </location>
+    </source>
+    <source filename="Roman_YTAS583.ufo" familyname="Computer Modern" stylename="YTAS583">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="583"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
+      </location>
+    </source>
+    <source filename="Roman_YTDE-294.ufo" familyname="Computer Modern" stylename="YTDE-294">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-294"/>
+        <dimension name="BRKT" xvalue="79"/>
+        <dimension name="CUPS" xvalue="3"/>
+      </location>
+    </source>
+    <source filename="Roman_YTDE-94.ufo" familyname="Computer Modern" stylename="YTDE-94">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-94"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -659,6 +805,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="0"/>
         <dimension name="CUPS" xvalue="3"/>
       </location>
@@ -675,6 +823,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="0"/>
       </location>
@@ -691,6 +841,8 @@
         <dimension name="YSVA" xvalue="194"/>
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="8"/>
       </location>

@@ -128,10 +128,10 @@
     },
     "YTAS": {
       "direction": "y",
-      "glyph 1": "h",
-      "point 1": 5,
-      "glyph 2": "h",
-      "point 2": 53,
+      "glyph 1": "d",
+      "point 1": "B",
+      "glyph 2": "d",
+      "point 2": "8",
       "parent": "",
       "description": ""
     },
@@ -140,16 +140,16 @@
       "glyph 1": "p",
       "point 1": "B",
       "glyph 2": "p",
-      "point 2": 5,
+      "point 2": "10",
       "parent": "",
       "description": ""
     },
     "YTFI": {
       "direction": "y",
       "glyph 1": "one",
-      "point 1": 0,
+      "point 1": "6",
       "glyph 2": "one",
-      "point 2": 15,
+      "point 2": "24",
       "parent": "",
       "description": ""
     },

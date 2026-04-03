@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o" format="2">
 	<unicode hex="006F"/>
-	<advance width="1344"/>
+	<advance width="1356"/>
 	<outline>
 		<contour>
-			<point x="1284" y="428" type="qcurve" smooth="yes"/>
-			<point x="1284" y="618"/>
-			<point x="929" y="892"/>
-			<point x="671" y="892" type="qcurve" smooth="yes"/>
-			<point x="415" y="892"/>
-			<point x="60" y="618"/>
-			<point x="60" y="428" type="qcurve" smooth="yes"/>
-			<point x="60" y="242"/>
-			<point x="415" y="-20"/>
-			<point x="671" y="-20" type="qcurve" smooth="yes"/>
-			<point x="929" y="-20"/>
-			<point x="1284" y="244"/>
+			<point x="1298" y="428" type="qcurve" smooth="yes"/>
+			<point x="1298" y="623"/>
+			<point x="928" y="896"/>
+			<point x="678" y="896" type="qcurve" smooth="yes"/>
+			<point x="432" y="896"/>
+			<point x="55" y="622"/>
+			<point x="56" y="428" type="qcurve" smooth="yes"/>
+			<point x="57" y="235"/>
+			<point x="429" y="-22"/>
+			<point x="676" y="-22" type="qcurve" smooth="yes"/>
+			<point x="925" y="-22"/>
+			<point x="1298" y="234"/>
 		</contour>
 		<contour>
-			<point x="671" y="22" type="qcurve" smooth="yes"/>
-			<point x="496" y="22"/>
-			<point x="212" y="210"/>
-			<point x="212" y="436" type="qcurve" smooth="yes"/>
-			<point x="212" y="674"/>
-			<point x="486" y="850"/>
-			<point x="671" y="850" type="qcurve" smooth="yes"/>
-			<point x="856" y="850"/>
-			<point x="1132" y="674"/>
-			<point x="1132" y="436" type="qcurve" smooth="yes"/>
-			<point x="1132" y="210"/>
-			<point x="856" y="22"/>
+			<point x="678" y="28" type="qcurve" smooth="yes"/>
+			<point x="501" y="28"/>
+			<point x="222" y="198"/>
+			<point x="222" y="444" type="qcurve" smooth="yes"/>
+			<point x="222" y="676"/>
+			<point x="488" y="852"/>
+			<point x="676" y="852" type="qcurve" smooth="yes"/>
+			<point x="863" y="852"/>
+			<point x="1132" y="676"/>
+			<point x="1132" y="444" type="qcurve" smooth="yes"/>
+			<point x="1132" y="208"/>
+			<point x="866" y="28"/>
 		</contour>
 	</outline>
 </glyph>

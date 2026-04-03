@@ -128,10 +128,10 @@
     },
     "YTAS": {
       "direction": "y",
-      "glyph 1": "h",
-      "point 1": 5,
-      "glyph 2": "h",
-      "point 2": 53,
+      "glyph 1": "d",
+      "point 1": "B",
+      "glyph 2": "d",
+      "point 2": "9",
       "parent": "",
       "description": ""
     },
@@ -140,16 +140,16 @@
       "glyph 1": "p",
       "point 1": "B",
       "glyph 2": "p",
-      "point 2": 5,
+      "point 2": "10",
       "parent": "",
       "description": ""
     },
     "YTFI": {
       "direction": "y",
       "glyph 1": "one",
-      "point 1": 0,
+      "point 1": "6",
       "glyph 2": "one",
-      "point 2": 15,
+      "point 2": "24",
       "parent": "",
       "description": ""
     },
@@ -511,7 +511,7 @@
         "name": "BRKT",
         "direction": "x"
       },
-      "19 22": {
+      "22 19": {
         "name": "BRKT",
         "direction": "x"
       }
@@ -634,6 +634,10 @@
       "40 37": {
         "name": "BRKT",
         "direction": "x"
+      },
+      "5 8": {
+        "name": "CUPS",
+        "direction": "y"
       }
     },
     "V": {
@@ -715,6 +719,10 @@
         "name": "YOPQ",
         "direction": "y"
       },
+      "1 41": {
+        "name": "XTRA",
+        "direction": "x"
+      },
       "21 12": {
         "name": "YTUC",
         "direction": "y"
@@ -793,6 +801,10 @@
       "9 12": {
         "name": "YOPQ",
         "direction": "y"
+      },
+      "15 21": {
+        "name": "XTRA",
+        "direction": "x"
       },
       "9 3": {
         "name": "YTUC",
@@ -1052,9 +1064,137 @@
     "z": {},
     "A": {},
     "caron": {},
-    "d": {},
+    "d": {
+      "20 26": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "36 7": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "29 17": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "23 39": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "26 36": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "23 17": {
+        "name": "YTLC",
+        "direction": "y"
+      },
+      "B 9": {
+        "name": "YTAS",
+        "direction": "y"
+      },
+      "-1 20": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "7 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "7 3": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "10 13": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "2 3": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "10 9": {
+        "name": "YSHA",
+        "direction": "y"
+      }
+    },
     "h": {},
     "zero": {},
-    "one": {}
+    "one": {},
+    "p": {
+      "37 28": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "5 21": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "25 40": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "53 31": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "46 37": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "25 31": {
+        "name": "YTLC",
+        "direction": "y"
+      },
+      "B 10": {
+        "name": "YTDE",
+        "direction": "y"
+      },
+      "-1 4": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "28 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "0 4": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "21 17": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "9 5": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "0 36": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "16 17": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "10 9": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "8 5": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "21 18": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "10 13": {
+        "name": "CUPS",
+        "direction": "y"
+      }
+    },
+    "p.copy_1": {}
   }
 }
