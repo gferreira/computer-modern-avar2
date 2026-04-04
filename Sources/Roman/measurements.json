@@ -901,7 +901,6 @@
         "direction": "x"
       }
     },
-    "macron.case": {},
     "period": {
       "6 0": {
         "name": "XOPQ",
@@ -916,154 +915,6 @@
         "direction": "x"
       }
     },
-    "T.YSVA0": {
-      "12 28": {
-        "name": "XOPQ",
-        "direction": "x"
-      },
-      "5 0": {
-        "name": "YOPQ",
-        "direction": "y"
-      },
-      "35 40": {
-        "name": "YOPQ",
-        "direction": "y"
-      },
-      "2 11": {
-        "name": "XTRA",
-        "direction": "x"
-      },
-      "29 38": {
-        "name": "XTRA",
-        "direction": "x"
-      },
-      "-1 1": {
-        "name": "XTSP",
-        "direction": "x"
-      },
-      "39 99": {
-        "name": "XTSP",
-        "direction": "x"
-      },
-      "16 12": {
-        "name": "XSHA",
-        "direction": "x"
-      },
-      "28 24": {
-        "name": "XSHA",
-        "direction": "x"
-      },
-      "17 16": {
-        "name": "YSHA",
-        "direction": "y"
-      },
-      "23 24": {
-        "name": "YSHA",
-        "direction": "y"
-      },
-      "1 2": {
-        "name": "XSVA",
-        "direction": "x"
-      },
-      "38 39": {
-        "name": "XSVA",
-        "direction": "x"
-      },
-      "2 5": {
-        "name": "YSVA",
-        "direction": "y"
-      },
-      "38 35": {
-        "name": "YSVA",
-        "direction": "y"
-      },
-      "15 12": {
-        "name": "BRKT",
-        "direction": "x"
-      },
-      "28 25": {
-        "name": "BRKT",
-        "direction": "x"
-      }
-    },
-    "Psi": {},
-    "ffl": {},
-    "ae": {},
-    "T.XSVA0": {
-      "12 28": {
-        "name": "XOPQ",
-        "direction": "x"
-      },
-      "5 0": {
-        "name": "YOPQ",
-        "direction": "y"
-      },
-      "35 40": {
-        "name": "YOPQ",
-        "direction": "y"
-      },
-      "2 11": {
-        "name": "XTRA",
-        "direction": "x"
-      },
-      "29 38": {
-        "name": "XTRA",
-        "direction": "x"
-      },
-      "-1 1": {
-        "name": "XTSP",
-        "direction": "x"
-      },
-      "39 99": {
-        "name": "XTSP",
-        "direction": "x"
-      },
-      "16 12": {
-        "name": "XSHA",
-        "direction": "x"
-      },
-      "28 24": {
-        "name": "XSHA",
-        "direction": "x"
-      },
-      "17 16": {
-        "name": "YSHA",
-        "direction": "y"
-      },
-      "23 24": {
-        "name": "YSHA",
-        "direction": "y"
-      },
-      "1 2": {
-        "name": "XSVA",
-        "direction": "x"
-      },
-      "38 39": {
-        "name": "XSVA",
-        "direction": "x"
-      },
-      "2 5": {
-        "name": "YSVA",
-        "direction": "y"
-      },
-      "38 35": {
-        "name": "YSVA",
-        "direction": "y"
-      },
-      "15 12": {
-        "name": "BRKT",
-        "direction": "x"
-      },
-      "28 25": {
-        "name": "BRKT",
-        "direction": "x"
-      }
-    },
-    "oe": {},
-    "R": {},
-    "z": {},
-    "A": {},
-    "caron": {},
     "d": {
       "20 26": {
         "name": "XOPQ",
@@ -1118,7 +969,6 @@
         "direction": "y"
       }
     },
-    "h": {},
     "zero": {},
     "one": {},
     "p": {
@@ -1194,7 +1044,6 @@
         "name": "CUPS",
         "direction": "y"
       }
-    },
-    "p.copy_1": {}
+    }
   }
 }
