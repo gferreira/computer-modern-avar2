@@ -15,15 +15,17 @@ measurementsPath = os.path.join(sourcesFolder, 'measurements.json')
 
 assert os.path.exists(defaultPath)
 assert os.path.exists(measurementsPath)
-    
-defaultFont = OpenFont(defaultPath, showInterface=False)
 
+### 1. convert measurements from indexes to IDs
+
+defaultFont = OpenFont(defaultPath, showInterface=False)
 measurements = readMeasurements(measurementsPath)
 measurementsIDs = convertMeasurementIndexesToIDs(defaultFont, measurements)
+defaultFont.save()
+
+### 2. correct contour direction in all sources
 
 allSources = glob.glob(f'{sourcesFolder}/*.ufo')
-
-print(allSources)
 
 for srcPath in allSources:
     src = OpenFont(defaultPath, showInterface=False)
@@ -31,12 +33,14 @@ for srcPath in allSources:
         g.correctDirection(trueType=True)
     src.save()
 
+### 3. convert measurements from IDs to indexes
+
 defaultFont = OpenFont(defaultPath, showInterface=False)
 measurementsNew = convertMeasurementIDsToIndexes(defaultFont, measurementsIDs)
 
+### 4. save new measurements / keep old ones in renamed file
+
 measurementsPathOld = measurementsPath.replace('.json', '_old.json')
-
 os.rename(measurementsPath, measurementsPathOld)
-
 with open(measurementsPath, 'w', encoding='utf-8') as f:
     json.dump(measurementsIDs, f, indent=2)
