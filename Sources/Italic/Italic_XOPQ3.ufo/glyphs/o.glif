@@ -18,18 +18,18 @@
 			<point x="295.0471723392" y="-49"/>
 		</contour>
 		<contour>
-			<point x="183.0471723392" y="39" type="qcurve" smooth="yes"/>
-			<point x="300.0471723392" y="-4"/>
-			<point x="545.0471723392" y="215"/>
-			<point x="603.0471723392" y="449" type="qcurve" smooth="yes"/>
-			<point x="636.0471723392" y="580"/>
-			<point x="606.0471723392" y="787"/>
-			<point x="528.0471723392" y="822" type="qcurve" smooth="yes"/>
-			<point x="421.0471723392" y="870"/>
-			<point x="164.0471723392" y="660"/>
-			<point x="102.0471723392" y="412" type="qcurve" smooth="yes"/>
-			<point x="68.0471723392" y="278"/>
-			<point x="102.0471723392" y="69"/>
+			<point x="182" y="40" type="qcurve" smooth="yes"/>
+			<point x="296" y="-3"/>
+			<point x="545" y="215"/>
+			<point x="602" y="445" type="qcurve" smooth="yes"/>
+			<point x="636" y="580"/>
+			<point x="617" y="782"/>
+			<point x="530" y="821" type="qcurve" smooth="yes"/>
+			<point x="422" y="869"/>
+			<point x="164" y="660"/>
+			<point x="101" y="408" type="qcurve" smooth="yes"/>
+			<point x="68" y="278"/>
+			<point x="100" y="71"/>
 		</contour>
 	</outline>
 </glyph>
