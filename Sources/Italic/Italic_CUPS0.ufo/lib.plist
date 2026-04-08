@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>com.typemytype.robofont.italicSlantOffset</key>
+		<integer>-108</integer>
+		<key>public.glyphOrder</key>
+		<array>
+			<string>space</string>
+			<string>period</string>
+			<string>D</string>
+			<string>H</string>
+			<string>O</string>
+			<string>T</string>
+			<string>V</string>
+			<string>n</string>
+			<string>o</string>
+			<string>v</string>
+			<string>d</string>
+			<string>p</string>
+		</array>
+	</dict>
+</plist>

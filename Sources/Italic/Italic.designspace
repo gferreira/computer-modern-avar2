@@ -10,6 +10,9 @@
     <axis tag="YSHA" name="YSHA" minimum="2" maximum="131" default="31"/>
     <axis tag="XSVA" name="XSVA" minimum="4" maximum="98" default="28"/>
     <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
+    <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
+    <axis tag="YTAS" name="YTAS" minimum="583" maximum="783" default="683"/>
+    <axis tag="YTDE" name="YTDE" minimum="94" maximum="294" default="194"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -129,6 +132,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -141,6 +147,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -153,6 +162,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -165,6 +177,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -177,6 +192,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -189,6 +207,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
@@ -201,6 +222,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XTSP220.ufo" familyname="Computer Modern" stylename="XTSP220">
@@ -213,6 +237,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XTSP144.ufo" familyname="Computer Modern" stylename="XTSP144">
@@ -225,6 +252,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XSHA1.ufo" familyname="Computer Modern" stylename="XSHA1">
@@ -237,6 +267,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XSHA152.ufo" familyname="Computer Modern" stylename="XSHA152">
@@ -249,6 +282,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
@@ -261,6 +297,9 @@
         <dimension name="YSHA" xvalue="2"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YSHA131.ufo" familyname="Computer Modern" stylename="YSHA131">
@@ -273,6 +312,9 @@
         <dimension name="YSHA" xvalue="131"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XSVA4.ufo" familyname="Computer Modern" stylename="XSVA4">
@@ -285,6 +327,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="4"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_XSVA98.ufo" familyname="Computer Modern" stylename="XSVA98">
@@ -297,6 +342,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="98"/>
         <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
@@ -309,6 +357,9 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="254"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
       </location>
     </source>
     <source filename="Italic_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
@@ -321,6 +372,99 @@
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
         <dimension name="YSVA" xvalue="0"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Italic_CUPS8.ufo" familyname="Computer Modern" stylename="CUPS8">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="8"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Italic_CUPS0.ufo" familyname="Computer Modern" stylename="CUPS0">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="0"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Italic_YTAS583.ufo" familyname="Computer Modern" stylename="YTAS583">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="583"/>
+        <dimension name="YTDE" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Italic_YTAS783.ufo" familyname="Computer Modern" stylename="YTAS783">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="783"/>
+        <dimension name="YTDE" xvalue="194"/>
+      </location>
+    </source>
+    <source filename="Italic_YTDE294.ufo" familyname="Computer Modern" stylename="YTDE294">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="294"/>
+      </location>
+    </source>
+    <source filename="Italic_YTDE94.ufo" familyname="Computer Modern" stylename="YTDE94">
+      <location>
+        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="94"/>
       </location>
     </source>
   </sources>
