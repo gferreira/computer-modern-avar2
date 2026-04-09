@@ -80,7 +80,7 @@ class ComputerModernController(xProject):
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
         self.addParametricAxes()
-        self.addBlendMappings()
+        self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
         self.addCustomKeysToLib()
