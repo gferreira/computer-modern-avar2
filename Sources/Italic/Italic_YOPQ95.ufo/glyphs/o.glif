@@ -6,15 +6,15 @@
 		<contour>
 			<point x="268.9486574679" y="-5" type="qcurve" smooth="yes"/>
 			<point x="146.9486574679" y="35"/>
-			<point x="31.9486574679" y="265"/>
+			<point x="31" y="265"/>
 			<point x="69.9486574679" y="427" type="qcurve" smooth="yes"/>
-			<point x="135.9486574679" y="706"/>
+			<point x="130" y="676"/>
 			<point x="534.9486574679" y="931"/>
 			<point x="703.9486574679" y="868" type="qcurve" smooth="yes"/>
 			<point x="845.9486574679" y="815"/>
-			<point x="939.9486574679" y="570"/>
+			<point x="940" y="570"/>
 			<point x="893.9486574679" y="414" type="qcurve" smooth="yes"/>
-			<point x="826.9486574679" y="186"/>
+			<point x="827" y="185"/>
 			<point x="469.9486574679" y="-71"/>
 		</contour>
 		<contour>
@@ -26,7 +26,7 @@
 			<point x="716.9486574679" y="689"/>
 			<point x="641.9486574679" y="723" type="qcurve" smooth="yes"/>
 			<point x="535.9486574679" y="771"/>
-			<point x="290.9486574679" y="648"/>
+			<point x="283" y="618"/>
 			<point x="235.9486574679" y="442" type="qcurve" smooth="yes"/>
 			<point x="204.9486574679" y="325"/>
 			<point x="242.9486574679" y="163"/>

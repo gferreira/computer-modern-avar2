@@ -4,8 +4,8 @@
 	<advance width="1376"/>
 	<outline>
 		<contour>
-			<point x="406.9486574679" y="10" type="qcurve" smooth="yes"/>
-			<point x="248.9486574679" y="40"/>
+			<point x="437" y="7" type="qcurve" smooth="yes"/>
+			<point x="248" y="44"/>
 			<point x="40.9486574679" y="281"/>
 			<point x="84.9486574679" y="460" type="qcurve" smooth="yes"/>
 			<point x="135.9486574679" y="666"/>
@@ -15,7 +15,7 @@
 			<point x="1331.9486574679" y="562"/>
 			<point x="1288.9486574679" y="390" type="qcurve" smooth="yes"/>
 			<point x="1234.9486574679" y="177"/>
-			<point x="743.9486574679" y="-56"/>
+			<point x="743" y="-52"/>
 		</contour>
 		<contour>
 			<point x="501.9486574679" y="48" type="qcurve" smooth="yes"/>

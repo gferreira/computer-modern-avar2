@@ -188,6 +188,33 @@
       "point 2": "999",
       "parent": null,
       "description": null
+    },
+    "CUPS": {
+      "direction": "y",
+      "glyph 1": "H",
+      "point 1": 88,
+      "glyph 2": "H",
+      "point 2": 91,
+      "parent": null,
+      "description": null
+    },
+    "YTAS": {
+      "direction": "y",
+      "glyph 1": "d",
+      "point 1": "B",
+      "glyph 2": "d",
+      "point 2": 19,
+      "parent": null,
+      "description": null
+    },
+    "YTDE": {
+      "direction": "y",
+      "glyph 1": "p",
+      "point 1": "60",
+      "glyph 2": "p",
+      "point 2": "B",
+      "parent": null,
+      "description": null
     }
   },
   "glyphs": {
@@ -578,6 +605,8 @@
         "name": "XTSP",
         "direction": "x"
       }
-    }
+    },
+    "d": {},
+    "p": {}
   }
 }
