@@ -19,17 +19,17 @@
 		</contour>
 		<contour>
 			<point x="300" y="28" type="qcurve" smooth="yes"/>
-			<point x="270" y="28"/>
+			<point x="192" y="28"/>
 			<point x="222" y="198"/>
 			<point x="222" y="444" type="qcurve" smooth="yes"/>
 			<point x="222" y="676"/>
-			<point x="267" y="852"/>
+			<point x="184" y="852"/>
 			<point x="298" y="852" type="qcurve" smooth="yes"/>
-			<point x="330" y="852"/>
+			<point x="412" y="852"/>
 			<point x="376" y="676"/>
 			<point x="376" y="444" type="qcurve" smooth="yes"/>
 			<point x="376" y="208"/>
-			<point x="331" y="28"/>
+			<point x="414" y="28"/>
 		</contour>
 	</outline>
 </glyph>
