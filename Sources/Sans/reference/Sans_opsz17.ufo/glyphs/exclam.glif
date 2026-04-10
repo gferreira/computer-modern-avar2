@@ -1,21 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="exclam" format="2">
-  <advance width="299"/>
-  <unicode hex="0021"/>
-  <outline>
-    <contour>
-      <point x="190" y="694" type="line"/>
-      <point x="110" y="694" type="line"/>
-      <point x="118" y="169" type="line"/>
-      <point x="118" y="169" type="line"/>
-      <point x="182" y="169" type="line"/>
-      <point x="182" y="169" type="line"/>
-    </contour>
-    <contour>
-      <point x="110" y="0" type="line"/>
-      <point x="190" y="0" type="line"/>
-      <point x="190" y="80" type="line"/>
-      <point x="110" y="80" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="0021"/>
+	<advance width="299"/>
+	<outline>
+		<contour>
+			<point x="114" y="424" type="line"/>
+			<point x="118" y="169" type="line"/>
+			<point x="118" y="169" type="line"/>
+			<point x="182" y="169" type="line"/>
+			<point x="182" y="169" type="line"/>
+			<point x="186" y="424" type="line"/>
+			<point x="190" y="694" type="line"/>
+			<point x="190" y="694" type="line"/>
+			<point x="110" y="694" type="line"/>
+			<point x="110" y="694" type="line"/>
+		</contour>
+		<contour>
+			<point x="110" y="0" type="line"/>
+			<point x="110" y="0" type="line"/>
+			<point x="190" y="0" type="line"/>
+			<point x="190" y="0" type="line"/>
+			<point x="190" y="80" type="line"/>
+			<point x="190" y="80" type="line"/>
+			<point x="110" y="80" type="line"/>
+			<point x="110" y="80" type="line"/>
+		</contour>
+	</outline>
 </glyph>

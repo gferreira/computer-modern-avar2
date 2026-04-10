@@ -1,25 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="quotedblright" format="2">
-  <advance width="513"/>
-  <unicode hex="201D"/>
-  <outline>
-    <contour>
-      <point x="120" y="609" type="line"/>
-      <point x="120" y="694" type="line"/>
-      <point x="34" y="694" type="line"/>
-      <point x="34" y="608" type="line"/>
-      <point x="60" y="608" type="line"/>
-      <point x="33" y="481" type="line"/>
-      <point x="76" y="481" type="line"/>
-    </contour>
-    <contour>
-      <point x="320" y="609" type="line"/>
-      <point x="320" y="694" type="line"/>
-      <point x="234" y="694" type="line"/>
-      <point x="234" y="608" type="line"/>
-      <point x="260" y="608" type="line"/>
-      <point x="233" y="481" type="line"/>
-      <point x="276" y="481" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="201D"/>
+	<advance width="513"/>
+	<outline>
+		<contour>
+			<point x="120" y="609" type="line"/>
+			<point x="120" y="694" type="line"/>
+			<point x="34" y="694" type="line"/>
+			<point x="34" y="608" type="line"/>
+			<point x="60" y="608" type="line"/>
+			<point x="33" y="481" type="line"/>
+			<point x="76" y="481" type="line"/>
+		</contour>
+		<contour>
+			<point x="320" y="609" type="line"/>
+			<point x="320" y="694" type="line"/>
+			<point x="234" y="694" type="line"/>
+			<point x="234" y="608" type="line"/>
+			<point x="260" y="608" type="line"/>
+			<point x="233" y="481" type="line"/>
+			<point x="276" y="481" type="line"/>
+		</contour>
+	</outline>
 </glyph>

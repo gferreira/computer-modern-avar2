@@ -1,22 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="semicolon" format="2">
-  <advance width="295"/>
-  <unicode hex="003B"/>
-  <outline>
-    <contour>
-      <point x="192" y="444" type="line"/>
-      <point x="102" y="444" type="line"/>
-      <point x="102" y="354" type="line"/>
-      <point x="192" y="354" type="line"/>
-    </contour>
-    <contour>
-      <point x="101" y="-128" type="line"/>
-      <point x="146" y="-128" type="line"/>
-      <point x="192" y="1" type="line"/>
-      <point x="192" y="90" type="line"/>
-      <point x="102" y="90" type="line"/>
-      <point x="102" y="0" type="line"/>
-      <point x="130" y="0" type="line"/>
-    </contour>
-  </outline>
+	<unicode hex="003B"/>
+	<advance width="295"/>
+	<outline>
+		<contour>
+			<point x="192" y="444" type="line"/>
+			<point x="102" y="444" type="line"/>
+			<point x="102" y="354" type="line"/>
+			<point x="192" y="354" type="line"/>
+		</contour>
+		<contour>
+			<point x="101" y="-128" type="line"/>
+			<point x="146" y="-128" type="line"/>
+			<point x="192" y="1" type="line"/>
+			<point x="192" y="90" type="line"/>
+			<point x="102" y="90" type="line"/>
+			<point x="102" y="0" type="line"/>
+			<point x="130" y="0" type="line"/>
+		</contour>
+	</outline>
 </glyph>

@@ -93,11 +93,11 @@ def makeGlyphOutlinesCompatible(glyphs):
 from string import ascii_lowercase, ascii_uppercase
 
 folder = os.path.dirname(os.path.dirname(os.getcwd()))
-subFamilyName = ['Roman', 'Italic', 'Sans'][0]
+subFamilyName = ['Roman', 'Italic', 'Sans'][2]
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, 'reference', f'{subFamilyName}.designspace')
 
-glyphNames = ['at'] # 'fi ffi ff fl ffl'.split() # list(ascii_uppercase + ) # ['dotlessi']
+glyphNames = list('ijlu') # 'fi ffi ff fl ffl'.split() # list(ascii_uppercase + ) # ['dotlessi']
 
 assert os.path.exists(designspacePath)
 
