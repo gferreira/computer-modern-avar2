@@ -305,6 +305,15 @@
       "point 2": 3,
       "parent": null,
       "description": null
+    },
+    "WDSP": {
+      "direction": "x",
+      "glyph 1": "space",
+      "point 1": "-1",
+      "glyph 2": "space",
+      "point 2": "999",
+      "parent": null,
+      "description": null
     }
   },
   "glyphs": {

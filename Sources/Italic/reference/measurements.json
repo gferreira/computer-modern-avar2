@@ -128,17 +128,17 @@
     },
     "YTAS": {
       "direction": "y",
-      "glyph 1": "h",
+      "glyph 1": "d",
       "point 1": "B",
-      "glyph 2": "h",
-      "point 2": "10",
+      "glyph 2": "d",
+      "point 2": "34",
       "parent": "",
       "description": ""
     },
     "YTDE": {
       "direction": "y",
-      "glyph 1": "B",
-      "point 1": 54,
+      "glyph 1": "p",
+      "point 1": "B",
       "glyph 2": "p",
       "point 2": 9,
       "parent": "",

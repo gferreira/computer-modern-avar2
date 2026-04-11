@@ -7,32 +7,28 @@
 		<key>capHeight</key>
 		<integer>1366</integer>
 		<key>copyright</key>
-		<string>Copyright \050c\051 1997, 2009 American Mathematical Society \050&lt;http://www.ams.org&gt;\051, with Reserved Font Name CMMI10.</string>
+		<string>Copyright \050c\051 1997, 2009 American Mathematical Society \050&lt;http://www.ams.org&gt;\051, with Reserved Font Name CMR12.</string>
 		<key>descender</key>
 		<integer>-388</integer>
 		<key>familyName</key>
-		<string>Computer Modern Italic</string>
+		<string>Computer Modern Roman</string>
 		<key>guidelines</key>
 		<array>
 		</array>
 		<key>italicAngle</key>
-		<real>-14.04</real>
-		<key>postscriptBlueFuzz</key>
-		<integer>2</integer>
+		<integer>0</integer>
 		<key>postscriptBlueScale</key>
 		<real>0.04379</real>
-		<key>postscriptBlueShift</key>
-		<integer>14</integer>
 		<key>postscriptBlueValues</key>
 		<array>
-			<integer>-44</integer>
+			<integer>-42</integer>
 			<integer>0</integer>
 			<integer>862</integer>
-			<integer>884</integer>
-			<integer>906</integer>
-			<integer>932</integer>
+			<integer>892</integer>
+			<integer>1330</integer>
+			<integer>1350</integer>
 			<integer>1366</integer>
-			<integer>1410</integer>
+			<integer>1408</integer>
 		</array>
 		<key>postscriptFamilyBlues</key>
 		<array>
@@ -41,11 +37,11 @@
 		<array>
 		</array>
 		<key>postscriptFontName</key>
-		<string>CMMI10</string>
+		<string>CMR12</string>
 		<key>postscriptForceBold</key>
 		<false/>
 		<key>postscriptFullName</key>
-		<string>CMMI10</string>
+		<string>CMR12</string>
 		<key>postscriptOtherBlues</key>
 		<array>
 			<integer>-410</integer>
@@ -53,11 +49,13 @@
 		</array>
 		<key>postscriptStemSnapH</key>
 		<array>
-			<integer>50</integer>
-			<integer>62</integer>
+			<integer>40</integer>
+			<integer>58</integer>
 		</array>
 		<key>postscriptStemSnapV</key>
 		<array>
+			<integer>130</integer>
+			<integer>162</integer>
 		</array>
 		<key>postscriptUnderlinePosition</key>
 		<integer>-200</integer>
@@ -66,7 +64,7 @@
 		<key>postscriptWeightName</key>
 		<string>Medium</string>
 		<key>styleName</key>
-		<string>YTAS583</string>
+		<string>WDSP1000</string>
 		<key>unitsPerEm</key>
 		<integer>2000</integer>
 		<key>versionMajor</key>
