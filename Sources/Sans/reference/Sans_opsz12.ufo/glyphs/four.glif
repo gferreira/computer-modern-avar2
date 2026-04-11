@@ -4,17 +4,41 @@
 	<advance width="489"/>
 	<outline>
 		<contour>
+			<point x="286" y="172" type="line"/>
 			<point x="286" y="0" type="line"/>
+			<point x="286" y="0"/>
+			<point x="286" y="0"/>
+			<point x="286" y="0" type="curve"/>
 			<point x="365" y="0" type="line"/>
+			<point x="365" y="0"/>
+			<point x="365" y="0"/>
+			<point x="365" y="0" type="curve"/>
 			<point x="365" y="172" type="line"/>
 			<point x="462" y="172" type="line"/>
+			<point x="462" y="172"/>
+			<point x="462" y="172"/>
+			<point x="462" y="172" type="curve"/>
 			<point x="462" y="232" type="line"/>
+			<point x="462" y="232"/>
+			<point x="462" y="232"/>
+			<point x="462" y="232" type="curve"/>
 			<point x="365" y="232" type="line"/>
 			<point x="365" y="655" type="line"/>
+			<point x="365" y="655"/>
+			<point x="365" y="655"/>
+			<point x="365" y="655" type="curve"/>
 			<point x="275" y="655" type="line"/>
+			<point x="275" y="655"/>
+			<point x="275" y="655"/>
+			<point x="275" y="655" type="curve"/>
 			<point x="27" y="232" type="line"/>
+			<point x="27" y="232"/>
+			<point x="27" y="232"/>
+			<point x="27" y="232" type="curve"/>
 			<point x="27" y="172" type="line"/>
-			<point x="286" y="172" type="line"/>
+			<point x="27" y="172"/>
+			<point x="27" y="172"/>
+			<point x="27" y="172" type="curve"/>
 		</contour>
 		<contour>
 			<point x="104" y="232" type="line"/>

@@ -2,25 +2,89 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>AE</key>
+		<string>A_E_.glif</string>
 		<key>D</key>
 		<string>D_.glif</string>
 		<key>E</key>
 		<string>E_.glif</string>
 		<key>F</key>
 		<string>F_.glif</string>
+		<key>OE</key>
+		<string>O_E_.glif</string>
 		<key>S</key>
 		<string>S_.glif</string>
 		<key>W</key>
 		<string>W_.glif</string>
+		<key>acute</key>
+		<string>acute.glif</string>
+		<key>ae</key>
+		<string>ae.glif</string>
+		<key>ampersand</key>
+		<string>ampersand.glif</string>
+		<key>asterisk</key>
+		<string>asterisk.glif</string>
+		<key>at</key>
+		<string>at.glif</string>
+		<key>caron</key>
+		<string>caron.glif</string>
+		<key>cedilla</key>
+		<string>cedilla.glif</string>
+		<key>circumflex</key>
+		<string>circumflex.glif</string>
+		<key>comma</key>
+		<string>comma.glif</string>
+		<key>dollar</key>
+		<string>dollar.glif</string>
+		<key>exclam</key>
+		<string>exclam.glif</string>
+		<key>exclamdown</key>
+		<string>exclamdown.glif</string>
+		<key>ff</key>
+		<string>ff.glif</string>
+		<key>ffi</key>
+		<string>ffi.glif</string>
+		<key>ffl</key>
+		<string>ffl.glif</string>
+		<key>fl</key>
+		<string>fl.glif</string>
 		<key>g</key>
 		<string>g.glif</string>
+		<key>germandbls</key>
+		<string>germandbls.glif</string>
+		<key>hungarumlaut</key>
+		<string>hungarumlaut.glif</string>
 		<key>i</key>
 		<string>i.glif</string>
 		<key>j</key>
 		<string>j.glif</string>
 		<key>m</key>
 		<string>m.glif</string>
+		<key>nine</key>
+		<string>nine.glif</string>
+		<key>numbersign</key>
+		<string>numbersign.glif</string>
+		<key>one</key>
+		<string>one.glif</string>
+		<key>parenleft</key>
+		<string>parenleft.glif</string>
+		<key>parenright</key>
+		<string>parenright.glif</string>
+		<key>question</key>
+		<string>question.glif</string>
+		<key>questiondown</key>
+		<string>questiondown.glif</string>
+		<key>semicolon</key>
+		<string>semicolon.glif</string>
+		<key>seven</key>
+		<string>seven.glif</string>
+		<key>six</key>
+		<string>six.glif</string>
 		<key>t</key>
 		<string>t.glif</string>
+		<key>three</key>
+		<string>three.glif</string>
+		<key>two</key>
+		<string>two.glif</string>
 	</dict>
 </plist>

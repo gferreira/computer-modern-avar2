@@ -5,15 +5,47 @@
 	<outline>
 		<contour>
 			<point x="192" y="444" type="line"/>
+			<point x="192" y="444"/>
+			<point x="192" y="444"/>
+			<point x="192" y="444" type="curve"/>
 			<point x="102" y="444" type="line"/>
+			<point x="102" y="444"/>
+			<point x="102" y="444"/>
+			<point x="102" y="444" type="curve"/>
 			<point x="102" y="354" type="line"/>
+			<point x="102" y="354"/>
+			<point x="102" y="354"/>
+			<point x="102" y="354" type="curve"/>
 			<point x="192" y="354" type="line"/>
+			<point x="192" y="354"/>
+			<point x="192" y="354"/>
+			<point x="192" y="354" type="curve"/>
 		</contour>
 		<contour>
-			<point x="102" y="90" type="line"/>
-			<point x="102" y="0" type="line"/>
-			<point x="192" y="0" type="line"/>
-			<point x="192" y="90" type="line"/>
+			<point x="102" y="0" type="curve"/>
+			<point x="102" y="0"/>
+			<point x="102" y="0"/>
+			<point x="102" y="0" type="curve"/>
+			<point x="131.97" y="0"/>
+			<point x="161.94" y="0"/>
+			<point x="192" y="0" type="curve"/>
+			<point x="192" y="0"/>
+			<point x="192" y="0"/>
+			<point x="192" y="0" type="curve"/>
+			<point x="192" y="29.97"/>
+			<point x="192" y="59.94"/>
+			<point x="192" y="90" type="curve"/>
+			<point x="192" y="90"/>
+			<point x="192" y="90"/>
+			<point x="192" y="90" type="curve"/>
+			<point x="162.03" y="90"/>
+			<point x="132.06" y="90"/>
+			<point x="102" y="90" type="curve"/>
+			<point x="102" y="90"/>
+			<point x="102" y="90"/>
+			<point x="102" y="90" type="curve"/>
+			<point x="102" y="60.03"/>
+			<point x="102" y="30.06"/>
 		</contour>
 	</outline>
 </glyph>

@@ -5,12 +5,36 @@
 	<outline>
 		<contour>
 			<point x="275" y="694" type="line"/>
+			<point x="275" y="694"/>
+			<point x="275" y="694"/>
+			<point x="275" y="694" type="curve"/>
 			<point x="214" y="694" type="line"/>
+			<point x="214" y="694"/>
+			<point x="214" y="694"/>
+			<point x="214" y="694" type="curve"/>
 			<point x="76" y="527" type="line"/>
+			<point x="76" y="527"/>
+			<point x="76" y="527"/>
+			<point x="76" y="527" type="curve"/>
+			<point x="95.98" y="527"/>
+			<point x="115.96" y="527"/>
+			<point x="136" y="527" type="curve"/>
 			<point x="136" y="527" type="line"/>
+			<point x="136" y="527"/>
+			<point x="136" y="527"/>
+			<point x="136" y="527" type="curve"/>
 			<point x="244" y="650" type="line"/>
 			<point x="353" y="527" type="line"/>
+			<point x="353" y="527"/>
+			<point x="353" y="527"/>
+			<point x="353" y="527" type="curve"/>
 			<point x="413" y="527" type="line"/>
+			<point x="413" y="527"/>
+			<point x="413" y="527"/>
+			<point x="413" y="527" type="curve"/>
+			<point x="413" y="527"/>
+			<point x="413" y="527"/>
+			<point x="413" y="527" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

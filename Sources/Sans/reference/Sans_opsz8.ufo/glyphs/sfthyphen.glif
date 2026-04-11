@@ -1,12 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="sfthyphen" format="2">
-	<advance width="177"/>
+	<advance width="354"/>
 	<outline>
 		<contour>
-			<point x="294" y="191" type="line"/>
-			<point x="294" y="254" type="line"/>
-			<point x="12" y="254" type="line"/>
-			<point x="12" y="191" type="line"/>
+			<point x="294" y="191" type="curve"/>
+			<point x="294" y="211.979"/>
+			<point x="294" y="232.958"/>
+			<point x="294" y="254" type="curve"/>
+			<point x="294" y="254"/>
+			<point x="294" y="254"/>
+			<point x="294" y="254" type="curve"/>
+			<point x="200.094" y="254"/>
+			<point x="106.188" y="254"/>
+			<point x="12" y="254" type="curve"/>
+			<point x="12" y="254"/>
+			<point x="12" y="254"/>
+			<point x="12" y="254" type="curve"/>
+			<point x="12" y="233.021"/>
+			<point x="12" y="212.042"/>
+			<point x="12" y="191" type="curve"/>
+			<point x="12" y="191"/>
+			<point x="12" y="191"/>
+			<point x="12" y="191" type="curve"/>
+			<point x="105.906" y="191"/>
+			<point x="199.812" y="191"/>
+			<point x="294" y="191" type="curve"/>
+			<point x="294" y="191"/>
+			<point x="294" y="191"/>
 		</contour>
 	</outline>
 </glyph>

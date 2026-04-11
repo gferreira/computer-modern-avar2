@@ -4,10 +4,30 @@
 	<advance width="333"/>
 	<outline>
 		<contour>
-			<point x="276" y="193" type="line"/>
-			<point x="276" y="251" type="line"/>
-			<point x="11" y="251" type="line"/>
-			<point x="11" y="193" type="line"/>
+			<point x="276" y="193" type="curve"/>
+			<point x="276" y="212.314"/>
+			<point x="276" y="231.628"/>
+			<point x="276" y="251" type="curve"/>
+			<point x="276" y="251"/>
+			<point x="276" y="251"/>
+			<point x="276" y="251" type="curve"/>
+			<point x="187.755" y="251"/>
+			<point x="99.51" y="251"/>
+			<point x="11" y="251" type="curve"/>
+			<point x="11" y="251"/>
+			<point x="11" y="251"/>
+			<point x="11" y="251" type="curve"/>
+			<point x="11" y="231.686"/>
+			<point x="11" y="212.372"/>
+			<point x="11" y="193" type="curve"/>
+			<point x="11" y="193"/>
+			<point x="11" y="193"/>
+			<point x="11" y="193" type="curve"/>
+			<point x="99.245" y="193"/>
+			<point x="187.49" y="193"/>
+			<point x="276" y="193" type="curve"/>
+			<point x="276" y="193"/>
+			<point x="276" y="193"/>
 		</contour>
 	</outline>
 </glyph>

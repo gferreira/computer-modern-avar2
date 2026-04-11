@@ -5,13 +5,21 @@
 	<outline>
 		<contour>
 			<point x="170" y="80" type="line"/>
-			<point x="170" y="80" type="line"/>
+			<point x="170" y="80"/>
+			<point x="170" y="80"/>
+			<point x="170" y="80" type="curve"/>
 			<point x="90" y="80" type="line"/>
-			<point x="90" y="80" type="line"/>
+			<point x="90" y="80"/>
+			<point x="90" y="80"/>
+			<point x="90" y="80" type="curve"/>
 			<point x="90" y="0" type="line"/>
-			<point x="90" y="0" type="line"/>
+			<point x="90" y="0"/>
+			<point x="90" y="0"/>
+			<point x="90" y="0" type="curve"/>
 			<point x="170" y="0" type="line"/>
-			<point x="170" y="0" type="line"/>
+			<point x="170" y="0"/>
+			<point x="170" y="0"/>
+			<point x="170" y="0" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

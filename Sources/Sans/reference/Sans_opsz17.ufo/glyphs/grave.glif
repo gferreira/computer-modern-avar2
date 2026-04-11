@@ -5,9 +5,27 @@
 	<outline>
 		<contour>
 			<point x="217" y="518" type="line"/>
+			<point x="217" y="518"/>
+			<point x="217" y="518"/>
+			<point x="217" y="518" type="curve"/>
 			<point x="278" y="518" type="line"/>
+			<point x="278" y="518"/>
+			<point x="278" y="518"/>
+			<point x="278" y="518" type="curve"/>
+			<point x="278" y="518"/>
+			<point x="278" y="518"/>
+			<point x="278" y="518" type="curve"/>
 			<point x="154" y="694" type="line"/>
+			<point x="154" y="694"/>
+			<point x="154" y="694"/>
+			<point x="154" y="694" type="curve"/>
 			<point x="78" y="694" type="line"/>
+			<point x="78" y="694"/>
+			<point x="78" y="694"/>
+			<point x="78" y="694" type="curve"/>
+			<point x="78" y="694"/>
+			<point x="78" y="694"/>
+			<point x="78" y="694" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

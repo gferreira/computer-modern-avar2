@@ -44,6 +44,12 @@
 			<point x="473" y="-8"/>
 			<point x="546" y="54"/>
 			<point x="573" y="87" type="curve"/>
+			<point x="573" y="87"/>
+			<point x="573" y="87"/>
+			<point x="573" y="87" type="curve"/>
+			<point x="573" y="87"/>
+			<point x="573" y="87"/>
+			<point x="573" y="87" type="curve"/>
 		</contour>
 		<contour>
 			<point x="398" y="183" type="curve" smooth="yes"/>

@@ -4,20 +4,38 @@
 	<advance width="413"/>
 	<outline>
 		<contour>
-			<point x="288" y="750" type="line"/>
+			<point x="288" y="750" type="curve"/>
 			<point x="164" y="649"/>
 			<point x="84" y="479"/>
 			<point x="84" y="250" type="curve" smooth="yes"/>
 			<point x="84" y="61"/>
 			<point x="139" y="-127"/>
 			<point x="288" y="-250" type="curve"/>
+			<point x="288" y="-250"/>
+			<point x="288" y="-250"/>
+			<point x="288" y="-250" type="curve"/>
 			<point x="353" y="-250" type="line"/>
+			<point x="353" y="-250"/>
+			<point x="353" y="-250"/>
+			<point x="353" y="-250" type="curve"/>
+			<point x="353" y="-250"/>
+			<point x="353" y="-250"/>
+			<point x="353" y="-250" type="curve"/>
 			<point x="281" y="-185"/>
 			<point x="171" y="-38"/>
 			<point x="171" y="250" type="curve" smooth="yes"/>
 			<point x="171" y="596"/>
 			<point x="333" y="733"/>
 			<point x="353" y="750" type="curve"/>
+			<point x="353" y="750"/>
+			<point x="353" y="750"/>
+			<point x="353" y="750" type="curve"/>
+			<point x="353" y="750"/>
+			<point x="353" y="750"/>
+			<point x="353" y="750" type="curve"/>
+			<point x="288" y="750" type="line"/>
+			<point x="288" y="750"/>
+			<point x="288" y="750"/>
 		</contour>
 	</outline>
 </glyph>
