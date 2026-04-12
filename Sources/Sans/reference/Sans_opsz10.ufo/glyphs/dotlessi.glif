@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotlessi" format="2">
 	<unicode hex="0131"/>
-	<advance width="238"/>
+	<advance width="476"/>
 	<outline>
 		<contour>
-			<point x="81" y="444" type="curve"/>
-			<point x="81" y="0" type="line"/>
-			<point x="81" y="0"/>
-			<point x="81" y="0"/>
-			<point x="81" y="0" type="curve"/>
-			<point x="156" y="0" type="line"/>
-			<point x="156" y="0"/>
-			<point x="156" y="0"/>
-			<point x="156" y="0" type="curve"/>
-			<point x="156" y="444" type="line"/>
-			<point x="156" y="444"/>
-			<point x="156" y="444"/>
-			<point x="156" y="444" type="curve"/>
-			<point x="81" y="444" type="line"/>
-			<point x="81" y="444"/>
-			<point x="81" y="444"/>
+			<point x="162" y="888" type="curve"/>
+			<point x="162" y="0" type="line"/>
+			<point x="162" y="0"/>
+			<point x="162" y="0"/>
+			<point x="162" y="0" type="curve"/>
+			<point x="312" y="0" type="line"/>
+			<point x="312" y="0"/>
+			<point x="312" y="0"/>
+			<point x="312" y="0" type="curve"/>
+			<point x="312" y="888" type="line"/>
+			<point x="312" y="888"/>
+			<point x="312" y="888"/>
+			<point x="312" y="888" type="curve"/>
+			<point x="162" y="888" type="line"/>
+			<point x="162" y="888"/>
+			<point x="162" y="888"/>
 		</contour>
 	</outline>
 </glyph>

@@ -97,7 +97,7 @@ subFamilyName = ['Roman', 'Italic', 'Sans'][2]
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, 'reference', f'{subFamilyName}.designspace')
 
-glyphNames = ['tilde']
+glyphNames = ['acute']
 
 assert os.path.exists(designspacePath)
 

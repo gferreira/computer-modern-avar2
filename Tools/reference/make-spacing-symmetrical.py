@@ -3,11 +3,11 @@
 import os, glob
 
 baseFolder = os.path.dirname(os.path.dirname(os.getcwd()))
-sourcesFolder = os.path.join(baseFolder, 'Sources', 'Italic', 'reference')
+sourcesFolder = os.path.join(baseFolder, 'Sources', 'Italic') # 'reference')
 
 assert os.path.exists(sourcesFolder)
 
-angled = False
+angled = True
 
 ufoPaths = glob.glob(f'{sourcesFolder}/*.ufo')
 

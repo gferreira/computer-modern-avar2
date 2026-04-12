@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="macron" format="2">
 	<unicode hex="00AF"/>
-	<advance width="489"/>
+	<advance width="978"/>
 	<outline>
 		<contour>
-			<point x="421" y="566" type="curve"/>
-			<point x="421" y="629" type="line"/>
-			<point x="421" y="629"/>
-			<point x="421" y="629"/>
-			<point x="421" y="629" type="curve"/>
-			<point x="68" y="629" type="line"/>
-			<point x="68" y="629"/>
-			<point x="68" y="629"/>
-			<point x="68" y="629" type="curve"/>
-			<point x="68" y="566" type="line"/>
-			<point x="68" y="566"/>
-			<point x="68" y="566"/>
-			<point x="68" y="566" type="curve"/>
-			<point x="421" y="566" type="line"/>
-			<point x="421" y="566"/>
-			<point x="421" y="566"/>
+			<point x="842" y="1132" type="curve"/>
+			<point x="842" y="1258" type="line"/>
+			<point x="842" y="1258"/>
+			<point x="842" y="1258"/>
+			<point x="842" y="1258" type="curve"/>
+			<point x="136" y="1258" type="line"/>
+			<point x="136" y="1258"/>
+			<point x="136" y="1258"/>
+			<point x="136" y="1258" type="curve"/>
+			<point x="136" y="1132" type="line"/>
+			<point x="136" y="1132"/>
+			<point x="136" y="1132"/>
+			<point x="136" y="1132" type="curve"/>
+			<point x="842" y="1132" type="line"/>
+			<point x="842" y="1132"/>
+			<point x="842" y="1132"/>
 		</contour>
 	</outline>
 </glyph>

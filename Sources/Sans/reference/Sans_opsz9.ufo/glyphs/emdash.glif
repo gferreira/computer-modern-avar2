@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="emdash" format="2">
 	<unicode hex="2014"/>
-	<advance width="1027"/>
+	<advance width="2054"/>
 	<outline>
 		<contour>
-			<point x="1027" y="242" type="curve"/>
-			<point x="1027" y="307" type="line"/>
-			<point x="1027" y="307"/>
-			<point x="1027" y="307"/>
-			<point x="1027" y="307" type="curve"/>
-			<point x="0" y="307" type="line"/>
-			<point x="0" y="307"/>
-			<point x="0" y="307"/>
-			<point x="0" y="307" type="curve"/>
-			<point x="0" y="242" type="line"/>
-			<point x="0" y="242"/>
-			<point x="0" y="242"/>
-			<point x="0" y="242" type="curve"/>
-			<point x="1027" y="242" type="line"/>
-			<point x="1027" y="242"/>
-			<point x="1027" y="242"/>
+			<point x="2054" y="484" type="curve"/>
+			<point x="2054" y="614" type="line"/>
+			<point x="2054" y="614"/>
+			<point x="2054" y="614"/>
+			<point x="2054" y="614" type="curve"/>
+			<point x="0" y="614" type="line"/>
+			<point x="0" y="614"/>
+			<point x="0" y="614"/>
+			<point x="0" y="614" type="curve"/>
+			<point x="0" y="484" type="line"/>
+			<point x="0" y="484"/>
+			<point x="0" y="484"/>
+			<point x="0" y="484" type="curve"/>
+			<point x="2054" y="484" type="line"/>
+			<point x="2054" y="484"/>
+			<point x="2054" y="484"/>
 		</contour>
 	</outline>
 </glyph>

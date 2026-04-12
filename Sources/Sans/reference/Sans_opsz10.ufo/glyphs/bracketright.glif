@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="bracketright" format="2">
 	<unicode hex="005D"/>
-	<advance width="288"/>
+	<advance width="576"/>
 	<outline>
 		<contour>
-			<point x="114" y="689" type="line"/>
-			<point x="114" y="-189" type="line"/>
-			<point x="22" y="-189" type="line"/>
-			<point x="22" y="-189"/>
-			<point x="22" y="-189"/>
-			<point x="22" y="-189" type="curve"/>
-			<point x="22" y="-250" type="line"/>
-			<point x="22" y="-250"/>
-			<point x="22" y="-250"/>
-			<point x="22" y="-250" type="curve"/>
-			<point x="186" y="-250" type="line"/>
-			<point x="186" y="-250"/>
-			<point x="186" y="-250"/>
-			<point x="186" y="-250" type="curve"/>
-			<point x="186" y="750" type="line"/>
-			<point x="186" y="750"/>
-			<point x="186" y="750"/>
-			<point x="186" y="750" type="curve"/>
-			<point x="22" y="750" type="line"/>
-			<point x="22" y="750"/>
-			<point x="22" y="750"/>
-			<point x="22" y="750" type="curve"/>
-			<point x="22" y="689" type="line"/>
-			<point x="22" y="689"/>
-			<point x="22" y="689"/>
-			<point x="22" y="689" type="curve"/>
+			<point x="228" y="1378" type="line"/>
+			<point x="228" y="-378" type="line"/>
+			<point x="44" y="-378" type="line"/>
+			<point x="44" y="-378"/>
+			<point x="44" y="-378"/>
+			<point x="44" y="-378" type="curve"/>
+			<point x="44" y="-500" type="line"/>
+			<point x="44" y="-500"/>
+			<point x="44" y="-500"/>
+			<point x="44" y="-500" type="curve"/>
+			<point x="372" y="-500" type="line"/>
+			<point x="372" y="-500"/>
+			<point x="372" y="-500"/>
+			<point x="372" y="-500" type="curve"/>
+			<point x="372" y="1500" type="line"/>
+			<point x="372" y="1500"/>
+			<point x="372" y="1500"/>
+			<point x="372" y="1500" type="curve"/>
+			<point x="44" y="1500" type="line"/>
+			<point x="44" y="1500"/>
+			<point x="44" y="1500"/>
+			<point x="44" y="1500" type="curve"/>
+			<point x="44" y="1378" type="line"/>
+			<point x="44" y="1378"/>
+			<point x="44" y="1378"/>
+			<point x="44" y="1378" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

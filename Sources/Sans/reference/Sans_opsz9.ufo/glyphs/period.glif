@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="period" format="2">
 	<unicode hex="002E"/>
-	<advance width="285"/>
+	<advance width="570"/>
 	<outline>
 		<contour>
-			<point x="185" y="86" type="line"/>
-			<point x="185" y="86"/>
-			<point x="185" y="86"/>
-			<point x="185" y="86" type="curve"/>
-			<point x="99" y="86" type="line"/>
-			<point x="99" y="86"/>
-			<point x="99" y="86"/>
-			<point x="99" y="86" type="curve"/>
-			<point x="99" y="0" type="line"/>
-			<point x="99" y="0"/>
-			<point x="99" y="0"/>
-			<point x="99" y="0" type="curve"/>
-			<point x="185" y="0" type="line"/>
-			<point x="185" y="0"/>
-			<point x="185" y="0"/>
-			<point x="185" y="0" type="curve"/>
+			<point x="370" y="172" type="line"/>
+			<point x="370" y="172"/>
+			<point x="370" y="172"/>
+			<point x="370" y="172" type="curve"/>
+			<point x="198" y="172" type="line"/>
+			<point x="198" y="172"/>
+			<point x="198" y="172"/>
+			<point x="198" y="172" type="curve"/>
+			<point x="198" y="0" type="line"/>
+			<point x="198" y="0"/>
+			<point x="198" y="0"/>
+			<point x="198" y="0" type="curve"/>
+			<point x="370" y="0" type="line"/>
+			<point x="370" y="0"/>
+			<point x="370" y="0"/>
+			<point x="370" y="0" type="curve"/>
 		</contour>
 	</outline>
 </glyph>

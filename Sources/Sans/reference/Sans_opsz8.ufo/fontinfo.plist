@@ -3,13 +3,13 @@
 <plist version="1.0">
 	<dict>
 		<key>ascender</key>
-		<integer>750</integer>
+		<integer>1388</integer>
 		<key>capHeight</key>
-		<integer>750</integer>
+		<integer>1388</integer>
 		<key>copyright</key>
 		<string>Copyright \050c\051 1997, 2009 American Mathematical Society \050&lt;http://www.ams.org&gt;\051, with Reserved Font Name CMSS8.</string>
 		<key>descender</key>
-		<integer>-250</integer>
+		<integer>-388</integer>
 		<key>familyName</key>
 		<string>Computer Modern</string>
 		<key>guidelines</key>
@@ -18,21 +18,21 @@
 		<key>italicAngle</key>
 		<integer>0</integer>
 		<key>postscriptBlueFuzz</key>
-		<integer>1</integer>
+		<integer>2</integer>
 		<key>postscriptBlueScale</key>
 		<real>0.04379</real>
 		<key>postscriptBlueShift</key>
-		<integer>7</integer>
+		<integer>14</integer>
 		<key>postscriptBlueValues</key>
 		<array>
-			<integer>-21</integer>
+			<integer>-42</integer>
 			<integer>0</integer>
-			<integer>444</integer>
-			<integer>459</integer>
-			<integer>656</integer>
-			<integer>677</integer>
-			<integer>694</integer>
-			<integer>715</integer>
+			<integer>888</integer>
+			<integer>918</integer>
+			<integer>1312</integer>
+			<integer>1354</integer>
+			<integer>1388</integer>
+			<integer>1430</integer>
 		</array>
 		<key>postscriptFamilyBlues</key>
 		<array>
@@ -48,32 +48,32 @@
 		<string>CMSS8</string>
 		<key>postscriptOtherBlues</key>
 		<array>
-			<integer>-205</integer>
-			<integer>-194</integer>
+			<integer>-410</integer>
+			<integer>-388</integer>
 		</array>
 		<key>postscriptStemSnapH</key>
 		<array>
-			<integer>59</integer>
-			<integer>66</integer>
+			<integer>118</integer>
+			<integer>132</integer>
 		</array>
 		<key>postscriptStemSnapV</key>
 		<array>
-			<integer>87</integer>
-			<integer>101</integer>
+			<integer>174</integer>
+			<integer>202</integer>
 		</array>
 		<key>postscriptUnderlinePosition</key>
-		<integer>-100</integer>
+		<integer>-200</integer>
 		<key>postscriptUnderlineThickness</key>
-		<integer>50</integer>
+		<integer>100</integer>
 		<key>postscriptWeightName</key>
 		<string>Medium</string>
 		<key>unitsPerEm</key>
-		<integer>1000</integer>
+		<integer>2000</integer>
 		<key>versionMajor</key>
 		<integer>3</integer>
 		<key>versionMinor</key>
 		<integer>2</integer>
 		<key>xHeight</key>
-		<integer>500</integer>
+		<integer>902</integer>
 	</dict>
 </plist>

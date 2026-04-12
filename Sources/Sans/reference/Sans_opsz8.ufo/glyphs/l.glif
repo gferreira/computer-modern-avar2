@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="l" format="2">
 	<unicode hex="006C"/>
-	<advance width="253"/>
+	<advance width="506"/>
 	<outline>
 		<contour>
-			<point x="84" y="694" type="curve"/>
-			<point x="84" y="0" type="line"/>
-			<point x="84" y="0"/>
-			<point x="84" y="0"/>
-			<point x="84" y="0" type="curve"/>
+			<point x="168" y="1388" type="curve"/>
 			<point x="168" y="0" type="line"/>
 			<point x="168" y="0"/>
 			<point x="168" y="0"/>
 			<point x="168" y="0" type="curve"/>
-			<point x="168" y="694" type="line"/>
-			<point x="168" y="694"/>
-			<point x="168" y="694"/>
-			<point x="168" y="694" type="curve"/>
-			<point x="84" y="694" type="line"/>
-			<point x="84" y="694"/>
-			<point x="84" y="694"/>
+			<point x="336" y="0" type="line"/>
+			<point x="336" y="0"/>
+			<point x="336" y="0"/>
+			<point x="336" y="0" type="curve"/>
+			<point x="336" y="1388" type="line"/>
+			<point x="336" y="1388"/>
+			<point x="336" y="1388"/>
+			<point x="336" y="1388" type="curve"/>
+			<point x="168" y="1388" type="line"/>
+			<point x="168" y="1388"/>
+			<point x="168" y="1388"/>
 		</contour>
 	</outline>
 </glyph>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="dotaccent" format="2">
 	<unicode hex="02D9"/>
-	<advance width="271"/>
+	<advance width="542"/>
 	<outline>
 		<contour>
-			<point x="179" y="679" type="curve"/>
-			<point x="93" y="679" type="line"/>
-			<point x="93" y="679"/>
-			<point x="93" y="679"/>
-			<point x="93" y="679" type="curve"/>
-			<point x="93" y="593" type="line"/>
-			<point x="93" y="593"/>
-			<point x="93" y="593"/>
-			<point x="93" y="593" type="curve"/>
-			<point x="179" y="593" type="line"/>
-			<point x="179" y="593"/>
-			<point x="179" y="593"/>
-			<point x="179" y="593" type="curve"/>
-			<point x="179" y="679" type="line"/>
-			<point x="179" y="679"/>
-			<point x="179" y="679"/>
+			<point x="358" y="1358" type="curve"/>
+			<point x="186" y="1358" type="line"/>
+			<point x="186" y="1358"/>
+			<point x="186" y="1358"/>
+			<point x="186" y="1358" type="curve"/>
+			<point x="186" y="1186" type="line"/>
+			<point x="186" y="1186"/>
+			<point x="186" y="1186"/>
+			<point x="186" y="1186" type="curve"/>
+			<point x="358" y="1186" type="line"/>
+			<point x="358" y="1186"/>
+			<point x="358" y="1186"/>
+			<point x="358" y="1186" type="curve"/>
+			<point x="358" y="1358" type="line"/>
+			<point x="358" y="1358"/>
+			<point x="358" y="1358"/>
 		</contour>
 	</outline>
 </glyph>
