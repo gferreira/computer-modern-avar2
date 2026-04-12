@@ -93,11 +93,11 @@ def makeGlyphOutlinesCompatible(glyphs):
 from string import ascii_lowercase, ascii_uppercase
 
 folder = os.path.dirname(os.path.dirname(os.getcwd()))
-subFamilyName = ['Roman', 'Italic', 'Sans'][2]
+subFamilyName = ['Roman', 'Italic', 'Sans', 'Mono'][3]
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, 'reference', f'{subFamilyName}.designspace')
 
-glyphNames = ['acute']
+glyphNames = 'Oslash ampersand ae'.split() # list(ascii_uppercase) # ['acute']
 
 assert os.path.exists(designspacePath)
 
