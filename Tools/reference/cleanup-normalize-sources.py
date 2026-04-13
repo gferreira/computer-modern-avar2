@@ -2,7 +2,7 @@ import os
 from xTools4.modules.normalization import cleanupSources, normalizeSources
 
 baseFolder = os.path.dirname(os.path.dirname(os.getcwd()))
-subFamilyName = ['Roman', 'Italic', 'Sans'][2]
+subFamilyName = ['Roman', 'Italic', 'Sans', 'Mono'][2]
 sourcesFolder = os.path.join(baseFolder, 'Sources', subFamilyName)
 referenceFolder = os.path.join(sourcesFolder, 'reference')
 

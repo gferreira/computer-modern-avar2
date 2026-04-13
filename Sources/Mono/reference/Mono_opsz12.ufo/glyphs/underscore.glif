@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="underscore" format="2">
-	<unicode hex="005F"/>
-	<advance width="514"/>
-	<outline>
-		<contour>
-			<point x="414" y="-93" type="line" smooth="yes"/>
-			<point x="427" y="-93"/>
-			<point x="459" y="-93"/>
-			<point x="459" y="-61" type="curve" smooth="yes"/>
-			<point x="459" y="-28"/>
-			<point x="428" y="-28"/>
-			<point x="414" y="-28" type="curve" smooth="yes"/>
-			<point x="100" y="-28" type="line" smooth="yes"/>
-			<point x="87" y="-28"/>
-			<point x="55" y="-28"/>
-			<point x="55" y="-60" type="curve" smooth="yes"/>
-			<point x="55" y="-93"/>
-			<point x="86" y="-93"/>
-			<point x="100" y="-93" type="curve" smooth="yes"/>
-		</contour>
-	</outline>
+  <advance width="1028"/>
+  <unicode hex="005F"/>
+  <outline>
+    <contour>
+      <point x="828" y="-186" type="line" smooth="yes"/>
+      <point x="854" y="-186"/>
+      <point x="918" y="-186"/>
+      <point x="918" y="-122" type="curve" smooth="yes"/>
+      <point x="918" y="-56"/>
+      <point x="856" y="-56"/>
+      <point x="828" y="-56" type="curve" smooth="yes"/>
+      <point x="200" y="-56" type="line" smooth="yes"/>
+      <point x="174" y="-56"/>
+      <point x="110" y="-56"/>
+      <point x="110" y="-120" type="curve" smooth="yes"/>
+      <point x="110" y="-186"/>
+      <point x="172" y="-186"/>
+      <point x="200" y="-186" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
 </glyph>

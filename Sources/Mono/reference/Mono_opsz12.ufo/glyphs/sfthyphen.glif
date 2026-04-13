@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="sfthyphen" format="2">
-	<advance width="514"/>
-	<outline>
-		<contour>
-			<point x="414" y="273" type="line" smooth="yes"/>
-			<point x="427" y="273"/>
-			<point x="459" y="273"/>
-			<point x="459" y="305" type="curve" smooth="yes"/>
-			<point x="459" y="338"/>
-			<point x="428" y="338"/>
-			<point x="414" y="338" type="curve" smooth="yes"/>
-			<point x="100" y="338" type="line" smooth="yes"/>
-			<point x="87" y="338"/>
-			<point x="55" y="338"/>
-			<point x="55" y="306" type="curve" smooth="yes"/>
-			<point x="55" y="273"/>
-			<point x="86" y="273"/>
-			<point x="100" y="273" type="curve" smooth="yes"/>
-		</contour>
-	</outline>
+  <advance width="1028"/>
+  <outline>
+    <contour>
+      <point x="828" y="546" type="line" smooth="yes"/>
+      <point x="854" y="546"/>
+      <point x="918" y="546"/>
+      <point x="918" y="610" type="curve" smooth="yes"/>
+      <point x="918" y="676"/>
+      <point x="856" y="676"/>
+      <point x="828" y="676" type="curve" smooth="yes"/>
+      <point x="200" y="676" type="line" smooth="yes"/>
+      <point x="174" y="676"/>
+      <point x="110" y="676"/>
+      <point x="110" y="612" type="curve" smooth="yes"/>
+      <point x="110" y="546"/>
+      <point x="172" y="546"/>
+      <point x="200" y="546" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
 </glyph>

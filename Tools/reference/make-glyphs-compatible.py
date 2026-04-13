@@ -97,7 +97,7 @@ subFamilyName = ['Roman', 'Italic', 'Sans', 'Mono'][3]
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 designspacePath = os.path.join(sourcesFolder, 'reference', f'{subFamilyName}.designspace')
 
-glyphNames = 'Oslash ampersand ae'.split() # list(ascii_uppercase) # ['acute']
+glyphNames = 'asterisk'.split() # list(ascii_uppercase) # ['acute']
 
 assert os.path.exists(designspacePath)
 
