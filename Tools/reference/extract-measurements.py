@@ -17,7 +17,7 @@ assert os.path.exists(sourcesFolder)
 assert os.path.exists(measurementsPath)
 
 parametricAxes = {
-    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS' 'WDSP'],
+    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS' 'WDSP', 'XQAC', 'YQAC'],
     'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'], # 'YTUC', 'YTLC'
 }
 
