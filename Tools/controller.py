@@ -104,7 +104,7 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP'], # 'YTLC'
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XQAC', 'YQAC'], # 'YTLC'
         'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'], # 'YTUC', 'YTLC'
     }
 
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     p.cleanupSources(parametric=True, tuning=False)
     p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
     
     # p.parametricAxes = parametricAxes[subFamily]
     # p.parametricAxesHidden = False
