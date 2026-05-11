@@ -7,7 +7,7 @@
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="89"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="96" default="31"/>
-    <axis tag="XTSP" name="XTSP" minimum="109" maximum="186" default="136"/>
+    <axis tag="XTSP" name="XTSP" minimum="109" maximum="202" default="136"/>
     <axis tag="XSHA" name="XSHA" minimum="0" maximum="145" default="103"/>
     <axis tag="YSHA" name="YSHA" minimum="2" maximum="131" default="31"/>
     <axis tag="XSVA" name="XSVA" minimum="0" maximum="95" default="25"/>
@@ -16,7 +16,7 @@
     <axis tag="YTLC" name="YTLC" minimum="356" maximum="514" default="431"/>
     <axis tag="YTAS" name="YTAS" minimum="583" maximum="783" default="683"/>
     <axis tag="YTDE" name="YTDE" minimum="-294" maximum="-94" default="-194"/>
-    <axis tag="BRKT" name="BRKT" minimum="0" maximum="79" default="79"/>
+    <axis tag="BRKT" name="BRKT" minimum="0" maximum="103" default="79"/>
     <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
     <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="333"/>
     <axis tag="XTEQ" name="XTEQ" minimum="29" maximum="208" default="97"/>
@@ -500,12 +500,12 @@
         <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
-    <source filename="Roman_XTSP186.ufo" familyname="Computer Modern" stylename="XTSP186">
+    <source filename="Roman_XTSP202.ufo" familyname="Computer Modern" stylename="XTSP202">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="186"/>
+        <dimension name="XTSP" xvalue="202"/>
         <dimension name="XSHA" xvalue="103"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="25"/>
@@ -878,6 +878,27 @@
         <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
+    <source filename="Roman_BRKT103.ufo" familyname="Computer Modern" stylename="BRKT103">
+      <location>
+        <dimension name="XOPQ" xvalue="89"/>
+        <dimension name="XTRA" xvalue="299"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSP" xvalue="136"/>
+        <dimension name="XSHA" xvalue="103"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="25"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="431"/>
+        <dimension name="YTAS" xvalue="683"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="BRKT" xvalue="103"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="WDSP" xvalue="333"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
+      </location>
+    </source>
     <source filename="Roman_BRKT0.ufo" familyname="Computer Modern" stylename="BRKT0">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
@@ -1072,8 +1093,6 @@
     <dict>
       <key>com.xTools4.xProject.measurementsPath</key>
       <string>measurements.json</string>
-      <key>com.xTools4.xProject.referenceFontPath</key>
-      <string>../../Fonts/reference/ComputerModern-Roman.ttf</string>
       <key>com.xTools4.xProject.smartSetsPath</key>
       <string>Roman.roboFontSets</string>
     </dict>

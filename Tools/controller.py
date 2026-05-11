@@ -27,7 +27,7 @@ class ComputerModernController(xProject):
 
     @property
     def varFontFile(self):
-        fileName = f"{self.familyName}-{self.subFamily}.ttf"
+        fileName = f"{self.familyName}-{self.subFamily}_avar2.ttf"
         return fileName.replace(' ', '')
 
     @property
@@ -131,4 +131,6 @@ if __name__ == '__main__':
     # p.parametricAxesHidden = False
     # p.buildDesignspace(patchBlends=False)
 
+    # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
+    # p.buildVariableFont(debug=False, featureWriter=False)
