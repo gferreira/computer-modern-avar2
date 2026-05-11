@@ -34,6 +34,10 @@ class ComputerModernController(xProject):
     def referenceBlendsPath(self):
         return os.path.join(self.sourcesFolder, 'reference', self.blendsFile)
 
+    @property
+    def referenceFontPath(self):
+        return os.path.join(self.fontsFolder, 'reference', self.varFontFile)
+
     def buildBlendsFile(self):
         if self.verbose:
             print('\tbuilding blends file...')
@@ -96,6 +100,11 @@ class ComputerModernController(xProject):
                 infoFamilyName=f'{self.familyName} {self.subFamily}',
         )
 
+    def addCustomKeysToLib(self):
+        super().addCustomKeysToLib()
+        if os.path.exists(self.referenceFontPath):
+            self.designspace.lib[referenceFontPathKey] = os.path.relpath(self.referenceFontPath, self.sourcesFolder)
+
 
 if __name__ == '__main__':
 
@@ -104,8 +113,8 @@ if __name__ == '__main__':
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XQAC', 'YQAC'], # 'YTLC'
-        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'], # 'YTUC', 'YTLC'
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XTEQ', 'YTEQ'],
+        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
     }
 
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
@@ -121,3 +130,5 @@ if __name__ == '__main__':
     # p.parametricAxes = parametricAxes[subFamily]
     # p.parametricAxesHidden = False
     # p.buildDesignspace(patchBlends=False)
+
+

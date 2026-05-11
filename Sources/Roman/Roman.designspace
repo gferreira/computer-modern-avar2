@@ -3,6 +3,7 @@
   <axes>
     <axis tag="opsz" name="Optical size" minimum="5" maximum="17" default="10"/>
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
+    <axis tag="wdth" name="Width" minimum="100" maximum="100" default="100"/>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="89"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="96" default="31"/>
@@ -18,8 +19,8 @@
     <axis tag="BRKT" name="BRKT" minimum="0" maximum="79" default="79"/>
     <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
     <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="333"/>
-    <axis tag="XQAC" name="XQAC" minimum="29" maximum="208" default="97"/>
-    <axis tag="YQAC" name="YQAC" minimum="80" maximum="259" default="155"/>
+    <axis tag="XTEQ" name="XTEQ" minimum="29" maximum="208" default="97"/>
+    <axis tag="YTEQ" name="YTEQ" minimum="80" maximum="259" default="155"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -39,8 +40,6 @@
           <dimension name="XSVA" xvalue="25"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
-          <dimension name="XQAC" xvalue="42"/>
-          <dimension name="YQAC" xvalue="132"/>
         </output>
       </mapping>
       <mapping description="opsz10_wght700">
@@ -62,8 +61,6 @@
           <dimension name="XSVA" xvalue="47"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="59"/>
-          <dimension name="YQAC" xvalue="64"/>
         </output>
       </mapping>
       <mapping description="opsz12">
@@ -84,8 +81,6 @@
           <dimension name="XSVA" xvalue="22"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="75"/>
-          <dimension name="XQAC" xvalue="44"/>
-          <dimension name="YQAC" xvalue="130"/>
         </output>
       </mapping>
       <mapping description="opsz12_wght700">
@@ -107,8 +102,6 @@
           <dimension name="XSVA" xvalue="42"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="65"/>
-          <dimension name="YQAC" xvalue="61"/>
         </output>
       </mapping>
       <mapping description="opsz17">
@@ -129,8 +122,27 @@
           <dimension name="XSVA" xvalue="18"/>
           <dimension name="YSVA" xvalue="195"/>
           <dimension name="BRKT" xvalue="80"/>
-          <dimension name="XQAC" xvalue="48"/>
-          <dimension name="YQAC" xvalue="126"/>
+        </output>
+      </mapping>
+      <mapping description="opsz17_wght700">
+        <input>
+          <dimension name="Optical size" xvalue="17"/>
+          <dimension name="Weight" xvalue="700"/>
+        </input>
+        <output>
+          <dimension name="XOPQ" xvalue="119"/>
+          <dimension name="YOPQ" xvalue="42"/>
+          <dimension name="XTRA" xvalue="320"/>
+          <dimension name="YTUC" xvalue="686"/>
+          <dimension name="YTLC" xvalue="438"/>
+          <dimension name="YTAS" xvalue="686"/>
+          <dimension name="YTDE" xvalue="-195"/>
+          <dimension name="XTSP" xvalue="142"/>
+          <dimension name="XSHA" xvalue="85"/>
+          <dimension name="YSHA" xvalue="42"/>
+          <dimension name="XSVA" xvalue="40"/>
+          <dimension name="YSVA" xvalue="195"/>
+          <dimension name="BRKT" xvalue="1"/>
         </output>
       </mapping>
       <mapping description="opsz5">
@@ -151,8 +163,6 @@
           <dimension name="XSVA" xvalue="42"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="81"/>
-          <dimension name="XQAC" xvalue="75"/>
-          <dimension name="YQAC" xvalue="102"/>
         </output>
       </mapping>
       <mapping description="opsz5_wght700">
@@ -174,8 +184,6 @@
           <dimension name="XSVA" xvalue="83"/>
           <dimension name="YSVA" xvalue="139"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="98"/>
-          <dimension name="YQAC" xvalue="66"/>
         </output>
       </mapping>
       <mapping description="opsz6">
@@ -196,8 +204,6 @@
           <dimension name="XSVA" xvalue="37"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="80"/>
-          <dimension name="XQAC" xvalue="64"/>
-          <dimension name="YQAC" xvalue="108"/>
         </output>
       </mapping>
       <mapping description="opsz6_wght700">
@@ -219,8 +225,6 @@
           <dimension name="XSVA" xvalue="71"/>
           <dimension name="YSVA" xvalue="167"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="79"/>
-          <dimension name="YQAC" xvalue="33"/>
         </output>
       </mapping>
       <mapping description="opsz7">
@@ -241,8 +245,6 @@
           <dimension name="XSVA" xvalue="34"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
-          <dimension name="XQAC" xvalue="56"/>
-          <dimension name="YQAC" xvalue="116"/>
         </output>
       </mapping>
       <mapping description="opsz7_wght700">
@@ -264,8 +266,6 @@
           <dimension name="XSVA" xvalue="63"/>
           <dimension name="YSVA" xvalue="183"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="62"/>
-          <dimension name="YQAC" xvalue="67"/>
         </output>
       </mapping>
       <mapping description="opsz8">
@@ -286,8 +286,6 @@
           <dimension name="XSVA" xvalue="31"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
-          <dimension name="XQAC" xvalue="52"/>
-          <dimension name="YQAC" xvalue="121"/>
         </output>
       </mapping>
       <mapping description="opsz8_wght700">
@@ -309,8 +307,6 @@
           <dimension name="XSVA" xvalue="56"/>
           <dimension name="YSVA" xvalue="191"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="57"/>
-          <dimension name="YQAC" xvalue="93"/>
         </output>
       </mapping>
       <mapping description="opsz9">
@@ -331,8 +327,6 @@
           <dimension name="XSVA" xvalue="28"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="79"/>
-          <dimension name="XQAC" xvalue="46"/>
-          <dimension name="YQAC" xvalue="125"/>
         </output>
       </mapping>
       <mapping description="opsz9_wght700">
@@ -354,8 +348,6 @@
           <dimension name="XSVA" xvalue="51"/>
           <dimension name="YSVA" xvalue="194"/>
           <dimension name="BRKT" xvalue="0"/>
-          <dimension name="XQAC" xvalue="62"/>
-          <dimension name="YQAC" xvalue="89"/>
         </output>
       </mapping>
     </mappings>
@@ -378,8 +370,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
@@ -399,8 +391,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
@@ -420,8 +412,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
@@ -441,8 +433,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
@@ -462,8 +454,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YOPQ96.ufo" familyname="Computer Modern" stylename="YOPQ96">
@@ -483,8 +475,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
@@ -504,8 +496,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XTSP186.ufo" familyname="Computer Modern" stylename="XTSP186">
@@ -525,8 +517,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XTSP109.ufo" familyname="Computer Modern" stylename="XTSP109">
@@ -546,8 +538,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XSHA145.ufo" familyname="Computer Modern" stylename="XSHA145">
@@ -567,8 +559,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XSHA0.ufo" familyname="Computer Modern" stylename="XSHA0">
@@ -588,8 +580,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YSHA131.ufo" familyname="Computer Modern" stylename="YSHA131">
@@ -609,8 +601,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
@@ -630,8 +622,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XSVA0.ufo" familyname="Computer Modern" stylename="XSVA0">
@@ -651,8 +643,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_XSVA95.ufo" familyname="Computer Modern" stylename="XSVA95">
@@ -672,8 +664,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
@@ -693,8 +685,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
@@ -714,8 +706,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTUC473.ufo" familyname="Computer Modern" stylename="YTUC473">
@@ -735,8 +727,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTUC808.ufo" familyname="Computer Modern" stylename="YTUC808">
@@ -756,8 +748,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTLC356.ufo" familyname="Computer Modern" stylename="YTLC356">
@@ -777,8 +769,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTLC514.ufo" familyname="Computer Modern" stylename="YTLC514">
@@ -798,8 +790,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTAS783.ufo" familyname="Computer Modern" stylename="YTAS783">
@@ -819,8 +811,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTAS583.ufo" familyname="Computer Modern" stylename="YTAS583">
@@ -840,8 +832,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTDE-294.ufo" familyname="Computer Modern" stylename="YTDE-294">
@@ -861,8 +853,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_YTDE-94.ufo" familyname="Computer Modern" stylename="YTDE-94">
@@ -882,8 +874,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_BRKT0.ufo" familyname="Computer Modern" stylename="BRKT0">
@@ -903,8 +895,8 @@
         <dimension name="BRKT" xvalue="0"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_CUPS0.ufo" familyname="Computer Modern" stylename="CUPS0">
@@ -924,8 +916,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="0"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_CUPS8.ufo" familyname="Computer Modern" stylename="CUPS8">
@@ -945,8 +937,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="8"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_WDSP1000.ufo" familyname="Computer Modern" stylename="WDSP1000">
@@ -966,8 +958,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="1000"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
     <source filename="Roman_WDSP0.ufo" familyname="Computer Modern" stylename="WDSP0">
@@ -987,11 +979,11 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="0"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
-    <source filename="Roman_XQAC208.ufo" familyname="Computer Modern" stylename="XQAC208">
+    <source filename="Roman_XTEQ208.ufo" familyname="Computer Modern" stylename="XTEQ208">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
@@ -1008,11 +1000,11 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="208"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="208"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
-    <source filename="Roman_XQAC29.ufo" familyname="Computer Modern" stylename="XQAC29">
+    <source filename="Roman_XTEQ29.ufo" familyname="Computer Modern" stylename="XTEQ29">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
@@ -1029,11 +1021,11 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="29"/>
-        <dimension name="YQAC" xvalue="155"/>
+        <dimension name="XTEQ" xvalue="29"/>
+        <dimension name="YTEQ" xvalue="155"/>
       </location>
     </source>
-    <source filename="Roman_YQAC80.ufo" familyname="Computer Modern" stylename="YQAC80">
+    <source filename="Roman_YTEQ80.ufo" familyname="Computer Modern" stylename="YTEQ80">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
@@ -1050,11 +1042,11 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="80"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="80"/>
       </location>
     </source>
-    <source filename="Roman_YQAC259.ufo" familyname="Computer Modern" stylename="YQAC259">
+    <source filename="Roman_YTEQ259.ufo" familyname="Computer Modern" stylename="YTEQ259">
       <location>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
@@ -1071,8 +1063,8 @@
         <dimension name="BRKT" xvalue="79"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
-        <dimension name="XQAC" xvalue="97"/>
-        <dimension name="YQAC" xvalue="259"/>
+        <dimension name="XTEQ" xvalue="97"/>
+        <dimension name="YTEQ" xvalue="259"/>
       </location>
     </source>
   </sources>
@@ -1080,6 +1072,8 @@
     <dict>
       <key>com.xTools4.xProject.measurementsPath</key>
       <string>measurements.json</string>
+      <key>com.xTools4.xProject.referenceFontPath</key>
+      <string>../../Fonts/reference/ComputerModern-Roman.ttf</string>
       <key>com.xTools4.xProject.smartSetsPath</key>
       <string>Roman.roboFontSets</string>
     </dict>

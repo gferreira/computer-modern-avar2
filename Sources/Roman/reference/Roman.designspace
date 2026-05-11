@@ -95,7 +95,23 @@
         <dimension name="wght" xvalue="400"/>
       </location>
     </source>
+    <source filename="Roman_opsz17_wght700.ufo" familyname="Computer Modern Roman">
+      <location>
+        <dimension name="opsz" xvalue="17"/>
+        <dimension name="wght" xvalue="700"/>
+      </location>
+    </source>
   </sources>
+  <!--
+  <instances>
+    <instance familyname="Computer Modern Roman" stylename="opsz17_wght700" filename="instances/Roman_opsz17_wght700.ufo">
+      <location>
+        <dimension name="opsz" xvalue="17"/>
+        <dimension name="wght" xvalue="700"/>
+      </location>
+    </instance>
+  </instances>
+  -->
   <lib>
     <dict>
       <key>public.skipExportGlyphs</key>

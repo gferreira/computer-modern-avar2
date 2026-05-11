@@ -17,7 +17,7 @@ assert os.path.exists(sourcesFolder)
 assert os.path.exists(measurementsPath)
 
 parametricAxes = {
-    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS' 'WDSP', 'XQAC', 'YQAC'],
+    'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS' 'WDSP'],
     'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'], # 'YTUC', 'YTLC'
 }
 
@@ -39,6 +39,12 @@ if subFamilyName == 'Roman':
       "minimum" : 400,
       "maximum" : 700,
     }    
+    axes["wdth"] = {
+      "name"    : "Width",
+      "default" : 100,
+      "minimum" : 100,
+      "maximum" : 100,
+    }  
 
 # extract measurements from ComputerModernPS instances
 

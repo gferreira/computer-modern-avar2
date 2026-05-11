@@ -315,7 +315,7 @@
       "parent": null,
       "description": null
     },
-    "XQAC": {
+    "XTEQ": {
       "direction": "x",
       "glyph 1": "O",
       "point 1": 13,
@@ -324,7 +324,7 @@
       "parent": "XTRA",
       "description": null
     },
-    "YQAC": {
+    "YTEQ": {
       "direction": "y",
       "glyph 1": "O",
       "point 1": 15,
@@ -541,6 +541,22 @@
       "22 19": {
         "name": "BRKT",
         "direction": "x"
+      },
+      "27 28": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "33 32": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "30 29": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "31 30": {
+        "name": "YTEQ",
+        "direction": "y"
       }
     },
     "O": {
@@ -575,6 +591,38 @@
       "0 99": {
         "name": "XTSP",
         "direction": "x"
+      },
+      "13 12": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "12 23": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "17 18": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "18 19": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "15 16": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "21 20": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "14 15": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "22 21": {
+        "name": "YTEQ",
+        "direction": "y"
       }
     },
     "n": {
@@ -1069,6 +1117,72 @@
       },
       "10 13": {
         "name": "CUPS",
+        "direction": "y"
+      }
+    },
+    "O.YOPQ2": {
+      "6 15": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "21 0": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "18 3": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "9 12": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "15 21": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "9 3": {
+        "name": "YTUC",
+        "direction": "y"
+      },
+      "-1 6": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "0 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "13 12": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "12 23": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "17 18": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "18 19": {
+        "name": "XTEQ",
+        "direction": "x"
+      },
+      "15 16": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "21 20": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "14 15": {
+        "name": "YTEQ",
+        "direction": "y"
+      },
+      "22 21": {
+        "name": "YTEQ",
         "direction": "y"
       }
     }

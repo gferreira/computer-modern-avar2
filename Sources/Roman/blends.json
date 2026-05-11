@@ -11,6 +11,12 @@
       "default": 400,
       "minimum": 400,
       "maximum": 700
+    },
+    "wdth": {
+      "name": "Width",
+      "default": 100,
+      "minimum": 100,
+      "maximum": 100
     }
   },
   "sources": {
@@ -27,9 +33,7 @@
       "YSHA": 31,
       "XSVA": 25,
       "YSVA": 194,
-      "BRKT": 79,
-      "XQAC": 42,
-      "YQAC": 132
+      "BRKT": 79
     },
     "opsz10_wght700": {
       "XOPQ": 142,
@@ -44,9 +48,7 @@
       "YSHA": 47,
       "XSVA": 47,
       "YSVA": 194,
-      "BRKT": 0,
-      "XQAC": 59,
-      "YQAC": 64
+      "BRKT": 0
     },
     "opsz12": {
       "XOPQ": 81,
@@ -61,9 +63,7 @@
       "YSHA": 29,
       "XSVA": 22,
       "YSVA": 194,
-      "BRKT": 75,
-      "XQAC": 44,
-      "YQAC": 130
+      "BRKT": 75
     },
     "opsz12_wght700": {
       "XOPQ": 132,
@@ -78,9 +78,7 @@
       "YSHA": 43,
       "XSVA": 42,
       "YSVA": 194,
-      "BRKT": 0,
-      "XQAC": 65,
-      "YQAC": 61
+      "BRKT": 0
     },
     "opsz17": {
       "XOPQ": 66,
@@ -95,9 +93,22 @@
       "YSHA": 26,
       "XSVA": 18,
       "YSVA": 195,
-      "BRKT": 80,
-      "XQAC": 48,
-      "YQAC": 126
+      "BRKT": 80
+    },
+    "opsz17_wght700": {
+      "XOPQ": 119,
+      "YOPQ": 42,
+      "XTRA": 320,
+      "YTUC": 686,
+      "YTLC": 438,
+      "YTAS": 686,
+      "YTDE": -195,
+      "XTSP": 142,
+      "XSHA": 85,
+      "YSHA": 42,
+      "XSVA": 40,
+      "YSVA": 195,
+      "BRKT": 1
     },
     "opsz5": {
       "XOPQ": 106,
@@ -112,9 +123,7 @@
       "YSHA": 44,
       "XSVA": 42,
       "YSVA": 194,
-      "BRKT": 81,
-      "XQAC": 75,
-      "YQAC": 102
+      "BRKT": 81
     },
     "opsz5_wght700": {
       "XOPQ": 156,
@@ -129,9 +138,7 @@
       "YSHA": 67,
       "XSVA": 83,
       "YSVA": 139,
-      "BRKT": 0,
-      "XQAC": 98,
-      "YQAC": 66
+      "BRKT": 0
     },
     "opsz6": {
       "XOPQ": 100,
@@ -146,9 +153,7 @@
       "YSHA": 39,
       "XSVA": 37,
       "YSVA": 194,
-      "BRKT": 80,
-      "XQAC": 64,
-      "YQAC": 108
+      "BRKT": 80
     },
     "opsz6_wght700": {
       "XOPQ": 153,
@@ -163,9 +168,7 @@
       "YSHA": 60,
       "XSVA": 71,
       "YSVA": 167,
-      "BRKT": 0,
-      "XQAC": 79,
-      "YQAC": 33
+      "BRKT": 0
     },
     "opsz7": {
       "XOPQ": 95,
@@ -180,9 +183,7 @@
       "YSHA": 36,
       "XSVA": 34,
       "YSVA": 194,
-      "BRKT": 79,
-      "XQAC": 56,
-      "YQAC": 116
+      "BRKT": 79
     },
     "opsz7_wght700": {
       "XOPQ": 151,
@@ -197,9 +198,7 @@
       "YSHA": 56,
       "XSVA": 63,
       "YSVA": 183,
-      "BRKT": 0,
-      "XQAC": 62,
-      "YQAC": 67
+      "BRKT": 0
     },
     "opsz8": {
       "XOPQ": 92,
@@ -214,9 +213,7 @@
       "YSHA": 33,
       "XSVA": 31,
       "YSVA": 194,
-      "BRKT": 79,
-      "XQAC": 52,
-      "YQAC": 121
+      "BRKT": 79
     },
     "opsz8_wght700": {
       "XOPQ": 149,
@@ -231,9 +228,7 @@
       "YSHA": 52,
       "XSVA": 56,
       "YSVA": 191,
-      "BRKT": 0,
-      "XQAC": 57,
-      "YQAC": 93
+      "BRKT": 0
     },
     "opsz9": {
       "XOPQ": 90,
@@ -248,9 +243,7 @@
       "YSHA": 31,
       "XSVA": 28,
       "YSVA": 194,
-      "BRKT": 79,
-      "XQAC": 46,
-      "YQAC": 125
+      "BRKT": 79
     },
     "opsz9_wght700": {
       "XOPQ": 145,
@@ -265,9 +258,7 @@
       "YSHA": 49,
       "XSVA": 51,
       "YSVA": 194,
-      "BRKT": 0,
-      "XQAC": 62,
-      "YQAC": 89
+      "BRKT": 0
     }
   }
 }
