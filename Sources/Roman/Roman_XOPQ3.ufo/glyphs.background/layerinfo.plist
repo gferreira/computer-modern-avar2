@@ -6,7 +6,11 @@
 		<string>1,0,0,1</string>
 		<key>lib</key>
 		<dict>
+			<key>com.typemytype.robofont.layerShow</key>
+			<true/>
 			<key>com.typemytype.robofont.layerShowPoints</key>
+			<true/>
+			<key>com.typemytype.robofont.layerShowStroke</key>
 			<true/>
 		</dict>
 	</dict>

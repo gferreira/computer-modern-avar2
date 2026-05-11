@@ -305,6 +305,24 @@
       "point 2": 3,
       "parent": null,
       "description": null
+    },
+    "XQAC": {
+      "direction": "x",
+      "glyph 1": "O",
+      "point 1": 13,
+      "glyph 2": "O",
+      "point 2": 12,
+      "parent": "XTRA",
+      "description": null
+    },
+    "YQAC": {
+      "direction": "y",
+      "glyph 1": "O",
+      "point 1": 18,
+      "glyph 2": "O",
+      "point 2": 19,
+      "parent": null,
+      "description": null
     }
   },
   "glyphs": {
