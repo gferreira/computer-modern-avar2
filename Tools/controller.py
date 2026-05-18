@@ -8,6 +8,11 @@ from xTools4.modules.xproject import *
 
 class ComputerModernController(xProject):
     
+    _parametricAxes = {
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XTEQ', 'YTEQ'],
+        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
+    }
+
     def __init__(self, folder, familyName, subFamily):
         self.baseFolder = folder
         self.familyName = familyName
@@ -37,6 +42,10 @@ class ComputerModernController(xProject):
     @property
     def referenceFontPath(self):
         return os.path.join(self.fontsFolder, 'reference', self.varFontFile)
+
+    @property
+    def parametricAxes(self):
+        return self._parametricAxes[self.subFamily]
 
     def buildBlendsFile(self):
         if self.verbose:
@@ -100,11 +109,6 @@ class ComputerModernController(xProject):
                 infoFamilyName=f'{self.familyName} {self.subFamily}',
         )
 
-    def addCustomKeysToLib(self):
-        super().addCustomKeysToLib()
-        if os.path.exists(self.referenceFontPath):
-            self.designspace.lib[referenceFontPathKey] = os.path.relpath(self.referenceFontPath, self.sourcesFolder)
-
 
 if __name__ == '__main__':
 
@@ -112,24 +116,18 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
-    parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XTEQ', 'YTEQ'],
-        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
-    }
-
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
 
     # p.printSettings()
     # p.createParametricSources(['XQAC', 'YQAC'], minSource=True, maxSource=True)
 
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
     # p.setSourceNamesFromMeasurements(preflight=False)
     
-    # p.parametricAxes = parametricAxes[subFamily]
-    # p.parametricAxesHidden = False
-    # p.buildDesignspace(patchBlends=False)
+    p.parametricAxesHidden = False
+    p.buildDesignspace(patchBlends=False)
 
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
