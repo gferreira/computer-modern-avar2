@@ -1,3 +1,5 @@
+# menuTitle: ComputerModern Controller
+
 from importlib import reload
 import xTools4.modules.xproject
 reload(xTools4.modules.xproject)
@@ -41,7 +43,7 @@ class ComputerModernController(xProject):
 
     @property
     def referenceFontPath(self):
-        return os.path.join(self.fontsFolder, 'reference', self.varFontFile)
+        return os.path.join(self.fontsFolder, 'reference', f"{self.familyName.replace(' ', '')}-{self.subFamily}.ttf")
 
     @property
     def parametricAxes(self):
@@ -116,19 +118,45 @@ if __name__ == '__main__':
 
     subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
+    controlGlyphs = list('HOVTDnov') # dp
+    # controlGlyphs += ['zero', 'one', 'period']
+
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
 
-    # p.printSettings()
+    #--- sources ---
     # p.createParametricSources(['XQAC', 'YQAC'], minSource=True, maxSource=True)
+    # p.setSourceNamesFromMeasurements(preflight=False)
 
+    #--- copy from default ---
+    # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
+    # p.copyGlyphsFromDefault(glyphNames)
+    # p.copyGroupsFromDefault(glyphNames)
+    # p.copyUnicodesFromDefault(preflight=True)
+    # p.copyGlyphOrderFromDefault()
+    # p.buildCompositeGlyphs(glyphNames)
+
+    #--- normalization ---
     # p.cleanupSources(parametric=True, tuning=False)
     # p.normalizeSources(parametric=True, tuning=False)
 
-    # p.setSourceNamesFromMeasurements(preflight=False)
-    
-    p.parametricAxesHidden = False
-    p.buildDesignspace(patchBlends=False)
-
+    #--- build designspace ---
+    # p.parametricAxesHidden = False
+    # p.buildDesignspace(patchBlends=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
 
+    #--- project info
+    # p.printSettings()
+    # p.printAxes()
+
+    #--- proofing ---
+    # p.proofGlyphMemes(controlGlyphs, anchors=False) # controlGlyphs
+    # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
+    p.proofBlends(controlGlyphs, levelsShow=[2], points=False)
+
+    #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
+    # p.buildInstancesVariableFont(clear=True, ufo=True)
+
+
+
+
