@@ -11,7 +11,7 @@ from xTools4.modules.xproject import *
 class ComputerModernController(xProject):
     
     _parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP', 'XTEQ', 'YTEQ'],
+        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
         'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
     }
 
@@ -136,8 +136,8 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
@@ -151,7 +151,7 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(controlGlyphs, anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    p.proofBlends(controlGlyphs, levelsShow=[2], points=False)
+    # p.proofBlends(controlGlyphs, levelsShow=[2], points=False)
 
     #--- build fonts
     # p.buildVariableFont(debug=False, featureWriter=False)
