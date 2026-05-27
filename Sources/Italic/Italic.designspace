@@ -13,7 +13,7 @@
     <axis tag="YTUC" name="YTUC" minimum="473" maximum="808" default="683"/>
     <axis tag="YTLC" name="YTLC" minimum="361" maximum="519" default="438"/>
     <axis tag="YTAS" name="YTAS" minimum="518" maximum="718" default="618"/>
-    <axis tag="YTDE" name="YTDE" minimum="94" maximum="294" default="194"/>
+    <axis tag="YTDE" name="YTDE" minimum="-294" maximum="-94" default="-194"/>
     <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
     <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="333"/>
     <mappings>
@@ -153,7 +153,7 @@
     </mappings>
   </axes>
   <sources>
-    <source filename="Italic_wght400.ufo" familyname="Computer Modern" stylename="wght400">
+    <source filename="Italic_wght400.ufo" name="wght400" familyname="Computer Modern" stylename="wght400">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -166,12 +166,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XOPQ305.ufo" familyname="Computer Modern" stylename="XOPQ305">
+    <source filename="Italic_XOPQ305.ufo" name="XOPQ305" familyname="Computer Modern" stylename="XOPQ305">
       <location>
         <dimension name="XOPQ" xvalue="305"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -184,12 +184,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XOPQ3.ufo" familyname="Computer Modern" stylename="XOPQ3">
+    <source filename="Italic_XOPQ3.ufo" name="XOPQ3" familyname="Computer Modern" stylename="XOPQ3">
       <location>
         <dimension name="XOPQ" xvalue="3"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -202,12 +202,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTRA54.ufo" familyname="Computer Modern" stylename="XTRA54">
+    <source filename="Italic_XTRA54.ufo" name="XTRA54" familyname="Computer Modern" stylename="XTRA54">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="54"/>
@@ -220,12 +220,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTRA496.ufo" familyname="Computer Modern" stylename="XTRA496">
+    <source filename="Italic_XTRA496.ufo" name="XTRA496" familyname="Computer Modern" stylename="XTRA496">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="496"/>
@@ -238,12 +238,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YOPQ2.ufo" familyname="Computer Modern" stylename="YOPQ2">
+    <source filename="Italic_YOPQ2.ufo" name="YOPQ2" familyname="Computer Modern" stylename="YOPQ2">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -256,12 +256,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YOPQ95.ufo" familyname="Computer Modern" stylename="YOPQ95">
+    <source filename="Italic_YOPQ95.ufo" name="YOPQ95" familyname="Computer Modern" stylename="YOPQ95">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -274,12 +274,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTSP220.ufo" familyname="Computer Modern" stylename="XTSP220">
+    <source filename="Italic_XTSP220.ufo" name="XTSP220" familyname="Computer Modern" stylename="XTSP220">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -292,12 +292,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTSP144.ufo" familyname="Computer Modern" stylename="XTSP144">
+    <source filename="Italic_XTSP144.ufo" name="XTSP144" familyname="Computer Modern" stylename="XTSP144">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -310,12 +310,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XSHA1.ufo" familyname="Computer Modern" stylename="XSHA1">
+    <source filename="Italic_XSHA1.ufo" name="XSHA1" familyname="Computer Modern" stylename="XSHA1">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -328,12 +328,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XSHA152.ufo" familyname="Computer Modern" stylename="XSHA152">
+    <source filename="Italic_XSHA152.ufo" name="XSHA152" familyname="Computer Modern" stylename="XSHA152">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -346,12 +346,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YSHA2.ufo" familyname="Computer Modern" stylename="YSHA2">
+    <source filename="Italic_YSHA2.ufo" name="YSHA2" familyname="Computer Modern" stylename="YSHA2">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -364,12 +364,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YSHA131.ufo" familyname="Computer Modern" stylename="YSHA131">
+    <source filename="Italic_YSHA131.ufo" name="YSHA131" familyname="Computer Modern" stylename="YSHA131">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -382,12 +382,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XSVA4.ufo" familyname="Computer Modern" stylename="XSVA4">
+    <source filename="Italic_XSVA4.ufo" name="XSVA4" familyname="Computer Modern" stylename="XSVA4">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -400,12 +400,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XSVA98.ufo" familyname="Computer Modern" stylename="XSVA98">
+    <source filename="Italic_XSVA98.ufo" name="XSVA98" familyname="Computer Modern" stylename="XSVA98">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -418,12 +418,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YSVA254.ufo" familyname="Computer Modern" stylename="YSVA254">
+    <source filename="Italic_YSVA254.ufo" name="YSVA254" familyname="Computer Modern" stylename="YSVA254">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -436,12 +436,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YSVA0.ufo" familyname="Computer Modern" stylename="YSVA0">
+    <source filename="Italic_YSVA0.ufo" name="YSVA0" familyname="Computer Modern" stylename="YSVA0">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -454,12 +454,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTUC808.ufo" familyname="Computer Modern" stylename="YTUC808">
+    <source filename="Italic_YTUC808.ufo" name="YTUC808" familyname="Computer Modern" stylename="YTUC808">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -472,12 +472,12 @@
         <dimension name="YTUC" xvalue="808"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTUC473.ufo" familyname="Computer Modern" stylename="YTUC473">
+    <source filename="Italic_YTUC473.ufo" name="YTUC473" familyname="Computer Modern" stylename="YTUC473">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -490,12 +490,12 @@
         <dimension name="YTUC" xvalue="473"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTLC361.ufo" familyname="Computer Modern" stylename="YTLC361">
+    <source filename="Italic_YTLC361.ufo" name="YTLC361" familyname="Computer Modern" stylename="YTLC361">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -508,12 +508,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="361"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTLC519.ufo" familyname="Computer Modern" stylename="YTLC519">
+    <source filename="Italic_YTLC519.ufo" name="YTLC519" familyname="Computer Modern" stylename="YTLC519">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -526,12 +526,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="519"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTAS518.ufo" familyname="Computer Modern" stylename="YTAS518">
+    <source filename="Italic_YTAS518.ufo" name="YTAS518" familyname="Computer Modern" stylename="YTAS518">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -544,12 +544,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="518"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTAS718.ufo" familyname="Computer Modern" stylename="YTAS718">
+    <source filename="Italic_YTAS718.ufo" name="YTAS718" familyname="Computer Modern" stylename="YTAS718">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -562,12 +562,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="718"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTDE294.ufo" familyname="Computer Modern" stylename="YTDE294">
+    <source filename="Italic_YTDE-294.ufo" name="YTDE-294" familyname="Computer Modern" stylename="YTDE-294">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -580,12 +580,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="294"/>
+        <dimension name="YTDE" xvalue="-294"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_YTDE94.ufo" familyname="Computer Modern" stylename="YTDE94">
+    <source filename="Italic_YTDE-94.ufo" name="YTDE-94" familyname="Computer Modern" stylename="YTDE-94">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -598,12 +598,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="94"/>
+        <dimension name="YTDE" xvalue="-94"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_CUPS8.ufo" familyname="Computer Modern" stylename="CUPS8">
+    <source filename="Italic_CUPS8.ufo" name="CUPS8" familyname="Computer Modern" stylename="CUPS8">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -616,12 +616,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="8"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_CUPS0.ufo" familyname="Computer Modern" stylename="CUPS0">
+    <source filename="Italic_CUPS0.ufo" name="CUPS0" familyname="Computer Modern" stylename="CUPS0">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -634,12 +634,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="0"/>
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_WDSP1000.ufo" familyname="Computer Modern" stylename="WDSP1000">
+    <source filename="Italic_WDSP1000.ufo" name="WDSP1000" familyname="Computer Modern" stylename="WDSP1000">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -652,12 +652,12 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="1000"/>
       </location>
     </source>
-    <source filename="Italic_WDSP0.ufo" familyname="Computer Modern" stylename="WDSP0">
+    <source filename="Italic_WDSP0.ufo" name="WDSP0" familyname="Computer Modern" stylename="WDSP0">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
@@ -670,7 +670,7 @@
         <dimension name="YTUC" xvalue="683"/>
         <dimension name="YTLC" xvalue="438"/>
         <dimension name="YTAS" xvalue="618"/>
-        <dimension name="YTDE" xvalue="194"/>
+        <dimension name="YTDE" xvalue="-194"/>
         <dimension name="CUPS" xvalue="3"/>
         <dimension name="WDSP" xvalue="0"/>
       </location>
@@ -680,6 +680,8 @@
     <dict>
       <key>com.xTools4.xProject.measurementsPath</key>
       <string>measurements.json</string>
+      <key>com.xTools4.xProject.referenceFontPath</key>
+      <string>../../Fonts/reference/ComputerModern-Italic.ttf</string>
       <key>com.xTools4.xProject.smartSetsPath</key>
       <string>Italic.roboFontSets</string>
     </dict>

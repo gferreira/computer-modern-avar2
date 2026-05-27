@@ -116,9 +116,9 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
 
-    controlGlyphs = list('HOVTDnov') # dp
+    controlGlyphs = list('HOVTDnovdp')
     # controlGlyphs += ['zero', 'one', 'period']
 
     p = ComputerModernController(folder, 'Computer Modern', subFamily)
@@ -136,8 +136,8 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    # p.cleanupSources(parametric=True, tuning=False)
-    # p.normalizeSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False)
+    p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
@@ -151,8 +151,8 @@ if __name__ == '__main__':
     #--- proofing ---
     # p.proofGlyphMemes(controlGlyphs, anchors=False) # controlGlyphs
     # p.proofSourcesGlyphSet(showCompatible=True, validateComposites=True)
-    # p.proofBlends(controlGlyphs, levelsShow=[2], points=False)
+    # p.proofBlends(controlGlgit sytatuyphs, levelsShow=[2], points=False)
 
     #--- build fonts
-    p.buildVariableFont(debug=False, featureWriter=False)
+    # p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
