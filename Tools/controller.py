@@ -136,8 +136,8 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False)
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
@@ -154,9 +154,5 @@ if __name__ == '__main__':
     # p.proofBlends(controlGlyphs, levelsShow=[2], points=False)
 
     #--- build fonts
-    # p.buildVariableFont(debug=False, featureWriter=False)
+    p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)
-
-
-
-
