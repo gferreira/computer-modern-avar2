@@ -136,7 +136,7 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True)
+    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
     p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
