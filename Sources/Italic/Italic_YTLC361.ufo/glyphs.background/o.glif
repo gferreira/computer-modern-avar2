@@ -4,38 +4,32 @@
 	<advance width="968"/>
 	<outline>
 		<contour>
-			<point x="295" y="-5" type="qcurve" smooth="yes"/>
-			<point x="189" y="30"/>
-			<point x="57" y="263"/>
-			<point x="96" y="427" type="qcurve" smooth="yes"/>
-			<point x="151" y="659"/>
-			<point x="559" y="932"/>
-			<point x="730" y="868" type="qcurve" smooth="yes"/>
-			<point x="859" y="820"/>
-			<point x="965" y="568"/>
-			<point x="920" y="414" type="qcurve" smooth="yes"/>
-			<point x="856" y="195"/>
-			<point x="473" y="-64"/>
+			<point x="268.9486574679" y="-5" type="qcurve" smooth="yes"/>
+			<point x="163" y="30"/>
+			<point x="31" y="263"/>
+			<point x="69.9486574679" y="427" type="qcurve" smooth="yes"/>
+			<point x="125" y="659"/>
+			<point x="533" y="932"/>
+			<point x="703.9486574679" y="868" type="qcurve" smooth="yes"/>
+			<point x="833" y="820"/>
+			<point x="939" y="568"/>
+			<point x="893.9486574679" y="414" type="qcurve" smooth="yes"/>
+			<point x="830" y="195"/>
+			<point x="447" y="-64"/>
 		</contour>
 		<contour>
-			<point x="328" y="40" type="qcurve" smooth="yes"/>
-			<point x="444" y="-3"/>
-			<point x="698" y="195"/>
-			<point x="759" y="420" type="qcurve" smooth="yes"/>
-			<point x="797" y="561"/>
-			<point x="783" y="782"/>
-			<point x="697" y="821" type="qcurve" smooth="yes"/>
-			<point x="591" y="869"/>
-			<point x="327" y="687"/>
-			<point x="262" y="442" type="qcurve" smooth="yes"/>
-			<point x="222" y="298"/>
-			<point x="241" y="71"/>
+			<point x="301.9486574679" y="40" type="qcurve" smooth="yes"/>
+			<point x="417.9486574679" y="-3"/>
+			<point x="671.9486574679" y="195"/>
+			<point x="732.9486574679" y="420" type="qcurve" smooth="yes"/>
+			<point x="770.9486574679" y="561"/>
+			<point x="756.9486574679" y="782"/>
+			<point x="670.9486574679" y="821" type="qcurve" smooth="yes"/>
+			<point x="564.9486574679" y="869"/>
+			<point x="300.9486574679" y="687"/>
+			<point x="235.9486574679" y="442" type="qcurve" smooth="yes"/>
+			<point x="195.9486574679" y="298"/>
+			<point x="214.9486574679" y="71"/>
 		</contour>
 	</outline>
-	<guideline x="910" y="381" angle="73.7103069878" color="0.999,0.001,0.001,0.3996"/>
-	<guideline x="747" y="378" angle="74.8641644963" color="0.999,0.001,0.001,0.3996"/>
-	<guideline x="274" y="492" angle="74.8945434194" color="0.999,0.001,0.001,0.3996"/>
-	<guideline x="104" y="461" angle="76.6466297928" color="0.999,0.001,0.001,0.3996"/>
-	<guideline x="746" y="934" angle="75.96"/>
-	<guideline x="278.4482154919" y="-66.5888029774" angle="75.96"/>
 </glyph>
