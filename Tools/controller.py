@@ -116,7 +116,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
 
     controlGlyphs = list('HOVTDnovdp')
     # controlGlyphs += ['zero', 'one', 'period']
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False)
+    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True)
     p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
