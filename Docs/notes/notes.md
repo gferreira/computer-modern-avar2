@@ -69,9 +69,10 @@ After looking at the files I chose to use the AMS versions as our starting point
 Computer Modern homework
 ------------------------
 
-- The Concept of Metafont
-- The Computer Modern book
-- ...
+- [The Concept of a Meta-Font (Donald Knuth)](http://gwern.net/doc/design/typography/1982-knuth.pdf)
+- Computers and Typesetting, Volume E: Computer Modern (Donald Knuth)
+- [Metafont, Metamathematics, and Metaphysics – Comments on Donald Knuth's Article “The Concept of a Meta-Font” (Douglas Hofstadter)](http://gwern.net/doc/design/typography/1982-hofstadter.pdf)
+- [Knuth vs Hofstadter (Thomas Huot-Marchand)](https://anrt-nancy.fr/en/papers/knuth-vs-hofstadter)
 
 
 Project team
