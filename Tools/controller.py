@@ -130,14 +130,14 @@ if __name__ == '__main__':
     #--- copy from default ---
     # p.updateGlyphsFromDefault(glyphNames, 'WDSP1000', preflight=True)
     # p.copyGlyphsFromDefault(glyphNames)
-    # p.copyGroupsFromDefault(glyphNames)
+    # p.copyGroupsFromDefault()
     # p.copyUnicodesFromDefault(preflight=True)
     # p.copyGlyphOrderFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
+    # p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False

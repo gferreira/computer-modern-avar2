@@ -147,7 +147,7 @@
     "YTFI": {
       "direction": "y",
       "glyph 1": "one",
-      "point 1": "6",
+      "point 1": "11",
       "glyph 2": "one",
       "point 2": "24",
       "parent": "",
@@ -713,6 +713,14 @@
       "5 8": {
         "name": "CUPS",
         "direction": "y"
+      },
+      "29 32": {
+        "name": "CUPS",
+        "direction": "y"
+      },
+      "X 47": {
+        "name": "YTOS",
+        "direction": "y"
       }
     },
     "V": {
@@ -1109,6 +1117,10 @@
         "name": "XTRA",
         "direction": "x"
       },
+      "0 6": {
+        "name": "YTFI",
+        "direction": "y"
+      },
       "-1 3": {
         "name": "XTSP",
         "direction": "x"
@@ -1150,7 +1162,60 @@
         "direction": "y"
       }
     },
-    "one": {},
+    "one": {
+      "16 0": {
+        "name": "XOPQ",
+        "direction": "x"
+      },
+      "20 21": {
+        "name": "YOPQ",
+        "direction": "y"
+      },
+      "20 16": {
+        "name": "XTRA",
+        "direction": "x"
+      },
+      "11 24": {
+        "name": "YTFI",
+        "direction": "y"
+      },
+      "-1 16": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "0 99": {
+        "name": "XTSP",
+        "direction": "x"
+      },
+      "12 16": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "0 4": {
+        "name": "XSHA",
+        "direction": "x"
+      },
+      "11 12": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "5 4": {
+        "name": "YSHA",
+        "direction": "y"
+      },
+      "13 16": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "0 3": {
+        "name": "BRKT",
+        "direction": "x"
+      },
+      "11 8": {
+        "name": "CUPS",
+        "direction": "y"
+      }
+    },
     "p": {
       "37 28": {
         "name": "XOPQ",
