@@ -5,17 +5,17 @@
 	<outline>
 		<contour>
 			<point x="287.9486574679" y="106" type="qcurve" smooth="yes"/>
-			<point x="287.9486574679" y="149"/>
-			<point x="224.9486574679" y="212"/>
-			<point x="181.9486574679" y="212" type="qcurve" smooth="yes"/>
-			<point x="138.9486574679" y="212"/>
-			<point x="75.9486574679" y="149"/>
-			<point x="75.9486574679" y="106" type="qcurve" smooth="yes"/>
-			<point x="75.9486574679" y="63"/>
-			<point x="138.9486574679" y="0"/>
-			<point x="181.9486574679" y="0" type="qcurve" smooth="yes"/>
-			<point x="224.9486574679" y="0"/>
 			<point x="287.9486574679" y="63"/>
+			<point x="224.9486574679" y="0"/>
+			<point x="181.9486574679" y="0" type="qcurve" smooth="yes"/>
+			<point x="138.9486574679" y="0"/>
+			<point x="75.9486574679" y="63"/>
+			<point x="75.9486574679" y="106" type="qcurve" smooth="yes"/>
+			<point x="75.9486574679" y="149"/>
+			<point x="138.9486574679" y="212"/>
+			<point x="181.9486574679" y="212" type="qcurve" smooth="yes"/>
+			<point x="224.9486574679" y="212"/>
+			<point x="287.9486574679" y="149"/>
 		</contour>
 	</outline>
 </glyph>

@@ -7,7 +7,7 @@ reload(xTools4.modules.measurements)
 import os, glob, json
 from xTools4.modules.measurements import readMeasurements, convertMeasurementIndexesToIDs, convertMeasurementIDsToIndexes
 
-subFamilyName = ['Roman', 'Italic'][0]
+subFamilyName = ['Roman', 'Italic'][1]
 folder = os.path.dirname(os.getcwd())
 sourcesFolder = os.path.join(folder, 'Sources', subFamilyName)
 defaultPath = os.path.join(sourcesFolder, f'{subFamilyName}_wght400.ufo')
