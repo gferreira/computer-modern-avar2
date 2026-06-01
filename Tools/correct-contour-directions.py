@@ -28,7 +28,7 @@ defaultFont.save()
 allSources = glob.glob(f'{sourcesFolder}/*.ufo')
 
 for srcPath in allSources:
-    src = OpenFont(defaultPath, showInterface=False)
+    src = OpenFont(srcPath, showInterface=False)
     for g in src:
         g.correctDirection(trueType=True)
     src.save()

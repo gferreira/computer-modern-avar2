@@ -4,32 +4,32 @@
 	<advance width="1000"/>
 	<outline>
 		<contour>
-			<point x="498" y="-44" type="qcurve" smooth="yes"/>
+			<point x="498" y="-44" type="qcurve" smooth="yes" identifier="M0JTfkfzoF"/>
 			<point x="317" y="-44"/>
 			<point x="78" y="262"/>
-			<point x="78" y="644" type="qcurve" smooth="yes"/>
+			<point x="78" y="644" type="qcurve" smooth="yes" identifier="UnIUi60p5S"/>
 			<point x="78" y="1026"/>
 			<point x="317" y="1332"/>
-			<point x="498" y="1332" type="qcurve" smooth="yes"/>
+			<point x="498" y="1332" type="qcurve" smooth="yes" identifier="lcghCQXR1g"/>
 			<point x="679" y="1332"/>
 			<point x="918" y="1026"/>
-			<point x="918" y="644" type="qcurve" smooth="yes"/>
+			<point x="918" y="644" type="qcurve" smooth="yes" identifier="6A7V4hrEKQ"/>
 			<point x="918" y="262"/>
 			<point x="679" y="-44"/>
 		</contour>
 		<contour>
-			<point x="752" y="644" type="qcurve" smooth="yes"/>
-			<point x="752" y="1079"/>
-			<point x="612" y="1288"/>
-			<point x="498" y="1288" type="qcurve" smooth="yes"/>
-			<point x="384" y="1288"/>
-			<point x="244" y="1079"/>
-			<point x="244" y="644" type="qcurve" smooth="yes"/>
-			<point x="244" y="209"/>
-			<point x="384" y="0"/>
-			<point x="498" y="0" type="qcurve" smooth="yes"/>
-			<point x="612" y="0"/>
-			<point x="752" y="209"/>
+			<point x="752" y="644" type="qcurve" smooth="yes" identifier="1EXVIgjoCG"/>
+			<point x="752" y="1079" identifier="eHrZmtFOpK"/>
+			<point x="612" y="1288" identifier="zWqgdYiukc"/>
+			<point x="498" y="1288" type="qcurve" smooth="yes" identifier="D8dwsmrA4a"/>
+			<point x="384" y="1288" identifier="8sCJoMg3lS"/>
+			<point x="244" y="1079" identifier="UDDNny3frU"/>
+			<point x="244" y="644" type="qcurve" smooth="yes" identifier="vV4dqrrZn2"/>
+			<point x="244" y="209" identifier="1PIFcAUbHG"/>
+			<point x="384" y="0" identifier="ME6z5RTkgJ"/>
+			<point x="498" y="0" type="qcurve" smooth="yes" identifier="0adBMStjCK"/>
+			<point x="612" y="0" identifier="4aQw2JL1LG"/>
+			<point x="752" y="209" identifier="wj5JF0LRHT"/>
 		</contour>
 	</outline>
 </glyph>
