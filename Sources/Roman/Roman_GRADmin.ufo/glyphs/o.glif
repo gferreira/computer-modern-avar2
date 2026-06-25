@@ -1,35 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <glyph name="o" format="2">
-  <advance width="1000"/>
-  <unicode hex="006F"/>
-  <outline>
-    <contour>
-      <point x="932" y="428" type="qcurve" smooth="yes" identifier="YUk2GhOXxg"/>
-      <point x="932" y="234"/>
-      <point x="676" y="-22"/>
-      <point x="498" y="-22" type="qcurve" smooth="yes" identifier="UCc35QNXUf"/>
-      <point x="322" y="-22"/>
-      <point x="67" y="235"/>
-      <point x="66" y="428" type="qcurve" smooth="yes" identifier="JlEmBGF48X"/>
-      <point x="65" y="622"/>
-      <point x="324" y="896"/>
-      <point x="500" y="896" type="qcurve" smooth="yes" identifier="eo1okhQAHW"/>
-      <point x="678" y="896"/>
-      <point x="932" y="623"/>
-    </contour>
-    <contour>
-      <point x="500" y="-2" type="qcurve" smooth="yes" identifier="uGJh1n5wJ0"/>
-      <point x="641" y="-2" identifier="cEMIhFQAvy"/>
-      <point x="866" y="211" identifier="fn0wZjyUVL"/>
-      <point x="866" y="444" type="qcurve" smooth="yes" identifier="wJTrcG8719"/>
-      <point x="866" y="673" identifier="ZWTvhS16pC"/>
-      <point x="639" y="882" identifier="7T283okjxo"/>
-      <point x="498" y="882" type="qcurve" smooth="yes" identifier="o9fBoWdjOY"/>
-      <point x="357" y="882" identifier="7dvTKtrfeK"/>
-      <point x="132" y="673" identifier="D0p1Rprvw8"/>
-      <point x="132" y="444" type="qcurve" smooth="yes" identifier="AuU7LrMSCg"/>
-      <point x="132" y="200"/>
-      <point x="367" y="-2" identifier="6CljeEC1bg"/>
-    </contour>
-  </outline>
+	<unicode hex="006F"/>
+	<advance width="1000"/>
+	<outline>
+		<contour>
+			<point x="932" y="428" type="qcurve" smooth="yes" identifier="YUk2GhOXxg"/>
+			<point x="932" y="234"/>
+			<point x="676" y="-22"/>
+			<point x="498" y="-22" type="qcurve" smooth="yes" identifier="UCc35QNXUf"/>
+			<point x="322" y="-22"/>
+			<point x="67" y="235"/>
+			<point x="66" y="428" type="qcurve" smooth="yes" identifier="JlEmBGF48X"/>
+			<point x="65" y="622"/>
+			<point x="324" y="896"/>
+			<point x="500" y="896" type="qcurve" smooth="yes" identifier="eo1okhQAHW"/>
+			<point x="678" y="896"/>
+			<point x="932" y="623"/>
+		</contour>
+		<contour>
+			<point x="500" y="3" type="qcurve" smooth="yes" identifier="uGJh1n5wJ0"/>
+			<point x="641" y="3" identifier="cEMIhFQAvy"/>
+			<point x="866" y="214" identifier="fn0wZjyUVL"/>
+			<point x="866" y="444" type="qcurve" smooth="yes" identifier="wJTrcG8719"/>
+			<point x="866" y="670" identifier="ZWTvhS16pC"/>
+			<point x="639" y="877" identifier="7T283okjxo"/>
+			<point x="498" y="877" type="qcurve" smooth="yes" identifier="o9fBoWdjOY"/>
+			<point x="357" y="877" identifier="7dvTKtrfeK"/>
+			<point x="132" y="670" identifier="D0p1Rprvw8"/>
+			<point x="132" y="444" type="qcurve" smooth="yes" identifier="AuU7LrMSCg"/>
+			<point x="132" y="203"/>
+			<point x="367" y="3" identifier="6CljeEC1bg"/>
+		</contour>
+	</outline>
 </glyph>
