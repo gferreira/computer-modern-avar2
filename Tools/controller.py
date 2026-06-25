@@ -11,8 +11,13 @@ from xTools4.modules.xproject import *
 class ComputerModernController(xProject):
     
     _parametricAxes = {
-        'Roman'  : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
-        'Italic' : ['XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
+        'Roman'  : ['GRAD', 'XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
+        'Italic' : [        'XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
+    }
+
+    # parametric axes with arbitrary scales
+    _customParametricAxes = {
+        'GRAD' : 0,
     }
 
     def __init__(self, folder, familyName, subFamily):
@@ -48,6 +53,12 @@ class ComputerModernController(xProject):
     @property
     def parametricAxes(self):
         return self._parametricAxes[self.subFamily]
+
+    @property
+    def defaultLocation(self):
+        location = super().defaultLocation.copy()
+        location['GRAD'] = 0
+        return location
 
     def buildBlendsFile(self):
         if self.verbose:
@@ -94,7 +105,7 @@ class ComputerModernController(xProject):
 
         self.designspace = DesignSpaceDocument()
         self.addBlendedAxes()
-        self.addParametricAxes()
+        self.addParametricAxes(self._customParametricAxes)
         self.addBlendedSources()
         self.addDefaultSource()
         self.addParametricSources()
@@ -136,13 +147,14 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
+    # p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
     p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
     # p.buildDesignspace(patchBlends=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    # p.validateSources()
 
     #--- project info
     # p.printSettings()
