@@ -136,13 +136,14 @@ if __name__ == '__main__':
     # p.buildCompositeGlyphs(glyphNames)
 
     #--- normalization ---
-    p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
+    # p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
     # p.parametricAxesHidden = False
     # p.buildDesignspace(patchBlends=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
+    p.validateSources()
 
     #--- project info
     # p.printSettings()
