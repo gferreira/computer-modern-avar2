@@ -11,8 +11,8 @@ from xTools4.modules.xproject import *
 class ComputerModernController(xProject):
     
     _parametricAxes = {
-        'Roman'  : ['GRAD', 'XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
-        'Italic' : [        'XOPQ', 'XTRA', 'YOPQ', 'XTSP', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
+        'Roman'  : ['GRAD', 'XOPQ', 'XTRA', 'YOPQ', 'XTSA', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
+        'Italic' : [        'XOPQ', 'XTRA', 'YOPQ', 'XTSA', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
     }
 
     # parametric axes with arbitrary scales
@@ -57,7 +57,7 @@ class ComputerModernController(xProject):
     @property
     def defaultLocation(self):
         location = super().defaultLocation.copy()
-        location['GRAD'] = 0
+        location['Grades'] = 0
         return location
 
     def buildBlendsFile(self):
@@ -146,13 +146,13 @@ if __name__ == '__main__':
     # p.copyGlyphOrderFromDefault()
     # p.buildCompositeGlyphs(glyphNames)
 
-    #--- normalization ---
+    #--- normalization --- 
     # p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
     p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = False
-    # p.buildDesignspace(patchBlends=False)
+    # p.parametricAxesHidden = True
+    # p.buildDesignspace(patchBlends=True)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
