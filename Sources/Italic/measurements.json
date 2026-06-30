@@ -99,7 +99,7 @@
       "parent": null,
       "description": null
     },
-    "XTSP": {
+    "XTSA": {
       "direction": "x",
       "glyph 1": "H",
       "point 1": "-1",
@@ -114,7 +114,7 @@
       "point 1": "-1",
       "glyph 2": "H",
       "point 2": 25,
-      "parent": "XTSP",
+      "parent": "XTSA",
       "description": null
     },
     "XLCS": {
@@ -123,7 +123,7 @@
       "point 1": "-1",
       "glyph 2": "n",
       "point 2": 1,
-      "parent": "XTSP",
+      "parent": "XTSA",
       "description": null
     },
     "YTOS": {
@@ -252,11 +252,11 @@
         "direction": "y"
       },
       "-1 3": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "28 999": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       }
     },
@@ -282,11 +282,11 @@
         "direction": "y"
       },
       "-1 25": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "78 999": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "19 25": {
@@ -372,11 +372,11 @@
         "direction": "x"
       },
       "-1 3": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "9 99": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "0 6": {
@@ -422,11 +422,11 @@
         "direction": "y"
       },
       "-1 12": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "6 999": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       }
     },
@@ -456,11 +456,11 @@
         "direction": "y"
       },
       "-1 16": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "3 999": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "23 17": {
@@ -506,11 +506,11 @@
         "direction": "y"
       },
       "-1 0": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "6 999": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "C 3": {
@@ -544,11 +544,11 @@
         "direction": "x"
       },
       "-1 14": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "23 99": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "55 0": {
@@ -653,11 +653,11 @@
         "direction": "x"
       },
       "-1 6": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "0 99": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       }
     },
@@ -683,11 +683,11 @@
         "direction": "x"
       },
       "-1 3": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "24 99": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "B 20": {
@@ -741,11 +741,11 @@
         "direction": "y"
       },
       "38 99": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "20 14": {
-        "name": "XTSP",
+        "name": "XTSA",
         "direction": "x"
       },
       "X 35": {

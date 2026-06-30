@@ -127,7 +127,7 @@ if __name__ == '__main__':
 
     folder = os.path.dirname(os.getcwd())
 
-    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][0]
+    subFamily = ['Roman', 'Italic', 'Sans', 'Mono'][1]
 
     controlGlyphs = list('HOVTDnovdp')
     # controlGlyphs += ['zero', 'one', 'period']
@@ -152,7 +152,7 @@ if __name__ == '__main__':
 
     #--- build designspace ---
     # p.parametricAxesHidden = True
-    # p.buildDesignspace(patchBlends=True)
+    # p.buildDesignspace(patchBlends=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 

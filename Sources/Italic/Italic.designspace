@@ -2,20 +2,20 @@
 <designspace format="5.1">
   <axes>
     <axis tag="opsz" name="Optical size" minimum="5" maximum="12" default="10"/>
-    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85"/>
-    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="304"/>
-    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31"/>
-    <axis tag="XTSP" name="XTSP" minimum="144" maximum="220" default="178"/>
-    <axis tag="XSHA" name="XSHA" minimum="1" maximum="152" default="102"/>
-    <axis tag="YSHA" name="YSHA" minimum="2" maximum="131" default="31"/>
-    <axis tag="XSVA" name="XSVA" minimum="4" maximum="98" default="28"/>
-    <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194"/>
-    <axis tag="YTUC" name="YTUC" minimum="473" maximum="808" default="683"/>
-    <axis tag="YTLC" name="YTLC" minimum="361" maximum="519" default="438"/>
-    <axis tag="YTAS" name="YTAS" minimum="518" maximum="718" default="618"/>
-    <axis tag="YTDE" name="YTDE" minimum="-294" maximum="-94" default="-194"/>
-    <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3"/>
-    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="333"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85" hidden="1"/>
+    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="304" hidden="1"/>
+    <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31" hidden="1"/>
+    <axis tag="XTSA" name="XTSA" minimum="144" maximum="220" default="178" hidden="1"/>
+    <axis tag="XSHA" name="XSHA" minimum="1" maximum="152" default="102" hidden="1"/>
+    <axis tag="YSHA" name="YSHA" minimum="2" maximum="131" default="31" hidden="1"/>
+    <axis tag="XSVA" name="XSVA" minimum="4" maximum="98" default="28" hidden="1"/>
+    <axis tag="YSVA" name="YSVA" minimum="0" maximum="254" default="194" hidden="1"/>
+    <axis tag="YTUC" name="YTUC" minimum="473" maximum="808" default="683" hidden="1"/>
+    <axis tag="YTLC" name="YTLC" minimum="361" maximum="519" default="438" hidden="1"/>
+    <axis tag="YTAS" name="YTAS" minimum="518" maximum="718" default="618" hidden="1"/>
+    <axis tag="YTDE" name="YTDE" minimum="-294" maximum="-94" default="-194" hidden="1"/>
+    <axis tag="CUPS" name="CUPS" minimum="0" maximum="8" default="3" hidden="1"/>
+    <axis tag="WDSP" name="WDSP" minimum="0" maximum="1000" default="333" hidden="1"/>
     <mappings>
       <mapping description="opsz10">
         <input>
@@ -29,7 +29,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="694"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="178"/>
+          <dimension name="XTSA" xvalue="178"/>
           <dimension name="XSHA" xvalue="101"/>
           <dimension name="YSHA" xvalue="31"/>
           <dimension name="XSVA" xvalue="25"/>
@@ -48,7 +48,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="694"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="176"/>
+          <dimension name="XTSA" xvalue="176"/>
           <dimension name="XSHA" xvalue="94"/>
           <dimension name="YSHA" xvalue="29"/>
           <dimension name="XSVA" xvalue="22"/>
@@ -67,7 +67,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="693"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="260"/>
+          <dimension name="XTSA" xvalue="260"/>
           <dimension name="XSHA" xvalue="110"/>
           <dimension name="YSHA" xvalue="45"/>
           <dimension name="XSVA" xvalue="43"/>
@@ -86,7 +86,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="693"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="224"/>
+          <dimension name="XTSA" xvalue="224"/>
           <dimension name="XSHA" xvalue="106"/>
           <dimension name="YSHA" xvalue="40"/>
           <dimension name="XSVA" xvalue="38"/>
@@ -105,7 +105,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="694"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="206"/>
+          <dimension name="XTSA" xvalue="206"/>
           <dimension name="XSHA" xvalue="102"/>
           <dimension name="YSHA" xvalue="36"/>
           <dimension name="XSVA" xvalue="35"/>
@@ -124,7 +124,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="694"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="184"/>
+          <dimension name="XTSA" xvalue="184"/>
           <dimension name="XSHA" xvalue="100"/>
           <dimension name="YSHA" xvalue="33"/>
           <dimension name="XSVA" xvalue="32"/>
@@ -143,7 +143,7 @@
           <dimension name="YTLC" xvalue="422"/>
           <dimension name="YTAS" xvalue="694"/>
           <dimension name="YTDE" xvalue="-194"/>
-          <dimension name="XTSP" xvalue="181"/>
+          <dimension name="XTSA" xvalue="181"/>
           <dimension name="XSHA" xvalue="100"/>
           <dimension name="YSHA" xvalue="31"/>
           <dimension name="XSVA" xvalue="30"/>
@@ -158,7 +158,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -176,7 +176,7 @@
         <dimension name="XOPQ" xvalue="305"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -194,7 +194,7 @@
         <dimension name="XOPQ" xvalue="3"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -212,7 +212,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="54"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -230,7 +230,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="496"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -248,7 +248,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="2"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -266,7 +266,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="95"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -279,12 +279,12 @@
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTSP220.ufo" name="XTSP220" familyname="Computer Modern" stylename="XTSP220">
+    <source filename="Italic_XTSA144.ufo" name="XTSA144" familyname="Computer Modern" stylename="XTSA144">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="220"/>
+        <dimension name="XTSA" xvalue="144"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -297,12 +297,12 @@
         <dimension name="WDSP" xvalue="333"/>
       </location>
     </source>
-    <source filename="Italic_XTSP144.ufo" name="XTSP144" familyname="Computer Modern" stylename="XTSP144">
+    <source filename="Italic_XTSA220.ufo" name="XTSA220" familyname="Computer Modern" stylename="XTSA220">
       <location>
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="144"/>
+        <dimension name="XTSA" xvalue="220"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -320,7 +320,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="1"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -338,7 +338,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="152"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -356,7 +356,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="2"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -374,7 +374,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="131"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -392,7 +392,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="4"/>
@@ -410,7 +410,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="98"/>
@@ -428,7 +428,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -446,7 +446,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -464,7 +464,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -482,7 +482,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -500,7 +500,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -518,7 +518,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -536,7 +536,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -554,7 +554,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -572,7 +572,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -590,7 +590,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -608,7 +608,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -626,7 +626,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -644,7 +644,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
@@ -662,7 +662,7 @@
         <dimension name="XOPQ" xvalue="85"/>
         <dimension name="XTRA" xvalue="304"/>
         <dimension name="YOPQ" xvalue="31"/>
-        <dimension name="XTSP" xvalue="178"/>
+        <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
         <dimension name="YSHA" xvalue="31"/>
         <dimension name="XSVA" xvalue="28"/>
