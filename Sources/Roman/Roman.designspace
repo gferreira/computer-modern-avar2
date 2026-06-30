@@ -4,7 +4,7 @@
     <axis tag="opsz" name="Optical size" minimum="5" maximum="17" default="10"/>
     <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
     <axis tag="wdth" name="Width" minimum="100" maximum="100" default="100"/>
-    <axis tag="GRAD" name="Grades" minimum="-300" maximum="500" default="0" hidden="1"/>
+    <axis tag="GRAD" name="Grade" minimum="-300" maximum="500" default="0" hidden="1"/>
     <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="89" hidden="1"/>
     <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="299" hidden="1"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="96" default="31" hidden="1"/>
@@ -354,7 +354,6 @@
   <sources>
     <source filename="Roman_wght400.ufo" name="wght400" familyname="Computer Modern" stylename="wght400">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -374,7 +373,7 @@
     </source>
     <source filename="Roman_GRAD-300.ufo" name="GRAD-300" familyname="Computer Modern" stylename="GRAD-300">
       <location>
-        <dimension name="Grades" xvalue="-300"/>
+        <dimension name="Grade" xvalue="-300"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -394,7 +393,7 @@
     </source>
     <source filename="Roman_GRAD500.ufo" name="GRAD500" familyname="Computer Modern" stylename="GRAD500">
       <location>
-        <dimension name="Grades" xvalue="500"/>
+        <dimension name="Grade" xvalue="500"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -414,7 +413,6 @@
     </source>
     <source filename="Roman_XOPQ305.ufo" name="XOPQ305" familyname="Computer Modern" stylename="XOPQ305">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="305"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -434,7 +432,6 @@
     </source>
     <source filename="Roman_XOPQ3.ufo" name="XOPQ3" familyname="Computer Modern" stylename="XOPQ3">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="3"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -454,7 +451,6 @@
     </source>
     <source filename="Roman_XTRA496.ufo" name="XTRA496" familyname="Computer Modern" stylename="XTRA496">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="496"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -474,7 +470,6 @@
     </source>
     <source filename="Roman_XTRA54.ufo" name="XTRA54" familyname="Computer Modern" stylename="XTRA54">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="54"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -494,7 +489,6 @@
     </source>
     <source filename="Roman_YOPQ96.ufo" name="YOPQ96" familyname="Computer Modern" stylename="YOPQ96">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="96"/>
@@ -514,7 +508,6 @@
     </source>
     <source filename="Roman_YOPQ2.ufo" name="YOPQ2" familyname="Computer Modern" stylename="YOPQ2">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="2"/>
@@ -534,7 +527,6 @@
     </source>
     <source filename="Roman_XTSA109.ufo" name="XTSA109" familyname="Computer Modern" stylename="XTSA109">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -554,7 +546,6 @@
     </source>
     <source filename="Roman_XTSA202.ufo" name="XTSA202" familyname="Computer Modern" stylename="XTSA202">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -574,7 +565,6 @@
     </source>
     <source filename="Roman_XSHA145.ufo" name="XSHA145" familyname="Computer Modern" stylename="XSHA145">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -594,7 +584,6 @@
     </source>
     <source filename="Roman_XSHA0.ufo" name="XSHA0" familyname="Computer Modern" stylename="XSHA0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -614,7 +603,6 @@
     </source>
     <source filename="Roman_YSHA131.ufo" name="YSHA131" familyname="Computer Modern" stylename="YSHA131">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -634,7 +622,6 @@
     </source>
     <source filename="Roman_YSHA2.ufo" name="YSHA2" familyname="Computer Modern" stylename="YSHA2">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -654,7 +641,6 @@
     </source>
     <source filename="Roman_XSVA0.ufo" name="XSVA0" familyname="Computer Modern" stylename="XSVA0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -674,7 +660,6 @@
     </source>
     <source filename="Roman_XSVA95.ufo" name="XSVA95" familyname="Computer Modern" stylename="XSVA95">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -694,7 +679,6 @@
     </source>
     <source filename="Roman_YSVA0.ufo" name="YSVA0" familyname="Computer Modern" stylename="YSVA0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -714,7 +698,6 @@
     </source>
     <source filename="Roman_YSVA254.ufo" name="YSVA254" familyname="Computer Modern" stylename="YSVA254">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -734,7 +717,6 @@
     </source>
     <source filename="Roman_YTUC473.ufo" name="YTUC473" familyname="Computer Modern" stylename="YTUC473">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -754,7 +736,6 @@
     </source>
     <source filename="Roman_YTUC808.ufo" name="YTUC808" familyname="Computer Modern" stylename="YTUC808">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -774,7 +755,6 @@
     </source>
     <source filename="Roman_YTLC356.ufo" name="YTLC356" familyname="Computer Modern" stylename="YTLC356">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -794,7 +774,6 @@
     </source>
     <source filename="Roman_YTLC514.ufo" name="YTLC514" familyname="Computer Modern" stylename="YTLC514">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -814,7 +793,6 @@
     </source>
     <source filename="Roman_YTAS783.ufo" name="YTAS783" familyname="Computer Modern" stylename="YTAS783">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -834,7 +812,6 @@
     </source>
     <source filename="Roman_YTAS583.ufo" name="YTAS583" familyname="Computer Modern" stylename="YTAS583">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -854,7 +831,6 @@
     </source>
     <source filename="Roman_YTDE-294.ufo" name="YTDE-294" familyname="Computer Modern" stylename="YTDE-294">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -874,7 +850,6 @@
     </source>
     <source filename="Roman_YTDE-94.ufo" name="YTDE-94" familyname="Computer Modern" stylename="YTDE-94">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -894,7 +869,6 @@
     </source>
     <source filename="Roman_BRKT103.ufo" name="BRKT103" familyname="Computer Modern" stylename="BRKT103">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -914,7 +888,6 @@
     </source>
     <source filename="Roman_BRKT0.ufo" name="BRKT0" familyname="Computer Modern" stylename="BRKT0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -934,7 +907,6 @@
     </source>
     <source filename="Roman_CUPS0.ufo" name="CUPS0" familyname="Computer Modern" stylename="CUPS0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -954,7 +926,6 @@
     </source>
     <source filename="Roman_CUPS8.ufo" name="CUPS8" familyname="Computer Modern" stylename="CUPS8">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -974,7 +945,6 @@
     </source>
     <source filename="Roman_WDSP1000.ufo" name="WDSP1000" familyname="Computer Modern" stylename="WDSP1000">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>
@@ -994,7 +964,6 @@
     </source>
     <source filename="Roman_WDSP0.ufo" name="WDSP0" familyname="Computer Modern" stylename="WDSP0">
       <location>
-        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="89"/>
         <dimension name="XTRA" xvalue="299"/>
         <dimension name="YOPQ" xvalue="31"/>

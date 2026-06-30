@@ -148,11 +148,11 @@ if __name__ == '__main__':
 
     #--- normalization --- 
     # p.cleanupSources(parametric=True, tuning=False, clearFontGuides=True, clearGlyphGuides=True, clearMarks=True, clearLayers=True, ignoreLayers=[])
-    p.normalizeSources(parametric=True, tuning=False)
+    # p.normalizeSources(parametric=True, tuning=False)
 
     #--- build designspace ---
-    # p.parametricAxesHidden = True
-    # p.buildDesignspace(patchBlends=False)
+    p.parametricAxesHidden = True
+    p.buildDesignspace(patchBlends=False)
     # p.validateDesignspace(locations=True, mappings=True, instances=False)
     # p.validateSources()
 
