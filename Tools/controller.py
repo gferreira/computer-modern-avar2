@@ -12,7 +12,7 @@ class ComputerModernController(xProject):
     
     _parametricAxes = {
         'Roman'  : ['GRAD', 'XOPQ', 'XTRA', 'YOPQ', 'XTSA', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'BRKT', 'CUPS', 'WDSP' ], # 'XTEQ', 'YTEQ'
-        'Italic' : [        'XOPQ', 'XTRA', 'YOPQ', 'XTSA', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE', 'CUPS', 'WDSP'],
+        'Italic' : ['GRAD', 'XOPQ', 'XTRA', 'YOPQ', 'XTSA', 'XSHA', 'YSHA', 'XSVA', 'YSVA', 'YTUC', 'YTLC', 'YTAS', 'YTDE',         'CUPS', 'WDSP' ],
     }
 
     # parametric axes with arbitrary scales
@@ -166,5 +166,5 @@ if __name__ == '__main__':
     # p.proofBlends(controlGlgit sytatuyphs, levelsShow=[2], points=False)
 
     #--- build fonts
-    # p.buildVariableFont(debug=False, featureWriter=False)
+    p.buildVariableFont(debug=False, featureWriter=False)
     # p.buildInstancesVariableFont(clear=True, ufo=True)

@@ -2,8 +2,9 @@
 <designspace format="5.1">
   <axes>
     <axis tag="opsz" name="Optical size" minimum="5" maximum="12" default="10"/>
-    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="85" hidden="1"/>
-    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="304" hidden="1"/>
+    <axis tag="GRAD" name="Grades" minimum="-300" maximum="500" default="0" hidden="1"/>
+    <axis tag="XOPQ" name="XOPQ" minimum="3" maximum="305" default="84" hidden="1"/>
+    <axis tag="XTRA" name="XTRA" minimum="54" maximum="496" default="305" hidden="1"/>
     <axis tag="YOPQ" name="YOPQ" minimum="2" maximum="95" default="31" hidden="1"/>
     <axis tag="XTSA" name="XTSA" minimum="144" maximum="220" default="178" hidden="1"/>
     <axis tag="XSHA" name="XSHA" minimum="1" maximum="152" default="102" hidden="1"/>
@@ -155,8 +156,47 @@
   <sources>
     <source filename="Italic_wght400.ufo" name="wght400" familyname="Computer Modern" stylename="wght400">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSA" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="438"/>
+        <dimension name="YTAS" xvalue="618"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="WDSP" xvalue="333"/>
+      </location>
+    </source>
+    <source filename="Italic_GRAD-300.ufo" name="GRAD-300" familyname="Computer Modern" stylename="GRAD-300">
+      <location>
+        <dimension name="Grades" xvalue="-300"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
+        <dimension name="YOPQ" xvalue="31"/>
+        <dimension name="XTSA" xvalue="178"/>
+        <dimension name="XSHA" xvalue="102"/>
+        <dimension name="YSHA" xvalue="31"/>
+        <dimension name="XSVA" xvalue="28"/>
+        <dimension name="YSVA" xvalue="194"/>
+        <dimension name="YTUC" xvalue="683"/>
+        <dimension name="YTLC" xvalue="438"/>
+        <dimension name="YTAS" xvalue="618"/>
+        <dimension name="YTDE" xvalue="-194"/>
+        <dimension name="CUPS" xvalue="3"/>
+        <dimension name="WDSP" xvalue="333"/>
+      </location>
+    </source>
+    <source filename="Italic_GRAD500.ufo" name="GRAD500" familyname="Computer Modern" stylename="GRAD500">
+      <location>
+        <dimension name="Grades" xvalue="500"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -173,8 +213,9 @@
     </source>
     <source filename="Italic_XOPQ305.ufo" name="XOPQ305" familyname="Computer Modern" stylename="XOPQ305">
       <location>
+        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="305"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -191,8 +232,9 @@
     </source>
     <source filename="Italic_XOPQ3.ufo" name="XOPQ3" familyname="Computer Modern" stylename="XOPQ3">
       <location>
+        <dimension name="Grades" xvalue="0"/>
         <dimension name="XOPQ" xvalue="3"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -209,7 +251,8 @@
     </source>
     <source filename="Italic_XTRA54.ufo" name="XTRA54" familyname="Computer Modern" stylename="XTRA54">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
         <dimension name="XTRA" xvalue="54"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
@@ -227,7 +270,8 @@
     </source>
     <source filename="Italic_XTRA496.ufo" name="XTRA496" familyname="Computer Modern" stylename="XTRA496">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
         <dimension name="XTRA" xvalue="496"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
@@ -245,8 +289,9 @@
     </source>
     <source filename="Italic_YOPQ2.ufo" name="YOPQ2" familyname="Computer Modern" stylename="YOPQ2">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="2"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -263,8 +308,9 @@
     </source>
     <source filename="Italic_YOPQ95.ufo" name="YOPQ95" familyname="Computer Modern" stylename="YOPQ95">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="95"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -281,8 +327,9 @@
     </source>
     <source filename="Italic_XTSA144.ufo" name="XTSA144" familyname="Computer Modern" stylename="XTSA144">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="144"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -299,8 +346,9 @@
     </source>
     <source filename="Italic_XTSA220.ufo" name="XTSA220" familyname="Computer Modern" stylename="XTSA220">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="220"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -317,8 +365,9 @@
     </source>
     <source filename="Italic_XSHA1.ufo" name="XSHA1" familyname="Computer Modern" stylename="XSHA1">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="1"/>
@@ -335,8 +384,9 @@
     </source>
     <source filename="Italic_XSHA152.ufo" name="XSHA152" familyname="Computer Modern" stylename="XSHA152">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="152"/>
@@ -353,8 +403,9 @@
     </source>
     <source filename="Italic_YSHA2.ufo" name="YSHA2" familyname="Computer Modern" stylename="YSHA2">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -371,8 +422,9 @@
     </source>
     <source filename="Italic_YSHA131.ufo" name="YSHA131" familyname="Computer Modern" stylename="YSHA131">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -389,8 +441,9 @@
     </source>
     <source filename="Italic_XSVA4.ufo" name="XSVA4" familyname="Computer Modern" stylename="XSVA4">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -407,8 +460,9 @@
     </source>
     <source filename="Italic_XSVA98.ufo" name="XSVA98" familyname="Computer Modern" stylename="XSVA98">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -425,8 +479,9 @@
     </source>
     <source filename="Italic_YSVA254.ufo" name="YSVA254" familyname="Computer Modern" stylename="YSVA254">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -443,8 +498,9 @@
     </source>
     <source filename="Italic_YSVA0.ufo" name="YSVA0" familyname="Computer Modern" stylename="YSVA0">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -461,8 +517,9 @@
     </source>
     <source filename="Italic_YTUC808.ufo" name="YTUC808" familyname="Computer Modern" stylename="YTUC808">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -479,8 +536,9 @@
     </source>
     <source filename="Italic_YTUC473.ufo" name="YTUC473" familyname="Computer Modern" stylename="YTUC473">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -497,8 +555,9 @@
     </source>
     <source filename="Italic_YTLC361.ufo" name="YTLC361" familyname="Computer Modern" stylename="YTLC361">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -515,8 +574,9 @@
     </source>
     <source filename="Italic_YTLC519.ufo" name="YTLC519" familyname="Computer Modern" stylename="YTLC519">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -533,8 +593,9 @@
     </source>
     <source filename="Italic_YTAS518.ufo" name="YTAS518" familyname="Computer Modern" stylename="YTAS518">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -551,8 +612,9 @@
     </source>
     <source filename="Italic_YTAS718.ufo" name="YTAS718" familyname="Computer Modern" stylename="YTAS718">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -569,8 +631,9 @@
     </source>
     <source filename="Italic_YTDE-294.ufo" name="YTDE-294" familyname="Computer Modern" stylename="YTDE-294">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -587,8 +650,9 @@
     </source>
     <source filename="Italic_YTDE-94.ufo" name="YTDE-94" familyname="Computer Modern" stylename="YTDE-94">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -605,8 +669,9 @@
     </source>
     <source filename="Italic_CUPS8.ufo" name="CUPS8" familyname="Computer Modern" stylename="CUPS8">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -623,8 +688,9 @@
     </source>
     <source filename="Italic_CUPS0.ufo" name="CUPS0" familyname="Computer Modern" stylename="CUPS0">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -641,8 +707,9 @@
     </source>
     <source filename="Italic_WDSP1000.ufo" name="WDSP1000" familyname="Computer Modern" stylename="WDSP1000">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
@@ -659,8 +726,9 @@
     </source>
     <source filename="Italic_WDSP0.ufo" name="WDSP0" familyname="Computer Modern" stylename="WDSP0">
       <location>
-        <dimension name="XOPQ" xvalue="85"/>
-        <dimension name="XTRA" xvalue="304"/>
+        <dimension name="Grades" xvalue="0"/>
+        <dimension name="XOPQ" xvalue="84"/>
+        <dimension name="XTRA" xvalue="305"/>
         <dimension name="YOPQ" xvalue="31"/>
         <dimension name="XTSA" xvalue="178"/>
         <dimension name="XSHA" xvalue="102"/>
